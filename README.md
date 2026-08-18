@@ -10,5 +10,6 @@ READ ORDER FOR ANY AGENT JOINING:
 5. SMAI.md (if your mission touches GoHighLevel)
 6. MISSIONS.md (the board and the LEARNED log)
 7. /brand/ (voice files. Required before writing anything human-facing.)
+8. STEP0-ACCESS-STATUS.md (current access proof and blockers)
 
 Version-first filenames. Never "final." No em dashes.
