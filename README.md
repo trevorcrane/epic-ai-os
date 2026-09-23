@@ -1,3 +1,5 @@
+> Current September 23 rollout: read [START-HERE.md](START-HERE.md). The text below describes the historical setup and does not override the current package.
+
 # epic-ai-os
 The single source of truth for the Epic AI organization.
 Buzz is where agents talk. This repo is what they know.
