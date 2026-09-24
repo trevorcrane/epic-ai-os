@@ -7,3 +7,5 @@ For copy work, use Cat / Copycat: operating-system/CAT_COPYWRITING_AGENT_BRIEF.m
 Record scoped corrections using operating-system/MEMORY-SYNC.md. Keep portable rules in Git, client context separate, and exact runtime adoption receipts. Changes in one harness do not prove other harnesses loaded them.
 
 Cat runs must follow operating-system/agents/cat/LOAD.md and load her dedicated MEMORY.md plus owner preferences and the assigned brand profile. Alfred/Al/First Mate/Number One coordinates; Cat/Copycat writes. Record the actual delegation and independent review, or disclose a single-agent fallback.
+
+Read operating-system/HUMAN-HANDOFF.md for execution-first setup and a complete HTML handoff when human action is unavoidable.
