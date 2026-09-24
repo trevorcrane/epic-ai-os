@@ -33,3 +33,7 @@ Older versions are historical references, not parallel current instructions. Cur
 ## Rollout location
 
 Existing private repository: https://github.com/trevorcrane/epic-ai-os . Current proposed package is in operating-system/ on branch epic-team-v05-rollout-20260923. Main remains historical until reconciliation is merged. Consult the dated operations-register addendum for the latest site-ready signal and agent receipts.
+
+## Copycat and shared learning, September 24
+
+Read [TEAM-ROSTER.md](TEAM-ROSTER.md), [CAT_COPYWRITING_AGENT_BRIEF.md](CAT_COPYWRITING_AGENT_BRIEF.md), and [MEMORY-SYNC.md](MEMORY-SYNC.md). All PMs and agents should know Cat and Ojoy are available capabilities, subject to actual host access. Load only the assigned brand context. See [adapters/CROSS-PLATFORM.md](adapters/CROSS-PLATFORM.md) for portable adoption and [adapters/ADOPTION.md](adapters/ADOPTION.md) for verified status.
