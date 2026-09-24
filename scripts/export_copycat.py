@@ -18,7 +18,7 @@ for path in paths:
  elif path.endswith('TEAM-ROSTER.md'):
   text='# Team roles\n\nOwner sets intent. PM coordinates. Cat/Copycat owns copy. Researcher supplies evidence. Builder implements. Independent reviewer validates. Scorekeeper records measured outcomes. Ojoy is optional and access must be verified.\n'
  elif path.endswith('CROSS-PLATFORM.md'):
-  text='# Install portable Copycat\n\nLoad operating-system/CAT_COPYWRITING_AGENT_BRIEF.md and operating-system/skills/copycat/SKILL.md into your host’s supported agent instructions or project knowledge. Add only your own approved brand profile. Register the skill when supported. Confirm loaded version and tools. No account credentials are included.\n'
+  text='# Install portable Copycat\n\nStart at operating-system/agents/cat/LOAD.md and load every required dependency, including operating-system/agents/cat/MEMORY.md, the role brief, communication standard and copycat skill. Use your host’s supported agent instructions or project knowledge. Add only your own approved brand profile. Register the skill when supported. Confirm loaded version and tools. No account credentials are included.\n'
  else:
   text=text.replace('https://github.com/trevorcrane/epic-ai-os','[your private canonical repository]')
   text='\n'.join(line for line in text.splitlines() if not any(term in line for term in ['Alfred is Trevor','Historical Robyn campaign context:','Claude','adapters/ADOPTION.md','Alfred / Al / First Mate / Number One','brand/trevor/VOICE.md']))+'\n'
