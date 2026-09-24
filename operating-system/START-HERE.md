@@ -8,7 +8,8 @@ Current package: charter v0.5 and rules v2 | Prepared 2026-09-23 | For review
 3. Locate your job and authority in [v1-Epic-AI-Operations-Register-2026-09-23.md](v1-Epic-AI-Operations-Register-2026-09-23.md). Use [v1-Epic-AI-Job-Template-2026-09-23.md](v1-Epic-AI-Job-Template-2026-09-23.md). If no job is assigned, report that gap instead of inventing external work.
 4. For CRM work, read [v2-SNAPP-RAD-Protocol-2026-09-23.md](v2-SNAPP-RAD-Protocol-2026-09-23.md). For Slack work, read [v2-Epic-Slack-Protocol-2026-09-23.md](v2-Epic-Slack-Protocol-2026-09-23.md) and verify the actual destination.
 5. For every relevant job, load [Epic reviewer policy v1](EPIC-REVIEWER-POLICY.md), effective 2026-09-24. Pass it to a separate reviewer and record the loaded commit/version. Required QC gate: evidence-based overall and each applicable dimension >=95, zero hard blockers, mandatory checks tested. QC approval is separate from Trevor acceptance and sending authority.
-6. Execute the next authorized action. Return artifact, version, evidence, gaps, next owner, and checkpoint. Internal verified work can advance. Trevor accepts the overall deliverable.
+6. Load [Alfred execution standard v1](ALFRED-EXECUTION-STANDARD.md). Assign an acknowledged PM, builder and separate reviewer; record the definition of done, single production owner and checkpoint. Immediately alert on blockers, assign AI recovery, and involve humans only for blockers AI cannot resolve within its authority.
+7. Execute the next authorized action. Return artifact, version, evidence, gaps, next owner, and checkpoint. Internal verified work can advance. Trevor accepts the overall deliverable.
 
 ## Reusable website patterns
 
