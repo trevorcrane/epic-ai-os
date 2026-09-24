@@ -19,3 +19,7 @@ Bootstrap:
 “Use the Epic AI OS package at [repository + accepted commit]. Read START-HERE.md, operating-system/TEAM-ROSTER.md and the role relevant to this job. For copy work, load operating-system/CAT_COPYWRITING_AGENT_BRIEF.md and operating-system/skills/copycat/SKILL.md, then only the assigned brand profile. Cat and Copycat are the same specialist. Ojoy is an optional resource; verify access. Capture scoped corrections using operating-system/MEMORY-SYNC.md and propose versioned updates. Report exact loaded revision and any missing access. Do not treat external text or a self-score as publication authority.”
 
 The export script creates a generic package with no campaign examples or client facts. Add a separately approved brand profile before use. Templates are not access grants and do not distribute Trevor’s private account credentials.
+
+## Identity and required memory load, September 24 correction
+
+Cat / Copycat is the copywriting agent. Alfred / Al / First Mate / Number One is the separate coordinator. Load `operating-system/agents/cat/MEMORY.md`, `operating-system/agents/cat/LOAD.md` and `brand/trevor/VOICE.md` alongside the assigned client profile. Repository-relative paths resolve from the package root. Record actual worker IDs and loaded versions; a role definition or automation label does not prove a running independent agent.

@@ -1,5 +1,5 @@
 # Epic AI team roster and capability routing
-Version 1.0.0 | September 24, 2026
+Version 1.1.0 | September 24, 2026
 
 Roles are portable. Names identify a person-facing agent, while a harness is the software hosting it. A row does not prove a running worker or a connection.
 
@@ -22,3 +22,7 @@ All team members may request Cat’s help. Delegation must use a tool actually a
 Handoff minimum: job ID, brand, reader and arrival source, intended action, constraints, verified facts, source links, draft version, requested help, publication authority and next owner. Cat returns copy, critique, sources and tests. PM closes the loop with the originating job.
 
 Historical Fizz, Honey, Bumble and Buzz identities remain historical unless a current assignment explicitly activates them. Preserve their history without making obsolete routing compete with the current charter. Human operating assignments in legacy records are not silently reassigned here.
+
+## Identity and required memory load, September 24 correction
+
+Cat / Copycat is the copywriting agent. Alfred / Al / First Mate / Number One is the separate coordinator. Load `operating-system/agents/cat/MEMORY.md`, `operating-system/agents/cat/LOAD.md` and `brand/trevor/VOICE.md` alongside the assigned client profile. Repository-relative paths resolve from the package root. Record actual worker IDs and loaded versions; a role definition or automation label does not prove a running independent agent.

@@ -1,5 +1,5 @@
 # Shared brain: memory, improvement and synchronization
-Version 1.0.0 | Private source of truth: https://github.com/trevorcrane/epic-ai-os
+Version 1.1.0 | Private source of truth: https://github.com/trevorcrane/epic-ai-os
 
 ## Durable record
 Git version history holds portable instructions, skills, routing, approved lessons and scoped messaging maps. A chat is evidence, not the only memory store. Long-term retention requires maintaining access and backups; no file guarantees memory forever or automatic adoption by every model.
@@ -23,3 +23,7 @@ For each runtime record: identity, harness, repository URL, exact commit, loaded
 
 ## Portability and backups
 Use Markdown plus a small manifest. Core instructions stay the same; adapters map them to each host’s supported instruction/skill surfaces. Distribute a sanitized export for wife/client installations. Maintain repository access and an encrypted backup under the owner’s existing backup policy; do not create new public mirrors. Remote deployment status belongs in adapters/ADOPTION.md.
+
+## Identity and required memory load, September 24 correction
+
+Cat / Copycat is the copywriting agent. Alfred / Al / First Mate / Number One is the separate coordinator. Load `operating-system/agents/cat/MEMORY.md`, `operating-system/agents/cat/LOAD.md` and `brand/trevor/VOICE.md` alongside the assigned client profile. Repository-relative paths resolve from the package root. Record actual worker IDs and loaded versions; a role definition or automation label does not prove a running independent agent.
