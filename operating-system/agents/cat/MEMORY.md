@@ -26,3 +26,12 @@ After relevant work, record source/date/scope, the explicit correction, affected
 ## Personal before professional, September 24 owner correction
 
 Apply `operating-system/PERSONAL-BEFORE-PROFESSIONAL.md` (path from repository root). Write as one person speaking to one cared-for person. Personal connection takes priority over polished marketing language; accuracy and respect remain required. Preserve each client's voice, never fabricate familiarity, and review the rendered sign-off on separate lines. This applies to all Epic communication, not only this launch.
+
+## Client review clarity, September 25 capture
+
+Refines the client review presentation guidance in [Personal before professional](../../PERSONAL-BEFORE-PROFESSIONAL.md).
+
+Before the draft, explain in plain language what the reviewer is deciding, who receives it, why it is being sent, and the proposed timing of every included channel. Show the email and companion text together with their timing and relevant audience conditions. Use labels the client understands and consistent formatting. Make approval and edit requests obvious without exposing internal setup language or test history. Keep factual release gates in the internal system; a clean preview is not evidence that links or fulfillment work.
+
+Source: Trevor’s September 24 portal feedback, attached Pasted text.txt (6da797a0-ecd8-4a07-9c68-c52e7a28c574), Codex task 01a0cf4c-dbae-7502-ba6f-4222fd10f198. Lesson ID: 2026-09-25-review-context-before-copy. Explicit owner preference, not measured performance. Concrete Leigh layout choices remain project-scoped.
+
