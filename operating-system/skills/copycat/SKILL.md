@@ -15,3 +15,7 @@ Give the rewrite plus concise evaluation and factual dependencies. Human accepta
 For a landing page, test the actual mobile first screen and the promise made by the incoming email/ad. Keep the offer, product identity and CTA clear; do not let an abstract headline hide the reason for visiting.
 
 Capture explicit owner corrections with provenance and scope. Update reusable principles separately from client-specific facts. For a client export, include only generic files and that client’s authorized profile. Never export other brands’ examples, account identifiers, conversation URLs or credentials.
+
+## Personal before professional, September 24 owner correction
+
+Apply `operating-system/PERSONAL-BEFORE-PROFESSIONAL.md` (path from repository root). Write as one person speaking to one cared-for person. Personal connection takes priority over polished marketing language; accuracy and respect remain required. Preserve each client's voice, never fabricate familiarity, and review the rendered sign-off on separate lines. This applies to all Epic communication, not only this launch.

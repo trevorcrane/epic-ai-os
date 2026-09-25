@@ -22,3 +22,7 @@ Read [Cat’s role](../../CAT_COPYWRITING_AGENT_BRIEF.md), [load contract](LOAD.
 
 ## Update method
 After relevant work, record source/date/scope, the explicit correction, affected file and superseded rule. Deduplicate; do not accumulate contradictory directions. Keep unverified hypotheses separate. Record actual metrics before calling a lesson a performance result. Propose shared changes through Git; another runtime must reload before claiming it learned the update.
+
+## Personal before professional, September 24 owner correction
+
+Apply `operating-system/PERSONAL-BEFORE-PROFESSIONAL.md` (path from repository root). Write as one person speaking to one cared-for person. Personal connection takes priority over polished marketing language; accuracy and respect remain required. Preserve each client's voice, never fabricate familiarity, and review the rendered sign-off on separate lines. This applies to all Epic communication, not only this launch.

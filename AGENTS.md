@@ -9,3 +9,7 @@ Record scoped corrections using operating-system/MEMORY-SYNC.md. Keep portable r
 Cat runs must follow operating-system/agents/cat/LOAD.md and load her dedicated MEMORY.md plus owner preferences and the assigned brand profile. Alfred/Al/First Mate/Number One coordinates; Cat/Copycat writes. Record the actual delegation and independent review, or disclose a single-agent fallback.
 
 Read operating-system/HUMAN-HANDOFF.md for execution-first setup and a complete HTML handoff when human action is unavoidable.
+
+## Personal before professional, September 24 owner correction
+
+Apply `operating-system/PERSONAL-BEFORE-PROFESSIONAL.md` (path from repository root). Write as one person speaking to one cared-for person. Personal connection takes priority over polished marketing language; accuracy and respect remain required. Preserve each client's voice, never fabricate familiarity, and review the rendered sign-off on separate lines. This applies to all Epic communication, not only this launch.

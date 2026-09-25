@@ -23,3 +23,7 @@ Do not sound like AI writing a nice email. Avoid corporate filler, em dashes, fa
 Exact critique prompt: operating-system/skills/copycat/references/trevor-critique-prompt.md.
 Rubric: operating-system/skills/copycat/references/rubric.md.
 Approved broad voice-sample library: not yet assembled. Use available task-approved samples and state gaps; never invent approval.
+
+## Personal before professional, September 24 owner correction
+
+Apply `operating-system/PERSONAL-BEFORE-PROFESSIONAL.md` (path from repository root). Write as one person speaking to one cared-for person. Personal connection takes priority over polished marketing language; accuracy and respect remain required. Preserve each client's voice, never fabricate familiarity, and review the rendered sign-off on separate lines. This applies to all Epic communication, not only this launch.

@@ -95,3 +95,7 @@ Use v5 as the current reference. Prefer specific verified pointers to content, c
 Do not claim to be investigating or escalating unless that action is actually underway. The kit's client-care examples do not create automatic authorization or a new agent identity. Money, billing, refunds, and contracts route to the designated human Client Success owner. First Mate's authorized internal procurement is a separate scope.
 
 Customer messages use one primary CTA; internal decisions can use 1-3-1. Brand-specific Slack routing is defined in the current Slack protocol. Five minutes is a measurable response target after monitoring exists, not a promise of always-on service.
+
+## Personal before professional, September 24 owner correction
+
+Apply `operating-system/PERSONAL-BEFORE-PROFESSIONAL.md` (path from repository root). Write as one person speaking to one cared-for person. Personal connection takes priority over polished marketing language; accuracy and respect remain required. Preserve each client's voice, never fabricate familiarity, and review the rendered sign-off on separate lines. This applies to all Epic communication, not only this launch.
