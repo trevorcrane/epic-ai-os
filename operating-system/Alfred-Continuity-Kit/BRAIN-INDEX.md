@@ -11,7 +11,7 @@ Load this index first; retrieve only relevant modules. This is a schema and sour
 | audiences.md | positioning and campaign targeting | Needs current avatar source |
 | offers.md | selling, pricing and promise checks | Needs current offer sources; never infer price |
 | businesses.md | business and brand routing | Trevor/Epic vs Robyn vs client separation established |
-| team-authority.md | assignments or approvals | Len, Abi, Jay named; permission specifics need authoritative mapping |
+| team-authority.md | assignments or approvals | Read LEN-DELEGATED-AUTHORITY.md for verified Len authority; Abi/Jay scopes still need authoritative mapping |
 | assets-index.md | finding reusable artifacts | Existing source inventory, URLs and access checks |
 | decisions.md | resolving conflicting directions | Append dated decisions with source and supersedes links |
 
@@ -21,7 +21,7 @@ Changing jobs, Slack health, credentials and individual customer records do not 
 
 ## Located private sources and topic lookup
 
-The original August 28 V3 package is preserved byte-for-byte at `../../brain-sources/trevor-v3-2026-08-28/` relative to this kit directory in this private repository. Its 21 original Markdown files are **raw, unreconciled source**, not a current approved Brain. `PROVENANCE.json` records the original location and ZIP hash; `SHA256SUMS` verifies each original file. Load only files relevant to the task. Do not include this private source directory in public/client exports.
+The original August 28 V3 package is preserved byte-for-byte at `../../brain-sources/trevor-v3-2026-08-28/` relative to this kit directory in this repository. Its 21 original Markdown files are **raw, unreconciled source**, not a current approved Brain. `PROVENANCE.json` records the original location and ZIP hash; `SHA256SUMS` verifies each original file. Load only files relevant to the task. Do not include this private source directory in public/client exports.
 
 | Topic | Concrete raw source files within that directory | Curation caveat |
 | --- | --- | --- |
@@ -40,4 +40,4 @@ For source links, exact correction turn IDs, dates and known conflicts, read `..
 
 An actual Project Machine source is `/Users/badassimac/Downloads/Epic-Project-Machine-Spec.docx`. It describes a historical 17-question Brain installer. Treat its old commercial terms and timing as proposals, and reconcile it with the Brain workflow before reuse. The inventory records its checksum and discrepancies.
 
-The raw-source relative paths resolve in this private repository. Other host-specific locators require access to Trevor's Mac. Copying this index to another runtime does not grant access or transfer the source files. A receiving agent must report which required sources it could actually load. Generic continuity kits should contain these lookup references, not private biographies or raw Brain exports.
+These paths refer to private files on Trevor's current host. Copying this index to another runtime does not grant access or transfer the source files. A receiving agent must report which required sources it could actually load. Generic continuity kits should contain these lookup references, not private biographies or raw Brain exports.

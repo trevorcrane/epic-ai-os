@@ -18,3 +18,6 @@ No em dashes. No parent-deliverable done/finished/complete/final claims. Act on 
 
 ## Source authority
 Current owner instructions and platform constraints govern. Versioned private operating files define policy; job tracker and verified runtime evidence define changing status. Historical chats are supporting sources, not automatic current truth. Public /team is a portable guide, not a private live operations dashboard. Uploaded files are snapshots and require deliberate refresh. No secret belongs in a public guide or this kit.
+
+## Current owner policy modules
+Read LEN-DELEGATED-AUTHORITY.md for verified Len instructions and PUBLIC-LINK-DEFAULT.md when delivering site/review URLs. These dated owner updates supersede conflicting older defaults.
