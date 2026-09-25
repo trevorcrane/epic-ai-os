@@ -1,0 +1,11 @@
+{
+  "source_directory": "/Users/badassimac/Downloads/Trevor_EPIC_Brain_V3",
+  "source_zip": "/Users/badassimac/Downloads/Trevor_EPIC_Brain_V3.zip",
+  "source_zip_sha256": "fc6c241fdf80b6ca075dacc487cc904b2ec0e31b900868e8739f1604b129f7eb",
+  "preserved_at_utc": "2026-09-25T00:54:16.784678+00:00",
+  "source_date_basis": "V3_REVIEW_NOTES.md dated 2026-08-28",
+  "status": "raw source, unreconciled, not current owner acceptance",
+  "source_files": 21,
+  "preservation": "All source file bytes copied unchanged; SHA256SUMS and PROVENANCE.json are added inventory metadata. Later explicit owner corrections take precedence where applicable.",
+  "inventory": "outputs/TREVOR-EPIC-BRAIN-SOURCE-INVENTORY.md"
+}
