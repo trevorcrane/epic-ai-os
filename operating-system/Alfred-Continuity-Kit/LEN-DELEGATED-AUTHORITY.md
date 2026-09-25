@@ -10,3 +10,5 @@ Verified Epic Media identity: workspace T537JKSKY, Len U0759A73T50. Instructions
 Platform constraints, actual tool approval requirements, verified sender identity, credential protection and single production ownership remain applicable. Resolve genuine contradictory later instructions by chronology and scope; do not use an obsolete hold to reject an authorized newer instruction. Preserve separate review and evidence. This is authority delegation, not automatic parent acceptance or a grant to unverified people with the same display name.
 
 Leigh review-site owner reported public access revision2 at2026-09-25T01:08:51.435608Z; anonymous verification is owned by that task. No duplicate site mutation here.
+
+Reaffirmed directly by Trevor in the Alfred coordination task: Len can approve anything he could authorize; do not require separate Trevor permission for her verified requests.
