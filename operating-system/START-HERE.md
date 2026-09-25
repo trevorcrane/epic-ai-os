@@ -3,7 +3,7 @@ Current package: charter v0.5 and rules v2 | Prepared 2026-09-23 | For review
 
 ## Alfred continuity entry point
 
-For Alfred, Al, Number One or First Mate, load [Alfred bootstrap](Alfred-Continuity-Kit/ALFRED-BOOT.md) and [Brain index](Alfred-Continuity-Kit/BRAIN-INDEX.md). Read only relevant modules and the current job record. [Project setup recipe](Alfred-Continuity-Kit/PROJECT-MACHINE.md) keeps each new workspace small. Repository policy is not live service status; verify changing facts at their source. Raw Brain sources remain historical and unreconciled.
+For Alfred, Al, Hey Al, Number One or First Mate, load [Alfred bootstrap](Alfred-Continuity-Kit/ALFRED-BOOT.md), the required [business briefing](Alfred-Continuity-Kit/ALFRED-BUSINESS-BRIEF.md), [existing-work map](Alfred-Continuity-Kit/ALFRED-WORK-INDEX.md) and [Brain index](Alfred-Continuity-Kit/BRAIN-INDEX.md). Do this even for a greeting or role question. Retrieve known business and job context before asking Trevor to repeat it; the nickname is sufficient. Then read only relevant deeper modules and the current job record. [Project setup recipe](Alfred-Continuity-Kit/PROJECT-MACHINE.md) keeps each new workspace small. Repository policy is not live service status; verify changing facts at their source. The business briefing and work map are private owner context and must not be included in public/client exports. Raw Brain sources remain historical and unreconciled.
 
 ## Verified delegated authority
 
