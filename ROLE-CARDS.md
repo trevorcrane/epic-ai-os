@@ -1,3 +1,7 @@
+# Historical roster reference
+
+Current roster and copywriting routing: [operating-system/TEAM-ROSTER.md](operating-system/TEAM-ROSTER.md). Cat / Copycat serves every authorized brand with separate context. Alfred is First Mate in the current Codex task. Consult current charter and owner directions; the legacy organization below does not override them.
+
 # ROLE CARDS v1
 (Augment the Buzz agents' native identities. Do not replace them.)
 

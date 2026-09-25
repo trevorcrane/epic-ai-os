@@ -5,3 +5,7 @@ Current review package: [operating-system/START-HERE.md](operating-system/START-
 Trevor's September 23 direction establishes First Mate, harness PMs, five squad responsibilities, no em dashes, and owner acceptance of overall deliverables. Internal verified work can advance autonomously. The older root documents remain historical context; their Buzz/Fizz routing and DONE AND PERMANENT status language conflict with the current rollout and must not override it.
 
 This branch proposes the updated package without deleting historical files. Merge after review to make the main-branch entry point current. Existing brand files remain scoped to their respective business.
+
+## Copycat and shared learning, September 24
+
+Read [operating-system/TEAM-ROSTER.md](operating-system/TEAM-ROSTER.md), [operating-system/CAT_COPYWRITING_AGENT_BRIEF.md](operating-system/CAT_COPYWRITING_AGENT_BRIEF.md), and [operating-system/MEMORY-SYNC.md](operating-system/MEMORY-SYNC.md). All PMs and agents should know Cat and Ojoy are available capabilities, subject to actual host access. Load only the assigned brand context. See [operating-system/adapters/CROSS-PLATFORM.md](operating-system/adapters/CROSS-PLATFORM.md) for portable adoption and [operating-system/adapters/ADOPTION.md](operating-system/adapters/ADOPTION.md) for verified status.
