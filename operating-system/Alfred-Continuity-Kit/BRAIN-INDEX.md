@@ -1,7 +1,9 @@
 # Epic Brain index
-Version 1.1 | 2026-09-24 | Trevor Crane | Initial curation map
+Version 1.2 | 2026-09-25 | Trevor Crane | Initial curation map with required briefing
 
-Load this index first; retrieve only relevant modules. This is a schema and source inventory pointer, not a claim that Trevor's full Brain has been curated. Keep Robyn and each client in separate private folders/projects.
+Read ALFRED-BUSINESS-BRIEF.md for the curated business/people/communication baseline and ALFRED-WORK-INDEX.md for existing tasks before deeper lookup. The unfinished modules below do not mean no business context exists. Retrieve established facts from the briefing and their sources; do not make Trevor restart his intake.
+
+After the required briefing, use this index to retrieve only relevant deeper modules. This is a schema and source inventory pointer, not a claim that Trevor's full Brain has been curated. Keep Robyn and each client in separate private folders/projects.
 
 | Module | Load when | Current curation status |
 | --- | --- | --- |
