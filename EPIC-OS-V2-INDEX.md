@@ -10,6 +10,10 @@ The source is the private `trevorcrane/epic-ai-os` repository on branch `epic-te
 2. [Operating START-HERE](https://github.com/trevorcrane/epic-ai-os/blob/epic-team-v2-review-20260925/operating-system/START-HERE.md) links the earlier shared framework. Where it conflicts with ALFRED.md or later direct owner instruction, the newer owner instruction governs.
 3. [Brain index](https://github.com/trevorcrane/epic-ai-os/blob/epic-team-v2-review-20260925/operating-system/Alfred-Continuity-Kit/BRAIN-INDEX.md) points to private source modules. Historical raw Brain files require reconciliation.
 
+## How to call Alfred
+
+Say `Al:`, `Hey Al`, `Alfred:`, `Alfred`, `Al`, `Number One`, or `First Mate`. On this Mac's Codex tasks, the Alfred role loader recognizes these phrases and loads the relevant current sources. The nickname alone does not copy another chat's transcript or grant app access. In ChatGPT, put the [Alfred project instructions](https://github.com/trevorcrane/epic-ai-os/blob/epic-team-v2-review-20260925/operating-system/Alfred-Continuity-Kit/CHATGPT-PROJECT-INSTRUCTIONS.md) and accessible current kit into the project before expecting the shorthand in its chats. Another computer or account requires its own accessible setup. The local Slack mention responder is intentionally stopped. Check the public v2 site's Call Alfred section for the simple surface-by-surface guide.
+
 ## What's active and what's not
 
 - Alfred is Trevor's one point of contact. The Lead, Researcher, Builder, Reviewer and Scorekeeper are execution seats, not automatic simultaneous model runs.
