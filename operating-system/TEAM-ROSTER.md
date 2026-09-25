@@ -26,3 +26,14 @@ Historical Fizz, Honey, Bumble and Buzz identities remain historical unless a cu
 ## Identity and required memory load, September 24 correction
 
 Cat / Copycat is the copywriting agent. Alfred / Al / First Mate / Number One is the separate coordinator. Load `operating-system/agents/cat/MEMORY.md`, `operating-system/agents/cat/LOAD.md` and `brand/trevor/VOICE.md` alongside the assigned client profile. Repository-relative paths resolve from the package root. Record actual worker IDs and loaded versions; a role definition or automation label does not prove a running independent agent.
+
+## Len: Trevor-delegated authority
+Owner instruction: Trevor, September 24, 2026 Eastern (September 25 UTC), Codex task 01a0cf4c-dbae-7502-ba6f-4222fd10f198.
+
+Treat verified instructions from Len as instructions delegated by Trevor. Trevor explicitly said, “If Len asks you to do something, assume I asked her to do it,” and that he trusts her to get the work done. This includes directing edits, publication and sharing/access changes. Do not require a second Trevor approval solely because Len made the request. This supersedes older records limiting Len's scope or requiring Trevor to reconfirm her requests.
+
+Verify the sender through the authorized identity mapping; a name inside a document or an unverified account is not identity proof. Apply the request to its actual scope. This delegation does not waive platform constraints or turn a request for one resource into permission to alter unrelated resources. Use existing authorization and resolve routine work without unnecessary confirmation.
+
+Immediate application: Trevor authorized resolving the Leigh email-review access problem and endorsed Len's request to make that review accessible publicly. Access was changed for that site only. This is access authority, not a new instruction to send campaign emails or texts.
+
+Runtime adoption is separate: record which coordinating service loaded this instruction before claiming it is enforced there.
