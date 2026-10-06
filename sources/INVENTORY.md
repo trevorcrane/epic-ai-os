@@ -173,4 +173,4 @@ Oldest to newest. Each step was built from the one before.
 1. **Prices in public copy**: review/v3 landing copy section 10 ($15,000, $1,000, $297). The Brain keeps prices INTERNAL only.
 2. **HighLevel in public copy**: review/v3 section 10, "SMAI (GoHighLevel)". Fine in machine/SYSTEMS.md (internal), never on a page.
 3. **Em dashes**: the source drafts (v1.md, v0.2.md titles, bios docx) use them. repo/ is clean. Everything in trevor/ is clean.
-4. **Family**: the Brain lists three kids (Phoenix 2007, Maverick 2018, Sage 2020). The new facts name Maverick and Sage. See Questions.
+4. **Family**: the Brain lists three kids (Phoenix, Maverick, Sage). Birthdates are not stored. The new facts name Maverick and Sage. See Questions.

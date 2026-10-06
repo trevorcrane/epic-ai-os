@@ -132,7 +132,7 @@ The same Brain file, and Q5: the third word is Clarity in the 4 C's PDF, and Cla
 
 [decisions/2026-09-28-family.md](decisions/2026-09-28-family.md) records Robyn, Maverick, Sage, and "all kids are published authors."
 
-[brain/01-identity/02-family.md](brain/01-identity/02-family.md) also lists Phoenix, born April 25, 2007, from the Sep 21 family table. Q1 asks whether "all kids" includes Phoenix, and what the book titles are.
+[brain/01-identity/02-family.md](brain/01-identity/02-family.md) also lists Phoenix. Birthdates are not stored. Q1 asks whether "all kids" includes Phoenix, and what the book titles are.
 
 [sources/INVENTORY.md](sources/INVENTORY.md) section 5 says the Brain lists three kids and the newer facts name Maverick and Sage.
 

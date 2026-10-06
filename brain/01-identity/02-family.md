@@ -14,14 +14,14 @@ Keep her voice and offers distinct from mine. [VERIFIED: v0.2] "Gold belongs to 
 How I talk to her: `04-voice/by-audience/04-spouse.md`.
 
 ## Kids
-| Name | Born | Notes |
-|---|---|---|
-| Phoenix | April 25, 2007 | Oldest. [VERIFIED: v0.2] |
-| Maverick | January 27, 2018 | Published author. [VERIFIED: Trevor via chat, 2026-09-28] |
-| Sage | May 30, 2020 | Published author. [VERIFIED: Trevor via chat, 2026-09-28] |
+| Name | Notes |
+|---|---|
+| Phoenix | Oldest. [VERIFIED: v0.2] |
+| Maverick | Published author. [VERIFIED: Trevor via chat, 2026-09-28] |
+| Sage | Published author. [VERIFIED: Trevor via chat, 2026-09-28] |
 "All kids published authors." [VERIFIED: Trevor via chat, 2026-09-28] Whether "all kids" includes Phoenix, and the book titles: Q1.
 Goal: help the kids publish their own books. [VERIFIED: v0.2]
-Documenting the journey: Maverick 8 to 18, Sage 6 to 16, Phoenix 19 to 29. "Capturing the journey matters even independently of audience growth." [VERIFIED: v0.2]
+Documenting the journey. "Capturing the journey matters even independently of audience growth." [VERIFIED: v0.2]
 
 ## The family channel
 Crazy Crane (Crazy Cranes): family adventures, kids, books. Viewers, not clients. [VERIFIED: v0.2] Detail: `03-brands/06-other-properties.md`.

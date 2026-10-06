@@ -41,7 +41,7 @@ Trevor's role: ideas, conversations, interviews, creativity, direction. [VERIFIE
 ## Content
 Document daily. 100 pieces a week is meaningful progress. 1,000+ a week is the bigger vision. "Do not create AI sludge just to hit a volume number." [BELIEVED 85%: 9_15]
 One to two business books a year, plus kids' books and at least six Epic Fables. Help the kids publish their own books. [VERIFIED: v0.2]
-Document Maverick 8 to 18, Sage 6 to 16, Phoenix 19 to 29. "Capturing the journey matters even independently of audience growth." [VERIFIED: v0.2]
+Document the journey. "Capturing the journey matters even independently of audience growth." [VERIFIED: v0.2]
 
 ## Relationships and personal
 First 5 to 10 serious ambassadors. "Become useful to his mentors, not merely consume from them."
