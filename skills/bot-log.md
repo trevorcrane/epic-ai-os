@@ -1,0 +1,2 @@
+- 2026-09-28: Content Engine (c81ae1c3) upgraded to "Content Machine" by dr eggbot, Trevor-approved. One job: one Trevor source in, one full cross-platform pack out; weekly batch approval, then schedule and verify live via the publishing tool Elon picks. Spec: /workspace/bot-studio/content-machine/SPEC.md.
+- 2026-09-28 10:50 ET: Content Machine persona updated to the Social Planner workflow (write + stage in_review only; Elon confirms live). Asked it to create paused routine weekly-batch (Mon 9:49 ET), enabled after the Oct 1-2 dry run.
