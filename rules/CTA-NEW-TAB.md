@@ -12,7 +12,7 @@ Same-page anchors and in-app controls that are not outbound stay as they are.
 This stands unless Trevor says otherwise for a specific link.
 
 ## SoT
-`/workspace/ops/rules/CTA-NEW-TAB.md`
+`rules/CTA-NEW-TAB.md`
 
 ## Open once
 Do not also call window.open on a link that already has target="_blank". One or the other. Outbound links use the attribute, not both. A page that opens links twice is not done.

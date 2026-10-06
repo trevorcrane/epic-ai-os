@@ -1,7 +1,8 @@
-Status: DRAFT v1, 2026-09-28. Moved from repo/team (2026-09-26), file references updated. Not approved by Trevor.
-Sources: repo/team/LOOP.md step 2
-
 # Task template (the TARGET)
+
+Trevor Epic Team v0.2 draft, 2026-10-06. Updated by Elon from the v0.1 draft (2026-09-28).
+Status: WORKING · private. Not approved by Trevor.
+Sources: repo/team/LOOP.md step 2
 
 Tango's own fields where they exist. Authority, Evidence required, and Staffing go in Tango's `constraints` field as three labeled lines. [BELIEVED 80%: check create_task before relying on a flag.]
 ```

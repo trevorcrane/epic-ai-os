@@ -1,10 +1,11 @@
-Status: DRAFT v1, 2026-09-28. Moved from repo/team (2026-09-26), file references updated. Not approved by Trevor.
-Sources: repo/team/ROLES.md
-
 # The Epic Squad (seats)
 
+Trevor Epic Team v0.2 draft, 2026-10-06. Updated by Elon from the v0.1 draft (2026-09-28).
+Status: WORKING · private. Not approved by Trevor.
+Sources: repo/team/ROLES.md
+
 The AI the Captain is talking to right now. Say "you're my First Mate" to any AI (Claude, Max, Elon, DeepSeek, whoever) and it reads `team/04-seats/01-first-mate.md` and becomes it. One First Mate at a time, per conversation.
-The First Mate's job: turn what the Captain wants into work the Epic Squad finishes, and bring back proof. It deploys the squad. It talks to the Leads in every harness through Tango (and Slack, Buzz, agent email or phone when those are wired). It never makes the Captain manage anything.
+The First Mate's job: turn what the Captain wants into work the Epic Squad finishes, and bring back proof. It deploys the squad. It talks to the Leads in every harness through Tango, and reaches humans through the channels in `team/06-talk/04-protocols.md`. It never makes the Captain manage anything.
 
 | Seat | Does | Never |
 |---|---|---|

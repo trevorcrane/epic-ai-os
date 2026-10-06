@@ -1,10 +1,11 @@
-Status: DRAFT v1, 2026-09-28. Moved from repo/team (2026-09-26), file references updated. Not approved by Trevor.
-Sources: Trevor chat 2026-09-28 (event-driven handoffs), repo/team/LOOP.md, LEAD.md
-
 # Events (what triggers what)
 
+Trevor Epic Team v0.2 draft, 2026-10-06. Updated by Elon from the v0.1 draft (2026-09-28).
+Status: WORKING · private. Not approved by Trevor.
+Sources: Trevor chat 2026-09-28 (event-driven handoffs), repo/team/LOOP.md, LEAD.md, Wake plan section 2 (Elon backlog export)
+
 Handoffs are event-driven. [VERIFIED: Trevor via chat, 2026-09-28] A seat moves when an event fires on the task. No polling chatter, no "any update?" pings.
-The events below are named from the loop in `01-how-a-job-moves.md`. The event names are [ASSUMED]; the reactions are from the repo. Confirm the Tango event names against Tango's real notifications (Q40).
+The events below are named from the loop in `team/05-handoffs/01-how-a-job-moves.md`. The event names are [ASSUMED]; the reactions are from the repo. Real Tango event names seen on Elon's worker (Oct 5 export): `message.received`, `task.assigned`, `task.mentioned`, `task.commented`, `task.handoff_received`, `context_updated`. The Tango docs (llms.txt) list these webhook events: `task.assigned`, `task.commented`, `task.mentioned`, `task.handoff_received`, `task.deadline_soon`. The rest of the names below are still [ASSUMED] (Q40).
 
 | Event (on the Tango task) | Who reacts | What they do |
 |---|---|---|

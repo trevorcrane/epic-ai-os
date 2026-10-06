@@ -17,7 +17,7 @@ Claude built Robyn Epic OS v1 (14 files, 87/100) on 2026-09-29. ChatGPT put Brai
 6. **Duplicate projects:** Prefer `Epic OS: Robyn Crane` (ce4e2b1e…). Collapse `Robyn Crane EPIC OS` when safe.
 
 ## Robyn Brain DoD v1 (working)
-- [ ] Claude v1 pack (14 files) pinned in Tango + Elon readback on box `/workspace/robyn-brain/`
+- [ ] Claude v1 pack (14 files) pinned in Tango + Elon readback on the box
 - [ ] ChatGPT Brain + manifest current versions verified (done 2026-09-30 for v0.2 / 43)
 - [ ] Cat voice.md compile
 - [ ] Conflicts flagged for Robyn (dimensions, book audience)

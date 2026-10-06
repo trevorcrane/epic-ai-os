@@ -17,8 +17,8 @@ Locked: 2026-10-04.
   - Dr. Leigh funnel B, Bring More Brain workshop popup: phone stays required.
 
 ## 3. Laws that already apply
-- CTAs and buttons open in one new tab: target="_blank" rel="noopener". Never window.open. See /workspace/ops/rules/CTA-NEW-TAB.md.
-- Site ship loop: Builder builds, Reviewer checks it before Trevor sees any version. Only Reviewer says a site is done. See /workspace/ops/rules/SITE-SHIP-LOOP.md.
+- CTAs and buttons open in one new tab: target="_blank" rel="noopener". Never window.open. See rules/CTA-NEW-TAB.md.
+- Site ship loop: Builder builds, Reviewer checks it before Trevor sees any version. Only Reviewer says a site is done. See rules/SITE-SHIP-LOOP.md.
 
 ## Adding rules
 Only Trevor adds or changes rules here. Add each new rule as its own numbered section with the date he set it.

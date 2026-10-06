@@ -26,7 +26,7 @@ Humans also differ in wording. The seed lists Jomar as read-only reference on Ro
 
 [team/01-laws.md](team/01-laws.md) says it is the only file that holds the laws. Ten Epic Laws, plus an always-on list, plus the 2026-09-28 line that nothing leaves the team without the Captain's OK.
 
-[rules/](rules/) is a second set. Eleven fleet files. Each file is the source of truth for that one rule. [AGENTS.md](AGENTS.md) indexes them.
+[rules/](rules/) is a second set. Twelve fleet files, including [rules/CURSOR-BOB-DISPATCH.md](rules/CURSOR-BOB-DISPATCH.md). Each file is the source of truth for that one rule. [AGENTS.md](AGENTS.md) indexes them.
 
 Both sets stay. Some overlap (evidence before done, nobody grades their own work, no credentials in files) and some do not (Cloudflare hosting, funnel fields, Google Docs, published-docs-first).
 
@@ -34,7 +34,7 @@ Both sets stay. Some overlap (evidence before done, nobody grades their own work
 
 [fleet-os/GROKBOT_OS.md](fleet-os/GROKBOT_OS.md) is dated 2026-09-30 and lists Plan-Build-Use, Verify before you claim, Editable Google Docs, Tango handoff no-drop, and Follow published docs. It says a full OS refresh is still owed.
 
-[rules/](rules/) also contains CTA-NEW-TAB, EPIC-FUNNEL-SOP, CLOUDFLARE-PAGES-STANDARD, LAUNCH-QC-CHECKLIST, LOOK-BEFORE-YOU-ASK, and SITE-SHIP-LOOP, locked Oct 2 through Oct 5, 2026, plus Follow published docs locked 2026-10-06. The OS header date is earlier than that lock date.
+[rules/](rules/) also contains CTA-NEW-TAB, EPIC-FUNNEL-SOP, CLOUDFLARE-PAGES-STANDARD, LAUNCH-QC-CHECKLIST, LOOK-BEFORE-YOU-ASK, and SITE-SHIP-LOOP, locked Oct 2 through Oct 5, 2026, plus Follow published docs and Cursor Bob dispatch, both locked 2026-10-06. The OS header date is earlier than those lock dates. The OS still lists five laws.
 
 The OS still points at `/workspace/ops/rules/`. The files in this repo are under `rules/`.
 
@@ -200,13 +200,7 @@ Hormozi's two copies are described as identical. Kallaway and Ed Lawrence "diffe
 
 ## 24. Tango handles
 
-[team/02-people/01-captain.md](team/02-people/01-captain.md): Slack `@trevor`, Tango `@trevor_crane`. Channel names on that card are marked assumed (Q38).
-
-[team/03-bots/03-claude.md](team/03-bots/03-claude.md): Tango `@trevor-claude`.
-
-[team/03-bots/04-chatgpt.md](team/03-bots/04-chatgpt.md): Tango `@trevor-chatgpt`.
-
-[rules/TANGO-HANDOFF-NO-DROP.md](rules/TANGO-HANDOFF-NO-DROP.md): `@trevor_grokbot`, `@trevor_chatgpt`, `@trevor_claude`. Hyphen in the Team cards, underscore in the fleet rule.
+Resolved in Team v0.2. The cards use underscores, the same spelling as [rules/TANGO-HANDOFF-NO-DROP.md](rules/TANGO-HANDOFF-NO-DROP.md): `@trevor_crane`, `@trevor_claude`, `@trevor_chatgpt`, `@trevor_grokbot`, `@trevor_hermes`. [team/06-talk/channels/01-tango.md](team/06-talk/channels/01-tango.md) says the v0.1 hyphens were wrong.
 
 ## 25. Smart, Pro, and Epic mean two things
 

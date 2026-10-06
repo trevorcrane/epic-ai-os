@@ -8,8 +8,8 @@ Before asking Trevor for a fact about him, his family, his business, or a decisi
 A partial list already on screen is not the search. Open the files or search shared memory. Name the paths you opened and which were empty before you ask.
 
 1. Shared memory.
-2. /workspace/epic-brain/trevor (family dates: brain/01-identity/02-family.md).
-3. /workspace/ops/rules.
+2. brain/01-identity/02-family.md.
+3. rules/.
 4. The site folder, if the fact is about a live page.
 5. For a book: the voice folder, the Impact plan, and the Drive manuscript.
 6. For a scoreboard number: the Scoreboard plan and Decisions.

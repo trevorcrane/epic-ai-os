@@ -29,8 +29,8 @@ Leave live Netlify sites alone until a cutover is asked for. New ships and remou
 Exact account/project naming lives with Len / site folders. If you lack Cloudflare access, stop and escalate to Len — do not fall back to Netlify.
 
 ## Related
-- Site ship loop: /workspace/ops/rules/SITE-SHIP-LOOP.md
-- This file: /workspace/ops/rules/CLOUDFLARE-PAGES-STANDARD.md
+- Site ship loop: rules/SITE-SHIP-LOOP.md
+- This file: rules/CLOUDFLARE-PAGES-STANDARD.md
 
 ## Access (blocker until Len completes)
 Builders need one of:

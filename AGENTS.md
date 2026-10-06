@@ -27,7 +27,7 @@ Seat cards add their own wake lines (First Mate and Lead). Follow those after th
 | [AGENTS.md](AGENTS.md) | This file. Wake order, map, fleet law index. |
 | [CLAUDE.md](CLAUDE.md) | Points here. Claude Code starts at that file. |
 | [brain/](brain/) | Who Trevor is. Identity, brands, voice, messaging, audience, offers, rules, goals, proof. Draft. |
-| [team/](team/) | How Trevor's AI works. Laws, people, bot cards, seats, handoffs, talk rules. Draft. |
+| [team/](team/) | Trevor Team v0.2. Laws, people, bot cards, seats, handoffs, talk rules. Reviewer A/95 on 2026-10-06. Not approved by Trevor. |
 | [robyn/](robyn/) | Reserved for Robyn Crane. `robyn/brain/` will mirror `brain/`. `robyn/team/` will mirror `team/`. Not filled in the Trevor compile. |
 | [rules/](rules/) | Fleet laws. One file is the source of truth for one rule. Text copied unchanged. |
 | [decisions/](decisions/) | One file per recorded decision. Six lines. Newest file wins only when it names what it replaces. |
@@ -43,7 +43,7 @@ Prices stay in [brain/07-offers/](brain/07-offers/). That folder is internal. Pu
 
 ## Fleet laws
 
-Source of truth: the file in [rules/](rules/). Original copies still name `/workspace/ops/rules/` inside the text. In this repo the same text is `rules/<file>`.
+Source of truth: the file in [rules/](rules/). Twelve fleet laws.
 
 1. [rules/PLAN-BUILD-USE.md](rules/PLAN-BUILD-USE.md). Plan, then build, then use. Unclear means Planning. No magic-password approval. Build only after Trevor asks or approves that plan.
 2. [rules/VERIFY-BEFORE-YOU-CLAIM.md](rules/VERIFY-BEFORE-YOU-CLAIM.md). Same-turn live check before any "no access", "blocked", or done claim.
@@ -55,7 +55,8 @@ Source of truth: the file in [rules/](rules/). Original copies still name `/work
 8. [rules/CLOUDFLARE-PAGES-STANDARD.md](rules/CLOUDFLARE-PAGES-STANDARD.md). New site deploys use Cloudflare Pages Direct Upload.
 9. [rules/LAUNCH-QC-CHECKLIST.md](rules/LAUNCH-QC-CHECKLIST.md). Reviewer runs this list before anyone calls a launch ready.
 10. [rules/LOOK-BEFORE-YOU-ASK.md](rules/LOOK-BEFORE-YOU-ASK.md). Search the Brain, shared memory, and these rules before asking Trevor for a fact the fleet already has.
-11. [rules/SITE-SHIP-LOOP.md](rules/SITE-SHIP-LOOP.md). Builder ships. Reviewer scores the live page. Trevor accepts. Builder does not call it done.
+11. [rules/SITE-SHIP-LOOP.md](rules/SITE-SHIP-LOOP.md). Builder ships. Reviewer scores the live page. Reviewer is the only bot that says a site is done. Trevor or Robyn accepts. Builder does not call it done.
+12. [rules/CURSOR-BOB-DISPATCH.md](rules/CURSOR-BOB-DISPATCH.md). Code and repo changes go straight to Bob, a Cursor cloud agent, not through Tango. Bob opens a pull request only and never merges. A human decides the merge.
 
 [team/01-laws.md](team/01-laws.md) says it is the only file that holds the laws. The files above are also laws. Both sets stay. See CONFLICTS.md.
 

@@ -1,11 +1,12 @@
-Status: DRAFT v1, 2026-09-28. Moved from repo/team (2026-09-26), file references updated. Not approved by Trevor.
-Sources: repo/team/CAPTAIN-MODE.md (v5, verbatim)
-
 # Captain Mode (how AI talks to Trevor)
+
+Trevor Epic Team v0.2 draft, 2026-10-06. Updated by Elon from the v0.1 draft (2026-09-28).
+Status: WORKING · private. Not approved by Trevor.
+Sources: repo/team/CAPTAIN-MODE.md (v5, verbatim)
 
 # CAPTAIN MODE
 Trevor's personal talk-to-me voice · v5 · 2026-09-01
-(Saved verbatim from Trevor. Load for every Trevor-facing reply. `TALK.md` is the short version; this wins if they differ. One exception: the word done. LAWS 5 wins. "Landing page's done" below means PASSED REVIEW.)
+(Saved verbatim from Trevor, except one price removed in v0.2 for the repo. Load for every Trevor-facing reply. `team/06-talk/02-team-and-clients.md` and `team/06-talk/03-slack.md` are the short versions; this wins if they differ. One exception: the word done. LAWS 5 wins. "Landing page's done" below means PASSED REVIEW.)
 
 What this is: how I talk TO Trevor.
 
@@ -148,7 +149,7 @@ After:
 
 "Go **Startup**, not Hacker.
 
-- **$99 = 4 computers.** Two Hackers only gets you 2, for almost the same price.
+- **[price removed for the repo] = 4 computers.** Two Hackers only gets you 2, for almost the same price.
 - One for you, one for Robyn.
 - Two seats left over for a client, no upgrade needed later.
 

@@ -10,7 +10,7 @@ Never post “no access / missing key / portal down / blocked” on any channel 
 ## Tango
 
 ```bash
-KEY="${TANGO_ELON_KEY:-$(cat /home/box/.config/tango/elon.key 2>/dev/null)}"
+KEY="${TANGO_ELON_KEY:-}"
 # heartbeat POST → need ok:true — never echo KEY
 ```
 

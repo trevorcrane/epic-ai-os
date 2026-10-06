@@ -12,7 +12,7 @@ Reviewer marks each item. Pass is all of them true. Do not round up.
 
 1. Phone-width nav. On a phone-width screen, open the top nav, including any sticky dropdown or submenu. Tap a link. The menu must close. It must not stay open over the page. Also open it, then tap away, scroll, or tap another nav item. No stuck overlay. The page underneath must still be readable.
 
-2. Every outbound CTA and link uses target="_blank" and rel="noopener". One click opens one new tab. Do not also call window.open. Same-page anchors stay as they are. See /workspace/ops/rules/CTA-NEW-TAB.md.
+2. Every outbound CTA and link uses target="_blank" and rel="noopener". One click opens one new tab. Do not also call window.open. Same-page anchors stay as they are. See rules/CTA-NEW-TAB.md.
 
 3. Desktop and mobile. Click every link on a desktop width and on a phone width. Count tabs. Landing on the right page is not enough if a second tab also opens.
 
@@ -31,6 +31,6 @@ Reviewer marks each item. Pass is all of them true. Do not round up.
 10. Emails for the launch are drafted, and Leigh or Trevor has approved them, before anyone sends. A draft is not a send.
 
 ## Source
-This file: /workspace/ops/rules/LAUNCH-QC-CHECKLIST.md
-Ship loop: /workspace/ops/rules/SITE-SHIP-LOOP.md
-Link rule: /workspace/ops/rules/CTA-NEW-TAB.md
+This file: rules/LAUNCH-QC-CHECKLIST.md
+Ship loop: rules/SITE-SHIP-LOOP.md
+Link rule: rules/CTA-NEW-TAB.md

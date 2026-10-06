@@ -10,7 +10,7 @@ Trevor Crane's Brain and Team are compiled. Robyn Crane's copies are reserved an
 
 ```
 brain/                  Trevor Crane. Who he is.
-team/                   Trevor Crane. How the AI works.
+team/                   Trevor Team v0.2. How the AI works.
 robyn/                  Robyn Crane. Reserved.
   brain/                Will mirror brain/. Follow-up, not this pass.
   team/                 Will mirror team/. Follow-up, not this pass.

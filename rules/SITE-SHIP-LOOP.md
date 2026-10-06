@@ -32,11 +32,11 @@ A new session says which instruction version it loaded. A published website does
 
 
 ## Hosting (locked 2026-10-05)
-New builder deploys and previews go to **Cloudflare Pages Direct Upload**. Do not use Netlify for new ships. Netlify credits are nearly exhausted (~192 production deploys). SoT: /workspace/ops/rules/CLOUDFLARE-PAGES-STANDARD.md
+New builder deploys and previews go to **Cloudflare Pages Direct Upload**. Do not use Netlify for new ships. Netlify credits are nearly exhausted (~192 production deploys). SoT: rules/CLOUDFLARE-PAGES-STANDARD.md
 
 ## Launch QC
-On every launch, Reviewer also uses /workspace/ops/rules/LAUNCH-QC-CHECKLIST.md. That list covers phone-width nav close, new-tab links, clicking every link on desktop and mobile, no invented or unlabeled placeholders, bonus names, exact credentials, dates and Zoom when claimed, sample and mock labels, SNAP and RAD before GHL go-live, and approved emails before send.
+On every launch, Reviewer also uses rules/LAUNCH-QC-CHECKLIST.md. That list covers phone-width nav close, new-tab links, clicking every link on desktop and mobile, no invented or unlabeled placeholders, bonus names, exact credentials, dates and Zoom when claimed, sample and mock labels, SNAP and RAD before GHL go-live, and approved emails before send.
 
 ## Source
-Link rule: /workspace/ops/rules/CTA-NEW-TAB.md
-This file: /workspace/ops/rules/SITE-SHIP-LOOP.md
+Link rule: rules/CTA-NEW-TAB.md
+This file: rules/SITE-SHIP-LOOP.md
