@@ -2,7 +2,7 @@
 
 Open as of the 2026-10-06 compile. No winner is chosen here. Each source keeps its own wording in its own file. A later decision file can close an item by naming what it replaces.
 
-Trevor answered this list on 2026-10-11 at 10:32 PM ET. Each closed item links to its decision file in [decisions/](decisions/). Items 22 and 24 stay open. The text under each heading is the 2026-10-06 record, kept as written.
+Trevor answered this list on 2026-10-11 at 10:32 PM ET. Each closed item links to its decision file in [decisions/](decisions/). Trevor closed items 22 and 24 in a follow-up at 10:37 PM ET. No items are open. The text under each heading is the 2026-10-06 record, kept as written.
 
 Q numbers point at [QUESTIONS.md](QUESTIONS.md).
 
@@ -228,7 +228,7 @@ Hormozi's two copies are described as identical. Kallaway and Ed Lawrence "diffe
 
 ## 22. Content Machine and the shrink list
 
-**OPEN: needs Trevor.**
+**CLOSED 2026-10-11. Dropped by Trevor 2026-10-11:** no action, nothing retired or merged. Decision: [decisions/2026-10-11-shrink-list-dropped.md](decisions/2026-10-11-shrink-list-dropped.md).
 
 [skills/fleet-shrink-list-2026-09-28.md](skills/fleet-shrink-list-2026-09-28.md) has three layers from the same day:
 
@@ -248,7 +248,7 @@ Hormozi's two copies are described as identical. Kallaway and Ed Lawrence "diffe
 
 ## 24. Tango handles
 
-**OPEN: needs Trevor.**
+**CLOSED 2026-10-11.** Already resolved (Team v0.2 underscores). Decision: [decisions/2026-10-11-tango-handles.md](decisions/2026-10-11-tango-handles.md).
 
 Resolved in Team v0.2. The cards use underscores, the same spelling as [rules/TANGO-HANDOFF-NO-DROP.md](rules/TANGO-HANDOFF-NO-DROP.md): `@trevor_crane`, `@trevor_claude`, `@trevor_chatgpt`, `@trevor_grokbot`, `@trevor_hermes`. [team/06-talk/channels/01-tango.md](team/06-talk/channels/01-tango.md) says the v0.1 hyphens were wrong.
 
