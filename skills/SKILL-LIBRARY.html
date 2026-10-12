@@ -1,0 +1,116 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Epic OS Skill Library</title><style>
+body{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:#f5f6f8;color:#1a1d23;line-height:1.5}
+.wrap{max-width:1000px;margin:0 auto;padding:20px 16px 60px}
+h1{margin:0 0 4px;font-size:1.7rem} h2{margin:32px 0 12px;font-size:1.25rem;border-bottom:2px solid #dde1e7;padding-bottom:6px}
+.sub{color:#555} .box{background:#fff;border-radius:12px;padding:14px 18px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0} .stat{flex:1;min-width:90px;background:#fff;border-radius:10px;padding:10px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.stat b{display:block;font-size:1.6rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
+.card{background:#fff;border-radius:12px;padding:14px 16px;box-shadow:0 1px 3px rgba(0,0,0,.08);display:flex;flex-direction:column;gap:6px}
+.card h3{margin:0;font-size:1.05rem} .pill{display:inline-block;color:#fff;border-radius:999px;padding:1px 10px;font-size:.78rem;font-weight:600;margin-right:4px}
+.bots{font-size:.9rem} .path{font-family:ui-monospace,Menlo,monospace;font-size:.72rem;color:#666;word-break:break-all}
+.note{font-size:.85rem;color:#444} ol{padding-left:22px} li{margin:4px 0}
+</style></head><body><div class="wrap">
+<h1>Epic OS Skill Library</h1><div class="sub">Trevor Crane. Updated 2026-09-28. Every skill the bots use, in plain language.</div>
+<div class="stats"><div class="stat"><b>20</b>skills</div>
+<div class="stat"><b style="color:#1f8f4e">9</b>Live</div>
+<div class="stat"><b style="color:#b7791f">6</b>Draft</div>
+<div class="stat"><b style="color:#6b7280">5</b>Parked</div>
+</div><h2>How to use this</h2><div class="box"><ol><li>Skim the cards below. Each one says what the skill does, which bot uses it, and whether it is ready.</li><li>To hand a skill to a bot, say &quot;give skill [name] to bot [name]&quot; (example: &quot;give Score to Content Engine&quot;).</li><li>To approve a draft, say &quot;install [skill name]&quot;. Drafts are written but not turned on yet.</li><li>Mark favorites to share with clients later: say &quot;favorite [skill name]&quot; and it gets a star here and in skills.json.</li><li>Share column: Yes means ours and safe to give clients, Maybe means needs trimming first, No means Tom-derived, third-party, or client-private.</li></ol><p class="note">Live = installed and in use. Draft = written, not installed. Parked = saved for later or reference only.</p></div>
+<h2>Strategy &amp; planning</h2><div class='grid'>
+<div class="card"><h3>1. Master Plan</h3>
+<div><span class="pill" style="background:#1f8f4e">Live</span><span class="pill" style="background:#1f8f4e">Share: Yes</span></div>
+<div>Turns a rough project or idea into a short, clear plan card with what done looks like, a grade, and a ship-or-improve decision.</div><div class="bots"><b>Bot(s):</b> Planner, Advisor, Navigator, Epic OS (First Mate)</div>
+<div class="note"><b>Start it:</b> Say &quot;master plan re: ...&quot;</div><div class="note">Our own method. Uses the Score skill for the grade.</div><div class="path">/home/box/agent-data/workflows/master-plan/SKILL.md</div></div>
+<div class="card"><h3>2. Pressure Test Before Go</h3>
+<div><span class="pill" style="background:#1f8f4e">Live</span><span class="pill" style="background:#1f8f4e">Share: Yes</span></div>
+<div>Scores a big new tool, system, or workflow on 7 checks before anyone says go, and only allows a small pilot if the key scores are under 80.</div><div class="bots"><b>Bot(s):</b> Advisor, Navigator, Epic OS (First Mate), Reviewer</div>
+<div class="note"><b>Start it:</b> Runs automatically before any go, install, or build decision</div><div class="note">Our own method.</div><div class="path">/home/box/agent-data/workflows/pressure-test-before-go/SKILL.md</div></div>
+<div class="card"><h3>3. 90-Day Growth Plan</h3>
+<div><span class="pill" style="background:#b7791f">Draft</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>Builds a 90-day plan to get a live offer in front of the right people and turn them into conversations and customers, with every task given to a named bot.</div><div class="bots"><b>Bot(s):</b> Campaign Ops, Content Engine, GTM Prospecting, GTM Loop Closer, Call Follow-Ups, Sales Call Coach, Scorekeeper</div>
+<div class="note"><b>Start it:</b> &quot;How do I get leads?&quot; once a page is live</div><div class="note">Not installed. Tom-derived. Campaign Ops owns it and hands pieces to the others.</div><div class="path">/workspace/assets/teaching-frameworks/tom-bilyeu-ai-team-pack/handoffs/marketer-campaign-ops.md</div></div>
+<div class="card"><h3>4. Demand Test Design</h3>
+<div><span class="pill" style="background:#b7791f">Draft</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>Picks the one smallest test (free download, booked call, or pre-sale) that proves people want an offer before it gets built, with a win number and a quit number set up front.</div><div class="bots"><b>Bot(s):</b> Advisor</div>
+<div class="note"><b>Start it:</b> &quot;How do I test this?&quot; or after Idea Validation says GO</div><div class="note">Not installed. Shaped after the Tom Bilyeu pack (personal use only), so not for clients as is.</div><div class="path">/workspace/assets/teaching-frameworks/tom-bilyeu-ai-team-pack/handoffs/strategist-demand-test.md</div></div>
+</div>
+<h2>Research</h2><div class='grid'>
+<div class="card"><h3>5. Idea Validation</h3>
+<div><span class="pill" style="background:#b7791f">Draft</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>Proves or kills a business idea using real customer words and proof that people already pay for this, ending in GO, SHARPEN, or KILL.</div><div class="bots"><b>Bot(s):</b> Researcher</div>
+<div class="note"><b>Start it:</b> &quot;Is this idea any good?&quot; or &quot;validate this&quot;</div><div class="note">Not installed. Tom-derived. First step of the launch chain.</div><div class="path">/workspace/assets/teaching-frameworks/tom-bilyeu-ai-team-pack/handoffs/researcher-idea-validation.md</div></div>
+</div>
+<h2>Copy &amp; content</h2><div class='grid'>
+<div class="card"><h3>6. Landing Page Build</h3>
+<div><span class="pill" style="background:#b7791f">Draft</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>Turns approved launch copy into one live web page with one button and a working signup form, then hands a checklist to the Reviewer before it goes public.</div><div class="bots"><b>Bot(s):</b> Builder, Bot Studio, Reviewer</div>
+<div class="note"><b>Start it:</b> &quot;Publish a page&quot; once copy is approved</div><div class="note">Not installed. Tom-derived. Bot Studio Builder for client builds.</div><div class="path">/workspace/assets/teaching-frameworks/tom-bilyeu-ai-team-pack/handoffs/builder-landing-page.md</div></div>
+<div class="card"><h3>7. Launch Copy</h3>
+<div><span class="pill" style="background:#b7791f">Draft</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>Writes every word a launch needs (hook, page, free download, follow-up emails, posts, DMs) in the client&#x27;s own voice using only real proof.</div><div class="bots"><b>Bot(s):</b> Cat (Book: Dr. Leigh), Content Engine, Writing Bot</div>
+<div class="note"><b>Start it:</b> After a Demand Test is picked, or any ask for a hook, page, or emails</div><div class="note">Not installed. Tom-derived. Planned for Cat as she moves into Trevor&#x27;s copywriter seat.</div><div class="path">/workspace/assets/teaching-frameworks/tom-bilyeu-ai-team-pack/handoffs/copywriter-cat.md</div></div>
+</div>
+<h2>Mentors/coaching</h2><div class='grid'>
+<div class="card"><h3>8. Ed Lawrence Mentor</h3>
+<div><span class="pill" style="background:#1f8f4e">Live</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>Coaches Trevor on business YouTube: simple style, intros, stories that turn viewers into buyers, and views versus sales in a Ed Lawrence-style voice, using only saved quotes and videos, never pretending to be Ed Lawrence.</div><div class="bots"><b>Bot(s):</b> Mentor agents</div>
+<div class="note"><b>Start it:</b> Ask for &quot;Ed Lawrence&quot; advice</div><div class="note">Installed, but the pack scored 56% with Reviewer, so it is held from being promoted as a finished coach. Copy also lives at /workspace/mentor-machine/skills/ed-lawrence-advisor/SKILL.md. The two copies differ slightly (need to pick one).</div><div class="path">/home/box/agent-data/workflows/ed-lawrence-advisor/SKILL.md</div></div>
+<div class="card"><h3>9. Hormozi Mentor</h3>
+<div><span class="pill" style="background:#1f8f4e">Live</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>Coaches Trevor on offers, leads, free value, and growth in a Alex Hormozi-style voice, using only saved quotes and videos, never pretending to be Alex Hormozi.</div><div class="bots"><b>Bot(s):</b> Mentor agents, YT Mentor: Hormozi</div>
+<div class="note"><b>Start it:</b> Ask for &quot;Alex Hormozi&quot; advice</div><div class="note">Installed, but the pack scored 50% with Reviewer, so it is held from being promoted as a finished coach. Copy also lives at /workspace/mentor-machine/skills/hormozi-advisor/SKILL.md. The two copies are identical.</div><div class="path">/home/box/agent-data/workflows/hormozi-advisor/SKILL.md</div></div>
+<div class="card"><h3>10. Kallaway Mentor</h3>
+<div><span class="pill" style="background:#1f8f4e">Live</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>Coaches Trevor on YouTube, short videos, packaging, bios, and calls to action in a Kallaway-style voice, using only saved quotes and videos, never pretending to be Kallaway.</div><div class="bots"><b>Bot(s):</b> Mentor agents</div>
+<div class="note"><b>Start it:</b> Ask for &quot;Kallaway&quot; advice</div><div class="note">Installed, but the pack scored 57% with Reviewer, so it is held from being promoted as a finished coach. Copy also lives at /workspace/mentor-machine/skills/kallaway-advisor/SKILL.md. The two copies differ slightly (need to pick one).</div><div class="path">/home/box/agent-data/workflows/kallaway-advisor/SKILL.md</div></div>
+<div class="card"><h3>11. Dan Martell Mentor (stub)</h3>
+<div><span class="pill" style="background:#6b7280">Parked</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>Starter rules for a future Dan Martell-style coach; the videos and quotes are gathered but it is not a working skill yet.</div><div class="bots"><b>Bot(s):</b> Mentor agents</div>
+<div class="note"><b>Start it:</b> Not usable yet</div><div class="note">Reviewer score 48%. No installed skill and no mentor agent assigned yet.</div><div class="path">/workspace/mentor-machine/packs/dan-martell/persona/SYSTEM.md</div></div>
+<div class="card"><h3>12. Gary Vee Mentor (stub)</h3>
+<div><span class="pill" style="background:#6b7280">Parked</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>Starter rules for a future Gary Vee-style coach; the videos and quotes are gathered but it is not a working skill yet.</div><div class="bots"><b>Bot(s):</b> Mentor agents</div>
+<div class="note"><b>Start it:</b> Not usable yet</div><div class="note">Reviewer score 48%. No installed skill and no mentor agent assigned yet.</div><div class="path">/workspace/mentor-machine/packs/gary-vee/persona/SYSTEM.md</div></div>
+<div class="card"><h3>13. MrBeast Mentor (stub)</h3>
+<div><span class="pill" style="background:#6b7280">Parked</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>Starter rules for a future MrBeast-style coach; the videos and quotes are gathered but it is not a working skill yet.</div><div class="bots"><b>Bot(s):</b> Mentor agents</div>
+<div class="note"><b>Start it:</b> Not usable yet</div><div class="note">Reviewer score 42%. No installed skill and no mentor agent assigned yet.</div><div class="path">/workspace/mentor-machine/packs/mrbeast/persona/SYSTEM.md</div></div>
+<div class="card"><h3>14. MrBeast Perspective (outside download)</h3>
+<div><span class="pill" style="background:#6b7280">Parked</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>A free skill someone else published online (written in Chinese) that role-plays MrBeast to give YouTube title, thumbnail, and hook advice.</div><div class="bots"><b>Bot(s):</b> None yet</div>
+<div class="note"><b>Start it:</b> Reference only</div><div class="note">Third-party. Our MrBeast pack treats it as a guess to check, not a source. No owner bot.</div><div class="path">/workspace/mentor-machine/refs/mrbeast-github/alchaincyf-mrbeast-skill/SKILL.md</div></div>
+</div>
+<h2>Ops &amp; quality</h2><div class='grid'>
+<div class="card"><h3>15. First Mate Operating System</h3>
+<div><span class="pill" style="background:#1f8f4e">Live</span><span class="pill" style="background:#b7791f">Share: Maybe</span></div>
+<div>The rulebook for how First Mate takes a request, puts it on a Linear card with an owner and a checker, and only calls it done when there is proof.</div><div class="bots"><b>Bot(s):</b> Epic OS (First Mate), Implementer, Builder, Reviewer</div>
+<div class="note"><b>Start it:</b> &quot;Get this done&quot; to First Mate</div><div class="note">Our own method, but tied to Trevor&#x27;s Linear setup and Grok Bot; would need trimming for a client.</div><div class="path">/home/box/agent-data/workflows/first-mate-os/SKILL.md</div></div>
+<div class="card"><h3>16. Score</h3>
+<div><span class="pill" style="background:#1f8f4e">Live</span><span class="pill" style="background:#1f8f4e">Share: Yes</span></div>
+<div>Grades any piece of work with a letter and a percent, names the 2 to 4 gaps, and asks whether to ship it or improve it.</div><div class="bots"><b>Bot(s):</b> Reviewer, Epic OS (First Mate), Planner, All bots</div>
+<div class="note"><b>Start it:</b> Say &quot;score this&quot; or &quot;grade this&quot;</div><div class="note">Our own method.</div><div class="path">/home/box/agent-data/workflows/score/SKILL.md</div></div>
+<div class="card"><h3>17. Epic Skill Card Template</h3>
+<div><span class="pill" style="background:#b7791f">Draft</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>The blank pattern every new skill should follow: one job, what it needs first, hard rules, steps with checks, a self-score, and a handoff note.</div><div class="bots"><b>Bot(s):</b> Bot Studio, Epic Brain</div>
+<div class="note"><b>Start it:</b> Used when writing a new skill</div><div class="note">Not installed. Structure inspired by the Tom pack, rewritten in our words; Maybe for clients after Tom says OK.</div><div class="path">/workspace/assets/teaching-frameworks/tom-bilyeu-ai-team-pack/handoffs/00-epic-skill-card-template.md</div></div>
+<div class="card"><h3>18. Tango Work Loop (outside tool)</h3>
+<div><span class="pill" style="background:#6b7280">Parked</span><span class="pill" style="background:#b7791f">Share: Maybe</span></div>
+<div>Instructions from the Tango tool for how bots claim a task, show their work, attach proof, and hand off to the next bot or person.</div><div class="bots"><b>Bot(s):</b> Epic OS (First Mate), Implementer</div>
+<div class="note"><b>Start it:</b> Only if the Tango pilot goes ahead</div><div class="note">Written by Tango (a vendor), saved during a pilot. Not installed. No bot formally owns it.</div><div class="path">/workspace/tango-pilot/src/skill.md</div></div>
+</div>
+<h2>Client-specific</h2><div class='grid'>
+<div class="card"><h3>19. Depleted Brain Ghostwriting Playbook</h3>
+<div><span class="pill" style="background:#1f8f4e">Live</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>The playbook for drafting Dr. Leigh&#x27;s book The Depleted Brain: table of contents patterns, launch deadlines, and rules against made-up facts.</div><div class="bots"><b>Bot(s):</b> Cat (Book: Dr. Leigh), Writing Bot</div>
+<div class="note"><b>Start it:</b> Book drafting sessions</div><div class="note">A reference file the Book agent reads, not an installed skill.</div><div class="path">/workspace/leigh-book/research/COPY-SKILLS.md</div></div>
+<div class="card"><h3>20. Dr. Leigh Richardson Voice</h3>
+<div><span class="pill" style="background:#1f8f4e">Live</span><span class="pill" style="background:#b91c1c">Share: No</span></div>
+<div>Makes anything written in Dr. Leigh&#x27;s name (book chapters, emails, posts, bios) sound warm, plain, and hopeful like her, with every science fact sourced.</div><div class="bots"><b>Bot(s):</b> Cat (Book: Dr. Leigh), Writing Bot, Content Engine</div>
+<div class="note"><b>Start it:</b> Any writing in Dr. Leigh&#x27;s voice</div><div class="note">Short installed version. Full version: /workspace/leigh-book/LEIGH-VOICE-SKILL.md (Word copy in /workspace/leigh-docx/). Still partial: blogs and LinkedIn not added yet.</div><div class="path">/home/box/agent-data/workflows/dr-leigh-richardson-voice/SKILL.md</div></div>
+</div>
+<h2>On the list, not written yet</h2><div class='box'><ol><li><b>intake-brain</b>: Fill in a new person&#x27;s Brain files.</li><li><b>first-job</b>: Five questions that turn a new Brain into one finished job.</li><li><b>follow-up-draft</b>: Draft follow-ups in the Brain&#x27;s voice from a list of names.</li><li><b>call-to-content</b>: Turn one call recording into a post, clip list, and newsletter section.</li><li><b>log-job</b>: Write the Scorekeeper row for a finished job.</li><li><b>1-3-1</b>: Turn a messy ask into a one problem, three options, one pick decision brief.</li></ol></div>
+<h2>Outside reference skills (Parked)</h2><div class='box'><ol><li>54 files, 30 unique skills. Free Hormozi-style skills other people published online. Saved as reference, blocked from auto-loading into answers. 24 of them exist twice (once in each folder). Status Parked, Share No, no owner bot.</li><li class='path'>/workspace/mentor-machine/packs/hormozi/corpus/from-github/<br>/workspace/mentor-machine/refs/hormozi-github/</li></ol></div>
+<h2>Things to know</h2><div class='box'><ol><li>Two naming schemes for the same launch skills: the Epic OS plan (team/SKILLS.md) calls them pain-research, offer-test, launch-copy, one-page-site, gtm-plan, while the drafts are idea-validation, demand-test-design, launch-copy, landing-page-build, growth-plan. Pick one set before installing.</li><li>Mentor skills live in two places (installed copy and a copy in mentor-machine/skills). Hormozi copies match; Kallaway and Ed Lawrence copies differ slightly.</li><li>Dr. Leigh voice exists as a short installed skill, a long Markdown version, and a Word copy.</li><li>No owner bot: MrBeast Perspective (outside download), the 30 outside Hormozi skills, and Tango Work Loop (only a pilot).</li><li>Mentor skills are installed but held: none has passed Reviewer yet (scores 50% to 57%).</li><li>All 5 launch drafts are Tom-derived and marked personal use only, so they are No for clients until rewritten or Tom agrees.</li></ol></div>
+<h2>Appendix</h2><div class='box'><ol><li>Cursor/Grok built-in skills (managed-skills, plugin-skills, plugins/compound-engineering): built-in, not ours.</li><li>Related instruction files that are not skills: Epic OS AGENTS.md and CLAUDE.md drafts, and the seat and handoff rules in /workspace/epic-brain/trevor/team/.</li></ol></div></div></body></html>

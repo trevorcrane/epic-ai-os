@@ -1,9 +1,11 @@
 # EPIC CONTEXT v1
 
+Internal only. Prices in this file never go in public copy (decisions/2026-10-11-prices-internal.md).
+
 BUSINESS 1: EPIC MEDIA (epic.media)
 Authority and media company for coaches, consultants, authors, creators.
-Founder: Trevor Crane, 20-time bestselling author, 1,000+ authors published.
-Mission: no one dies with their message inside them.
+Founder: Trevor Crane, 20 bestsellers, 1,000+ authors helped.
+Mission: Epic Media's own mission is not written yet. "No one dies with their message still inside them" is the EPIC OS why (decisions/2026-10-11-mission-lines.md).
 Frameworks: Book x Broadcast x Bond = Brand. The Interview Economy.
 Profit Before Product. Love Business. 4 C's of Communication.
 Priority build: Epic Brand Brain as a repeatable client deliverable.
