@@ -2,9 +2,9 @@
 
 Each file in this folder is the source of truth for one fleet law. Twelve laws. Paths inside these files are repo paths (`rules/<file>`).
 
-[fleet-os/GROKBOT_OS.md](../fleet-os/GROKBOT_OS.md) lists five of these laws and still uses the old paths. The other files here are laws too. Both the short list and this folder stay. See [CONFLICTS.md](../CONFLICTS.md).
+[fleet-os/GROKBOT_OS.md](../fleet-os/GROKBOT_OS.md) lists all twelve and points here ([decisions/2026-10-11-grokbot-os-rules.md](../decisions/2026-10-11-grokbot-os-rules.md)).
 
-[team/01-laws.md](../team/01-laws.md) is a second set, the Epic Laws. It is not a copy of these files.
+[team/01-laws.md](../team/01-laws.md) holds the core 10 Epic Laws. It is not a copy of these files. Both sets stay ([decisions/2026-10-11-laws.md](../decisions/2026-10-11-laws.md)).
 
 | File | Locked | What it covers |
 |---|---|---|

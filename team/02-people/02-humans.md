@@ -17,4 +17,4 @@ Sources: repo/team/ROLES.md, NAMES.md, Wake plan section 6, Reconnect plan, rule
 Sources for the new lines: Slack roles and IDs (Wake plan section 6), reconnects (Reconnect plan), Cloudflare (rules/CLOUDFLARE-PAGES-STANDARD.md), Runner (Wake plan section 3), Bob Mac worker (rules/CURSOR-BOB-DISPATCH.md), Mark and Roger (Profile 175f98c8), Ashley Peterson (Wake plan section 6).
 clear up: the wake plan also lists a Slack admin named Mark. Whether that is the Tango-pilot Mark is not written.
 
-Approvers: Len (client-facing delivery, yellow), Trevor (money, brand, naming, strategy). [NAMES.md] Trevor's 2026-09-28 rule (nothing outside without his OK) overrides until he says otherwise (Q37).
+Approvers: Len (client-facing delivery, yellow), Trevor (money, brand, naming, strategy). [NAMES.md] Decided 2026-10-11 (Q37 closed): agents post to Len and Trevor's internal team without asking Trevor (attribution line on, no keys). Anything to clients or outside people waits for Trevor to press Send. Len checks client delivery. (`decisions/2026-10-11-approvals.md`)

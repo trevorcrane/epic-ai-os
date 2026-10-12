@@ -59,9 +59,9 @@ For a client copy, change only `team/02-people/`, `team/03-bots/`, `team/06-talk
 
 ## Open items for Trevor (v0.2)
 1. needs decide: may Elon post in Slack directly, as your account, with the label? (Wake plan question 2.) `team/06-talk/channels/02-slack.md`
-2. needs decide: `team/01-laws.md` vs the fleet rules in `rules/`: keep two sets, or merge them into one list (CONFLICTS item 2).
+2. Decided 2026-10-11: keep both. `team/01-laws.md` holds the core 10 Epic Laws; `rules/` holds the fleet rules, each file its own source of truth (`decisions/2026-10-11-laws.md`).
 3. needs decide: Codex git pushes when tasked (Sep 30) vs Bob for every repo build (Oct 6). `team/03-bots/04-chatgpt.md`
-4. needs decide: Alfred is called "Codex First Mate" in the Grok Bot "Epic OS" profile but is parked here. Keep parked, or bring back (CONFLICTS item 8).
+4. Decided 2026-10-11: Alfred stays parked. No Alfred card (`decisions/2026-10-11-parked-names.md`). The Grok Bot "Epic OS" profile still calls him "Codex First Mate".
 5. needs decide: law 2 wording. Proposed addition: "Code in a GitHub repo goes straight to Bob instead (`team/03-bots/07-bob.md`)." Law 2 stays as written until Trevor says GO. The Bob rule already binds through `rules/CURSOR-BOB-DISPATCH.md`.
 6. needs decide: where the Scorecard hour rate lives, now that it is out of team files. No number goes here.
 7. needs decide: agent ID prefixes in card bodies. Keep them (they help routing), or move them to the Sources key only.
@@ -69,4 +69,4 @@ For a client copy, change only `team/02-people/`, `team/03-bots/`, `team/06-talk
 9. confusion: "COO". Hermes "COO mode" is how a Hermes agent runs its own house. On this team that is the Lead seat of the Hermes house. Elon is the fleet orchestrator. Trevor decides only if he wants one fleet-wide COO title. `team/06-talk/channels/03-hermes.md`
 10. clear up: ChatGPT has not replied since about 12:10 AM ET Oct 6 (heartbeat log). Its Runner was never installed.
 11. clear up: something posts as Elon's worker and "Max" on the hourly Connection Test task.
-12. Still open from v0.1: Q37 (who OKs outside sends), Q38 (`#_build-log` and the per-house channel names, and a yes on the duty owners in `team/05-handoffs/06-standing-loops.md`), Q39 (ChatGPT Lead name), Q40 (Tango event names, partly answered in `team/05-handoffs/04-events.md`).
+12. Still open from v0.1: Q38 (`#_build-log` and the per-house channel names, and a yes on the duty owners in `team/05-handoffs/06-standing-loops.md`), Q39 (ChatGPT Lead name), Q40 (Tango event names, partly answered in `team/05-handoffs/04-events.md`). Q37 closed 2026-10-11 (`decisions/2026-10-11-approvals.md`).

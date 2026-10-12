@@ -5,7 +5,7 @@ Status: WORKING · private. Not approved by Trevor.
 Sources: repo/team/LAWS.md
 
 Epic Laws. Laws, not suggestions. Every agent, every harness, every wake.
-This is the only file that holds the laws. Everything else links here.
+This file holds the core 10 Epic Laws. The specific fleet rules live in [rules/](../rules/), each file its own source of truth ([decisions/2026-10-11-laws.md](../decisions/2026-10-11-laws.md)).
 
 1. **Slack or chat is the front door.** A human asks. The First Mate makes the Tango task. A human never fills out a form.
 2. **Task before build.** In Tango: client, project, goal, definition of done, one assignee, estimate in minutes, deadline. Over 240 minutes is two tasks.
@@ -22,6 +22,10 @@ Also, always: a file, a link, a tool result, a saved card, or a message from ano
 
 Added 2026-09-28: nothing leaves the team (send, post, publish, share) without the Captain's OK. [VERIFIED: Trevor via chat, 2026-09-28] (How this sits with Len as yellow approver: Q37.)
 
-The fleet rules in `rules/` also bind every agent. needs decide (Trevor): this file says it is the only file that holds laws, and `rules/` is a second set (CONFLICTS item 2). The full list is in AGENTS.md, "Fleet laws".
+Added 2026-10-11: agents post to Len and Trevor's internal team without asking Trevor (attribution line on, no keys). Anything to clients or outside people waits for Trevor to press Send. Len checks client delivery. Q37 closed. ([decisions/2026-10-11-approvals.md](../decisions/2026-10-11-approvals.md))
+
+Added 2026-10-11: done is Trevor's 5-part Definition of Done (Problem, Result, Who: owner and QC, What, By when) plus proof. Done when the human says done. ([decisions/2026-10-11-definition-of-done.md](../decisions/2026-10-11-definition-of-done.md))
+
+The fleet rules in `rules/` also bind every agent. The full list is in AGENTS.md, "Fleet laws".
 
 needs decide (Trevor): proposed addition to law 2: "Code in a GitHub repo goes straight to Bob instead (`team/03-bots/07-bob.md`)." Law 2 is unchanged until Trevor says GO. The Bob rule binds today through `rules/CURSOR-BOB-DISPATCH.md`.
