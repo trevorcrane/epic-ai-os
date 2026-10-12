@@ -6,6 +6,10 @@ Each file in this folder is the source of truth for one fleet law. Twelve laws. 
 
 [team/01-laws.md](../team/01-laws.md) holds the core 10 Epic Laws. It is not a copy of these files. Both sets stay ([decisions/2026-10-11-laws.md](../decisions/2026-10-11-laws.md)).
 
+The five-part Definition of Done on main is [decisions/2026-10-11-definition-of-done.md](../decisions/2026-10-11-definition-of-done.md). This folder does not contain `DEFINITION-OF-DONE.md` and does not add a second copy.
+
+PR #4 (`NO-UNAPPROVED-FRAMEWORK-EDITS`) and PR #5 (`ACT-AND-FINISH-HOT-POTATO`) are not files in this folder. They stay on their own pull requests. This index stays at the twelve laws on main. The reconciliation note is [review/INDEX-RECONCILIATION.md](../review/INDEX-RECONCILIATION.md).
+
 | File | Locked | What it covers |
 |---|---|---|
 | [PLAN-BUILD-USE.md](PLAN-BUILD-USE.md) | 2026-09-29, updated 2026-09-30 and 2026-10-05 | Plan, then build, then use. No magic-password approval. When Trevor says build, build right away. |

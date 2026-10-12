@@ -18,7 +18,9 @@ Draft and Parked skills have no folder. They stay as lines in the index, which i
 
 ## Live skills (body missing)
 
-The installed skill files were not in the compile archive. Each folder below records the index card and the original path. Do not treat the card as the procedure.
+The installed skill files were not in the compile archive. Each folder below records the index card and the original path. Do not treat the card as the procedure. A Live status in the 2026-09-28 index is not an installed skill in this repo.
+
+[first-mate-os/SKILL.md](first-mate-os/SKILL.md) keeps its 2026-09-28 card text and marks it superseded. The card's Linear step and its named First Mate bot are not current instructions. Current wording is [decisions/2026-10-11-task-home.md](../decisions/2026-10-11-task-home.md) and [decisions/2026-10-11-first-mate.md](../decisions/2026-10-11-first-mate.md). The card is still not a skill body.
 
 1. [master-plan/SKILL.md](master-plan/SKILL.md)
 2. [pressure-test-before-go/SKILL.md](pressure-test-before-go/SKILL.md)

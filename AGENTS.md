@@ -1,24 +1,32 @@
 # AGENTS.md
 
-Every AI reads this file first. Epic OS v1 compile, 2026-10-06.
+Every AI reads this file first. Epic OS v1 compile, 2026-10-06, plus the recorded 2026-10-11 decision files.
 
-Brain files and Team files are DRAFT. Trevor has not approved them. Nobody says final.
+## Release status
 
-When two sources disagree, keep both. The open list is [CONFLICTS.md](CONFLICTS.md). Do not pick a winner from this file.
+Candidate baseline. Not an accepted release for runtime loading. This file does not designate one.
+
+The commit subject on `74d111fa6260c0d9415ff388bdfc76c51f922df7` (PR #3 merge) says Trevor approved 2026-10-11. That subject is not an accepted-release designation. The starting point for review is that commit. A host that loads context uses [context-load/README.md](context-load/README.md). Candidate and accepted stay separate records.
+
+Scoped decisions and the overall release are different. Each file in [decisions/](decisions/) dated 2026-10-11 records Trevor's answer to one named CONFLICTS item. That answer stands for the item it names. It does not approve Brain or Team as a whole. Brain files and Team files stay DRAFT until Trevor approves those files. Nobody says final.
+
+When a scoped decision names what it replaces, that decision beats the draft or archived sentence it names. The old sentence stays in its file. Where this review pass marked it, the mark means it is not a current instruction.
 
 ## Wake order
 
-1. This file.
-2. [team/01-laws.md](team/01-laws.md). The Epic Laws. Every agent, every wake.
-3. [brain/09-rules-of-engagement/](brain/09-rules-of-engagement/). All six files. Every wake.
-4. [brain/01-identity/](brain/01-identity/). Who Trevor is. Every wake.
-5. The fleet law list below. Know the list every wake. Open the matching file in [rules/](rules/) before work that file covers. The file is the rule. This list is the index.
-6. [CONFLICTS.md](CONFLICTS.md) before you treat overlapping sources as one fact.
-7. The folder the job is about. Do not load the whole Brain for a narrow job.
-8. [brain/04-voice/](brain/04-voice/) before any writing in Trevor's name.
-9. The Aug 17 seed docs, listed below, when the job is about SMAI, the mission board, or access status. The Aug 17 org chart is archived. They are not the wake path for Brain or Team work.
+1. This file, including the release status above. Read it before any other source.
+2. The scoped decision files in [decisions/](decisions/) that name the job's conflict. Newest wins only when the file names what it replaces. Provenance for the 2026-10-11 set is [decisions/PROVENANCE-2026-10-11.md](decisions/PROVENANCE-2026-10-11.md). A missing owner-utterance reference stays unresolved. Do not invent one.
+3. [context-load/README.md](context-load/README.md) when a host is loading a revision. Load the exact revision and the required manifest, or fail closed. Do not treat a candidate load as an accepted release.
+4. [team/01-laws.md](team/01-laws.md). The Epic Laws. Every agent, every wake.
+5. [brain/09-rules-of-engagement/](brain/09-rules-of-engagement/). All six files. Every wake.
+6. [brain/01-identity/](brain/01-identity/). Who Trevor is. Every wake.
+7. The fleet law list below. Know the list every wake. Open the matching file in [rules/](rules/) before work that file covers. The file is the rule. This list is the index.
+8. [CONFLICTS.md](CONFLICTS.md) as the closed record. No item on that list is open. The paragraphs under each heading are the 2026-10-06 wording, kept as written. They are not open conflicts and they are not current instructions.
+9. The folder the job is about. Do not load the whole Brain for a narrow job.
+10. [brain/04-voice/](brain/04-voice/) before any writing in Trevor's name.
+11. The Aug 17 seed docs, listed below, when the job is about SMAI, the mission board, or access status. The Aug 17 org chart is archived. They are not the wake path for Brain or Team work.
 
-Seat cards add their own wake lines (First Mate and Lead). Follow those after this list.
+Seat cards add their own wake lines (First Mate and Lead). Follow those after this list. A seat card does not outrank a scoped decision that names what it replaces.
 
 ## Where things live
 
@@ -30,12 +38,14 @@ Seat cards add their own wake lines (First Mate and Lead). Follow those after th
 | [team/](team/) | Trevor Team v0.2. Laws, people, bot cards, seats, handoffs, talk rules. Reviewer A/95 on 2026-10-06. Not approved by Trevor. |
 | [robyn/](robyn/) | Reserved for Robyn Crane. `robyn/brain/` will mirror `brain/`. `robyn/team/` will mirror `team/`. Not filled in the Trevor compile. |
 | [rules/](rules/) | Fleet laws. One file is the source of truth for one rule. Text copied unchanged. |
-| [decisions/](decisions/) | One file per recorded decision. Six lines. Newest file wins only when it names what it replaces. |
-| [skills/](skills/) | Skill index (all 20) plus a folder for each of the 9 Live skills. Draft and Parked skills are index lines only. |
+| [decisions/](decisions/) | One file per recorded decision. Six lines. Newest file wins only when it names what it replaces. The 2026-10-11 files are scoped answers, not an overall release. |
+| [decisions/PROVENANCE-2026-10-11.md](decisions/PROVENANCE-2026-10-11.md) | Blob references for those recorded answers. Owner-utterance links that were not found stay unresolved. |
+| [context-load/](context-load/) | Reviewable context loader. Candidate and accepted records, manifest, receipt, isolated tests. Not installed on a live agent. |
+| [skills/](skills/) | Skill index (all 20) plus a folder for each of the 9 Live skills. Those folders are index cards. The skill bodies were not in the archive and are not installed by this repo. Draft and Parked skills are index lines only. |
 | [workflows/](workflows/) | One file per workflow. The publishing workflow was not in the compile archive. See that folder's readme. |
-| [fleet-os/GROKBOT_OS.md](fleet-os/GROKBOT_OS.md) | Grok Bot OS summary from 2026-09-30. Its fleet law list points at all twelve files in `rules/` (2026-10-11). It says a full refresh is still owed. |
+| [fleet-os/GROKBOT_OS.md](fleet-os/GROKBOT_OS.md) | Grok Bot OS summary from 2026-09-30. The fleet law list points at all twelve files in `rules/` (2026-10-11). The saved stack is marked and is not a current instruction. A full refresh is still owed. |
 | [QUESTIONS.md](QUESTIONS.md) | Open questions for Trevor. Q numbers in the Brain point here. |
-| [CONFLICTS.md](CONFLICTS.md) | Places sources disagree. Closed items link to their decision file. |
+| [CONFLICTS.md](CONFLICTS.md) | Closed record of places sources disagreed. No item is open. Each item links to its decision file. The 2026-10-06 paragraphs stay in the file and are not current instructions. |
 | [sources/](sources/) | The layout plan, the proposed tree, and the source inventory. Reference. Not wake instructions. |
 | [brand/](brand/) | Aug 17 voice folders for Trevor and Robyn. Stubs. The drafted voice is [brain/04-voice/](brain/04-voice/). |
 | [clients/](clients/) | Client material, not Trevor's. [clients/dr-leigh/](clients/dr-leigh/) is a case study and funnels to model. |
@@ -61,6 +71,10 @@ Source of truth: the file in [rules/](rules/). Twelve fleet laws.
 12. [rules/CURSOR-BOB-DISPATCH.md](rules/CURSOR-BOB-DISPATCH.md). Code and repo changes go straight to Bob, a Cursor cloud agent, not through Tango. Bob opens a pull request only and never merges. A human decides the merge.
 
 [team/01-laws.md](team/01-laws.md) holds the core 10 Epic Laws. The files above are the specific fleet rules, each its own source of truth. Both sets stay ([decisions/2026-10-11-laws.md](decisions/2026-10-11-laws.md)).
+
+Done, when a task needs that word, uses the five-part source that is already on main: [decisions/2026-10-11-definition-of-done.md](decisions/2026-10-11-definition-of-done.md). There is no `DEFINITION-OF-DONE.md` in this tree. This file does not add one.
+
+Two fleet-law pull requests are not in this tree and are not copied here. PR #4 (`rules/NO-UNAPPROVED-FRAMEWORK-EDITS.md`) and PR #5 (`rules/ACT-AND-FINISH-HOT-POTATO.md`) stay on their own branches. PR #5 cites `DEFINITION-OF-DONE.md`. On main, the five-part source is the decision file named above. The index in this file stays at the twelve laws on main. See [review/INDEX-RECONCILIATION.md](review/INDEX-RECONCILIATION.md).
 
 ## Aug 17 seed (kept)
 

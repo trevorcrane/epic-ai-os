@@ -6,6 +6,9 @@ Sources: PROPOSED-STRUCTURE.md, repo/brain/*, repo/memory/DECISIONS.md
 This is Trevor Crane's Brain, split into small files. One idea per file. Load what the job needs, not everything.
 
 ## Load order
+
+Repo wake order is [../AGENTS.md](../AGENTS.md). It reads release status and `decisions/` before this folder. The list below is how to move inside the Brain after that. This folder stays DRAFT.
+
 1. `09-rules-of-engagement/` every wake. Always.
 2. `04-voice/` before writing anything in Trevor's name.
 3. The folder the job is about (offers, audience, proof, and so on).

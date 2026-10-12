@@ -2,6 +2,7 @@
   "title": "Epic OS Skill Library",
   "owner": "Trevor Crane",
   "generated": "2026-09-28",
+  "repo_note": "Status Live is the 2026-09-28 index status on the source machine. This repo does not contain the skill bodies. Index cards are not installed skills. Epic OS (First Mate) in a bots list is that index's label, not the current First Mate decision.",
   "counts": {
     "Live": 9,
     "Draft": 6,

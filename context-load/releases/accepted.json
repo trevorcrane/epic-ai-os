@@ -1,0 +1,9 @@
+{
+  "schema": "epic-os-context-release/1",
+  "role": "accepted",
+  "status": "none",
+  "accepted_release": false,
+  "content_revision": null,
+  "required": [],
+  "note": "No accepted runtime release is designated. Do not point this record at the candidate baseline or at the PR #3 merge."
+}

@@ -1,8 +1,12 @@
 # CONFLICTS
 
-Open as of the 2026-10-06 compile. No winner is chosen here. Each source keeps its own wording in its own file. A later decision file can close an item by naming what it replaces.
+Status: closed list. No items are open as of 2026-10-11.
 
-Trevor answered this list on 2026-10-11 at 10:32 PM ET. Each closed item links to its decision file in [decisions/](decisions/). Trevor closed items 22 and 24 in a follow-up at 10:37 PM ET. No items are open. The text under each heading is the 2026-10-06 record, kept as written.
+<!-- context-bundle: preserved-superseded -->
+
+This file was an open list in the 2026-10-06 compile. That compile did not choose a winner, and each source kept its own wording. Trevor answered the list on 2026-10-11 at 10:32 PM ET. He closed items 22 and 24 in a follow-up at 10:37 PM ET. Every item below is CLOSED and links to its decision file in [decisions/](decisions/). The paragraphs under each heading are the 2026-10-06 record, kept as written. They are not open conflicts. They are not current instructions. A scoped decision does not approve Brain or Team as a release.
+
+Closing this list did not leave a later item open. Do not describe the file as an open list.
 
 Q numbers point at [QUESTIONS.md](QUESTIONS.md).
 

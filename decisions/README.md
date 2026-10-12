@@ -9,7 +9,9 @@ One file per decision. Name: `YYYY-MM-DD-short-name.md`. Six lines, in this orde
 5. `Affects:` files or bots it changes.
 6. `Replaces:` older decision file, if any. Newest wins.
 
-A file here records what a source already said. It does not close a conflict unless `Replaces:` names the loser. Open disagreements stay in [CONFLICTS.md](../CONFLICTS.md).
+A file here records what a source already said. A later file wins only when `Replaces:` names the loser. [CONFLICTS.md](../CONFLICTS.md) is a closed list as of 2026-10-11. No item there is open. The 2026-10-06 paragraphs in that file are the old wording, kept on purpose.
+
+The 2026-10-11 answers are scoped to the CONFLICTS item each file names. They are not an accepted release of Brain, Team, or runtime loading. Provenance, including unresolved owner-utterance references, is [PROVENANCE-2026-10-11.md](PROVENANCE-2026-10-11.md). This map does not reopen a decision and does not add a seventh line to a decision file.
 
 Decisions live here, one file per decision ([2026-10-11-decisions-home.md](2026-10-11-decisions-home.md)). [brain/00-README.md](../brain/00-README.md) source priority points here. `memory/DECISIONS.md` from [sources/PROPOSED-STRUCTURE.md](../sources/PROPOSED-STRUCTURE.md) is not used.
 

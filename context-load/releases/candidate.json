@@ -1,0 +1,226 @@
+{
+  "schema": "epic-os-context-release/1",
+  "role": "candidate",
+  "status": "candidate",
+  "accepted_release": false,
+  "baseline_commit": "74d111fa6260c0d9415ff388bdfc76c51f922df7",
+  "baseline_note": "PR #3 merge. Candidate baseline only. Not an accepted runtime release.",
+  "definition_of_done": "decisions/2026-10-11-definition-of-done.md",
+  "four_cs_question_required": true,
+  "four_cs_question_source": "brain/05-messaging/06-four-cs.md",
+  "four_cs_question_marker": "Do you know why we're here?",
+  "gaps": [
+    "no-accepted-release",
+    "owner-utterance-unresolved",
+    "skill-bodies-absent",
+    "loader-not-installed"
+  ],
+  "open_questions": [
+    "reviewer-bar-unresolved"
+  ],
+  "required": [
+    {
+      "path": "AGENTS.md",
+      "bundle": "current",
+      "sha256": "e817e003f7ec2c6bf6459d45d4a94bc6a960d1f92f965b16b914600e09d184ad"
+    },
+    {
+      "path": "CONFLICTS.md",
+      "bundle": "preserved-superseded",
+      "must_contain": [
+        "No items are open",
+        "Linear wins on conflicts"
+      ],
+      "sha256": "c8709a42053a3baf461b9488ddd553cd5f5bf1f827524705253a9431b6e910ad"
+    },
+    {
+      "path": "README.md",
+      "bundle": "current",
+      "sha256": "d3c259121506792f56977e7104b8609f104967194e61e1301127cfd6f5a01852"
+    },
+    {
+      "path": "brain/00-README.md",
+      "bundle": "current",
+      "sha256": "8947d1f2e2e0848b2371693bd2db224577ddb36b48bd32ae9a8d3611245cfa93"
+    },
+    {
+      "path": "brain/05-messaging/06-four-cs.md",
+      "bundle": "current",
+      "sha256": "d628fe625d772e1c137cd39bad03c1b82a368b4ee57c84ba085d960a34188622"
+    },
+    {
+      "path": "context-load/README.md",
+      "bundle": "current",
+      "sha256": "d184b0474627c210f21c502efc9c0182581aae06f3ab593e0e7e93d6c4645bac"
+    },
+    {
+      "path": "context-load/fixtures/archived-alfred-active.md",
+      "bundle": "preserved-superseded",
+      "must_contain": [
+        "with Alfred added"
+      ],
+      "sha256": "1a6b135520a579ee14d5ef1a6569e322b5ad88d82c9df352cda2b05b24e267a6"
+    },
+    {
+      "path": "context-load/fixtures/archived-fixed-first-mate.md",
+      "bundle": "preserved-superseded",
+      "must_contain": [
+        "Chief of Staff + Grok Operator (combined for now)"
+      ],
+      "sha256": "92a05cb2fc8f456dbed845b6030ce4311b69a52517ce0d1ba479df726531adf4"
+    },
+    {
+      "path": "context-load/fixtures/archived-linear-is-sor.md",
+      "bundle": "preserved-superseded",
+      "must_contain": [
+        "Linear wins on conflicts"
+      ],
+      "sha256": "e09375ed11cb422dd5479191b86cc58535422057f0958e3de5f9dad583160e54"
+    },
+    {
+      "path": "context-load/loader.py",
+      "bundle": "review",
+      "sha256": "e0af46514f33f933e74b9129050e9f835a5708160f2298fbf07c36ba1c1dd22d"
+    },
+    {
+      "path": "context-load/releases/accepted.json",
+      "bundle": "review",
+      "sha256": "1ae5cec55f2470455d233b64161aae33f69421812ff1b728137565006257dd10"
+    },
+    {
+      "path": "context-load/test_loader.py",
+      "bundle": "review",
+      "sha256": "9ea48123143a9c81195b2664082f7e401d88ec34485fee78518ac5c2aee44ebc"
+    },
+    {
+      "path": "decisions/2026-10-11-definition-of-done.md",
+      "bundle": "current",
+      "sha256": "065265938e3c27332c3ef22ecb8fa9db5907fdfdec08181ace5f4ffb25ed60d4"
+    },
+    {
+      "path": "decisions/2026-10-11-first-mate.md",
+      "bundle": "current",
+      "sha256": "d8a2f2bd89f6b3d285ca69d597ebfdcd26f4ffe8a3c36e7b511e71b21ff7dacb"
+    },
+    {
+      "path": "decisions/2026-10-11-four-cs.md",
+      "bundle": "current",
+      "sha256": "8866bca406430cb2b27fdef1585488f235ad1fab39d4308143a0477e089e373c"
+    },
+    {
+      "path": "decisions/2026-10-11-parked-names.md",
+      "bundle": "current",
+      "sha256": "ea032a85eca2cb0c5af073db7778848599d9e447959467a3f609fce803534ba4"
+    },
+    {
+      "path": "decisions/2026-10-11-task-home.md",
+      "bundle": "current",
+      "sha256": "73d0c368f8d03708cb50cee2fbf5b88c6dfee4044860da93b78c801f49c98313"
+    },
+    {
+      "path": "decisions/PROVENANCE-2026-10-11.md",
+      "bundle": "current",
+      "sha256": "d6d0079075afd690ad924116e9b1400fd6cbd9ef4a7f963b3ded5fdcfac3c2e1"
+    },
+    {
+      "path": "decisions/README.md",
+      "bundle": "current",
+      "sha256": "e18491083c6e5ad595db9bf9c812dc2531e1a4ffa63ba1f59998a4c5d4aea16b"
+    },
+    {
+      "path": "fleet-os/GROKBOT_OS.md",
+      "bundle": "mixed",
+      "excluded_markers": [
+        "Chief of Staff + Grok Operator (combined for now)",
+        "Linear Fleet DoD"
+      ],
+      "current_markers": [
+        "## Fleet Laws (SoT under `rules/` in this repo)",
+        "## Decided 2026-10-11"
+      ],
+      "sha256": "c8fe4682b46e168b5aa86709b50606edf3621891988afd081d3e538be4711899"
+    },
+    {
+      "path": "review/FILE-CHANGE-MAP.md",
+      "bundle": "review",
+      "sha256": "cb5a7013ceb3f41080eae3e124c12559e48e8e37619ab6e5e9a9c92d9a12a063"
+    },
+    {
+      "path": "review/GAPS.md",
+      "bundle": "review",
+      "sha256": "ae1aec89930a759a8a2a25fa9b05ef94edc65f63be2deac7553b7f41c6cb9bac"
+    },
+    {
+      "path": "review/INDEX-RECONCILIATION.md",
+      "bundle": "review",
+      "sha256": "26b7ed10b1c57e792c79421740f582a99352855f527df28b333ee07901146ce3"
+    },
+    {
+      "path": "review/SOURCE-TARGET-MAP.md",
+      "bundle": "review",
+      "sha256": "2be52d80a92994acfc4fc24a75b2fea9998d4f932485db35d6a6521104e6fd0a"
+    },
+    {
+      "path": "review/reviewer-bar-original-and-pivots.md",
+      "bundle": "proposal",
+      "sha256": "fd55fd70169a83165de72ed9bd0f24b0b36e491be07d8280a389f906a67982ef"
+    },
+    {
+      "path": "rules/README.md",
+      "bundle": "current",
+      "sha256": "42629f6d1da316717665499ac6d334b33b993117e684ac83fd16372d97640d1a"
+    },
+    {
+      "path": "skills/README.md",
+      "bundle": "current",
+      "sha256": "71a5a615014ad0471b8549d4c702231057a9a2192c653c0398ef91a46432f502"
+    },
+    {
+      "path": "skills/first-mate-os/SKILL.md",
+      "bundle": "preserved-superseded",
+      "must_contain": [
+        "Linear card",
+        "Epic OS (First Mate)"
+      ],
+      "sha256": "b6bfa62041d9c7f7387476758024dbc0fbd82bb2594d4b6e1d1677d2dbb7f1db"
+    },
+    {
+      "path": "sources/GITHUB-TANGO-SYNC-PLAN.md",
+      "bundle": "preserved-superseded",
+      "must_contain": [
+        "Linear wins on conflicts",
+        "with Alfred added"
+      ],
+      "sha256": "6086624787d0f7eec67240b4fad4304b579396948acf52aa219af666749d294b"
+    },
+    {
+      "path": "team/01-laws.md",
+      "bundle": "current",
+      "sha256": "11df16d59111d96f5d63c1cafce4bcadee9d4d8fa8411bd769de64a7e526a803"
+    }
+  ],
+  "precedence_checks": [
+    {
+      "id": "alfred",
+      "decision": "decisions/2026-10-11-parked-names.md",
+      "fixture": "context-load/fixtures/archived-alfred-active.md",
+      "decision_marker": "no Alfred card",
+      "fixture_marker": "with Alfred added"
+    },
+    {
+      "id": "first-mate",
+      "decision": "decisions/2026-10-11-first-mate.md",
+      "fixture": "context-load/fixtures/archived-fixed-first-mate.md",
+      "decision_marker": "whichever AI Trevor is talking to",
+      "fixture_marker": "Chief of Staff + Grok Operator (combined for now)"
+    },
+    {
+      "id": "task-home",
+      "decision": "decisions/2026-10-11-task-home.md",
+      "fixture": "context-load/fixtures/archived-linear-is-sor.md",
+      "decision_marker": "not the system of record",
+      "fixture_marker": "Linear wins on conflicts"
+    }
+  ],
+  "content_revision": "e45b07072e599685553e3d30b342ff483a076b0b1a88b1e854d309b2e296ff02"
+}
