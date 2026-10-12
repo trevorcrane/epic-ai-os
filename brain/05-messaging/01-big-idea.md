@@ -3,7 +3,7 @@ Sources: repo/brain/03-messaging.md (rebuilt 2026-09-27 from his Sept 15 MESSAGI
 
 # The big idea
 
-The line under everything: **No one dies with their message inside them.** It came from losing Steven (the story is in 01-identity.md, with the rules for telling it right). It's the reason the company exists. Use it when it's true, not as decoration.
+The line under everything: **No one dies with their message still inside them.** It came from losing Steven (the story is in 01-identity.md, with the rules for telling it right). It's the reason the company exists. Use it when it's true, not as decoration.
 
 The other lines Trevor actually says, and any of them can carry a piece:
 - "Your story matters." / "Your message matters."

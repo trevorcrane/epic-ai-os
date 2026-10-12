@@ -6,11 +6,11 @@ Sources: Trevor chat 2026-09-28, repo/brain/03-messaging.md, 01-identity.md, v0.
 ## The lines, and which job each does
 | Line | Job | Tag |
 |---|---|---|
-| "Build the team that builds your dream." | The company mission. What EPIC does for a client. | [VERIFIED: Trevor via chat, 2026-09-28] |
-| "No one dies with their message inside them." | The why under everything. Where the mission came from (Steven). | [VERIFIED: bios] |
+| "Build the team that builds your dream." | The EPIC OS mission. What EPIC does for a client. | [VERIFIED: Trevor via chat, 2026-09-28] |
+| "No one dies with their message still inside them." | The why under everything. Where the mission came from (Steven). | [VERIFIED: bios] |
 | "Build an Extraordinary Life." | The EPIC master brand line. | [VERIFIED: v1] |
 | "How I make other brands awesome." | What the Trevor Crane brand is. | [VERIFIED: Trevor via chat, 2026-09-28] |
-The hierarchy above is my best read. Trevor confirms: Q2.
+Trevor confirmed on 2026-10-11 that the first three are EPIC OS's lines (Q2 closed, `../../decisions/2026-10-11-mission-lines.md`). Each brand (Epic Media, Trevor Crane, and the rest) has its own mission, separate and not written yet.
 Variants in his drafts: "Build the team to build your dream." / "Build the team. Build the dream." / "Build the team to build the dream." [VERIFIED: Skool draft 9/26/26, 03-messaging, 06-goals] Use the 2026-09-28 wording.
 
 ## The three verbs

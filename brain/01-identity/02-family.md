@@ -16,15 +16,15 @@ How I talk to her: `04-voice/by-audience/04-spouse.md`.
 ## Kids
 | Name | Notes |
 |---|---|
-| Phoenix | Oldest. [VERIFIED: v0.2] |
+| Phoenix | Oldest. Published author. [VERIFIED: v0.2; author: Trevor, 2026-10-11] |
 | Maverick | Published author. [VERIFIED: Trevor via chat, 2026-09-28] |
 | Sage | Published author. [VERIFIED: Trevor via chat, 2026-09-28] |
-"All kids published authors." [VERIFIED: Trevor via chat, 2026-09-28] Whether "all kids" includes Phoenix, and the book titles: Q1.
+"All kids published authors." [VERIFIED: Trevor via chat, 2026-09-28] That includes Phoenix. [VERIFIED: Trevor, 2026-10-11] The book titles: Q1.
 Goal: help the kids publish their own books. [VERIFIED: v0.2]
 Documenting the journey. "Capturing the journey matters even independently of audience growth." [VERIFIED: v0.2]
 
 ## The family channel
-Crazy Crane (Crazy Cranes): family adventures, kids, books. Viewers, not clients. [VERIFIED: v0.2] Detail: `03-brands/06-other-properties.md`.
+The Crazy Cranes: family adventures, kids, books. Viewers, not clients. Kept separate from business. [VERIFIED: v0.2; name: Trevor, 2026-10-11] Detail: `03-brands/06-other-properties.md`.
 
 ## Rules
 - Never transfer Phoenix's school history or interests to Trevor. They came from an old shared account. [VERIFIED: v0.2]

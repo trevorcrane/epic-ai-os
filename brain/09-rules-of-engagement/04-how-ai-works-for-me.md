@@ -12,7 +12,7 @@ Optimize for results, leverage, simplicity, my real voice. Never for agent count
 
 ## Deliverables
 
-Done is `team/LAWS.md` law 5, green exception included. Every deliverable file says DRAFT until I approve. [BELIEVED 90%: Claude preferences; Trevor confirms]
+Done is `team/01-laws.md` law 5, green exception included. Every deliverable file says DRAFT until I approve. [BELIEVED 90%: Claude preferences; Trevor confirms]
 Self-contained: every brief, link, and file needed is inside the doc.
 No open questions inside a deliverable. Ask in chat, with a pick I can approve.
 Model the best of what exists. Big decisions get a council debate.

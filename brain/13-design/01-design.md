@@ -22,6 +22,6 @@ Green for on target or go, yellow for off target with a plan or confirm first, r
 
 ## Gaps
 [GAP: Trevor picks a palette, or hires it out. Until then this file blocks visual work.]
-[GAP: logo files, photo direction, and the Crazy Crane channel look.]
+[GAP: logo files, photo direction, and The Crazy Cranes channel look.]
 
 Note: the current Epic OS site (dark, cream, gold, Fraunces) was chosen by AI. It is not approved and it uses gold, which the intake page says belongs to Robyn. (Q36)

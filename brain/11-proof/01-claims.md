@@ -8,6 +8,7 @@ Sources: repo/brain/10-proof.md (9_15 master PROOF citing WriteRIGHT, Big Money 
 ## The claim
 
 "For the last 10+ years, I have 20 bestsellers and helped 1,000+ authors." [BELIEVED 85%: 9_15, "locked" label. The numbers match his bios]
+The proof count: "20 bestsellers, 1,000+ authors helped." [VERIFIED: Trevor, 2026-10-11, `../../decisions/2026-10-11-proof-count.md`]
 In his bios: "I've helped 1K+ authors become bestsellers & grow their brands & biz." [VERIFIED: bios]
 Historical, do not use: "6 time #1," "14 bestsellers," "200 people." [9_15]
 

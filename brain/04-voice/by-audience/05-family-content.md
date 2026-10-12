@@ -1,7 +1,7 @@
 Status: DRAFT v1, 2026-09-28. Not approved by Trevor.
 Sources: v0.2, repo/brain/04-audience.md, 06-goals.md
 
-# Voice: family content (Crazy Crane channel)
+# Voice: family content (The Crazy Cranes channel)
 
 Who: viewers, not clients. Families. [VERIFIED: v0.2]
 What: family adventures, creativity, the kids, their books, documenting life. [VERIFIED: v0.2]
