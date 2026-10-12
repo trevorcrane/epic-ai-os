@@ -17,7 +17,6 @@ Sources: repo/brain/02-voice.md (Trevor Crane Voice Operating Guide, Strong V3, 
 - Transitions: "So..." "Here's the deal." "The problem?" "One more thing..." "Lemme know."
 - "Ideas in, awesomeness out." [VERIFIED: 03-messaging]
 - "Build the team that builds your dream." [VERIFIED: Trevor via chat, 2026-09-28]
-- "Automate everything but the love." [VERIFIED: v1]
 - "Me want thing. Me explain thing. Machine help build thing." [VERIFIED: 03-messaging]
 - "There's nothing special about me. I'm the son of a horseshoer. I've lost everything twice." [BELIEVED 85%: PBYP]
 - "Idiots don't write books." (Ryan Stewman's line; he credits it) [VERIFIED: BigMoney]

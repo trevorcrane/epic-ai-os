@@ -1,0 +1,6 @@
+Date: 2026-10-11
+Decision: "Automate everything but the love.", "Own what you build." (and "Own what you build. Clients walk away with the whole system."), and "Speed over polish" (and "Speed matters more than polish. Fast is the point.") are not Trevor's words and are removed everywhere; where a line did a job it is replaced by the draft line "[DRAFT LINE] Automate and accelerate only the things that matter and don't need a live human part.", which is not a quote.
+Why: Trevor said on 2026-10-11 at 11:09 PM ET: "I never said or would say "Automate everything but the love." "Own what you build." "Speed over polish." Those are not quotes or things I'd say. I agree to automate and accelerate, but only things that matter and that don't need a live part."
+Decided by: Trevor, 2026-10-11 11:09 PM ET.
+Affects: brain/01-identity/05-beliefs-and-faith.md, brain/02-mission/01-mission-and-promise.md, brain/03-brands/04-epic-os.md, brain/04-voice/03-signature-phrases.md, brain/05-messaging/01-big-idea.md, brain/05-messaging/05-love-business.md, brain/05-messaging/08-brain-team-revenue-machine.md, brain/08-likes-dislikes/01-likes.md.
+Replaces: the [VERIFIED: v1] and [BELIEVED 75%: 9_15] tags on those three lines. "Tell the truth about the tools." stays.
