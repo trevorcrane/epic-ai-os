@@ -6,19 +6,19 @@ Answer in any order. Voice memo is fine. A one-word answer is fine.
 Where I have a pick, it's in bold. Say "yes" and it's locked.
 
 ## Top 10 (these unblock the most)
-1. **Q2. Mission hierarchy.** My read: "Build the team that builds your dream" = the company mission. "No one dies with their message inside them" = the why (Steven). "Build an Extraordinary Life" = the EPIC master line. **Yes?**
-2. **Q1. Kids' books.** You said Maverick and Sage, "all kids published authors." Does that include Phoenix? What are the titles?
-3. **Q7. Smart / Pro / Epic.** Two meanings in the files: Brain depth (Smart 10 / data pack / 100 inputs) vs the site's offer tiers (free / done-with-you / done-for-you). **Pick: keep the depth meaning for the Brain, rename the site tiers.** Or use one meaning for both.
+1. ~~**Q2. Mission hierarchy.**~~ CLOSED 2026-10-11: the three lines are EPIC OS's; each brand has its own mission, not written yet. [decisions/2026-10-11-mission-lines.md](decisions/2026-10-11-mission-lines.md)
+2. **Q1. Kids' books.** "All kids" includes Phoenix (answered 2026-10-11, [decisions/2026-10-11-kids-authors.md](decisions/2026-10-11-kids-authors.md)). Still open: what are the titles?
+3. ~~**Q7. Smart / Pro / Epic.**~~ CLOSED 2026-10-11: they are your offer tiers; the Brain-depth meaning is retired. [decisions/2026-10-11-offer-tiers.md](decisions/2026-10-11-offer-tiers.md)
 4. **Q26. Two products in public.** Authority Accelerator (hero) and Epic OS Install. One path on the site, or two doors? **Pick: two doors, one site per product.**
 5. **Q36. Design.** No approved palette. The current site's gold/cream was my pick, and gold is Robyn's. **Pick: candidate B (orange on near-black, Bebas Neue + DM Sans)**, or hire it out.
 6. **Q31. The graveyard.** What have you tried that didn't work, so no AI ever recommends it again? And "what I will not do for money," in your words. Highest-value blank in the Brain.
-7. **Q37. Who OKs outside sends?** You said nothing goes outside without your OK. The laws make Len the yellow approver for client delivery. **Pick: Len checks, you OK the send, until you say otherwise.**
-8. **Q3. Repo name.** `epic-ai-os` (what you said) or `epic-os-trevor` (DECISIONS.md). **Pick: `epic-ai-os` as the template, `epic-ai-os-trevor` as your filled copy.**
+7. ~~**Q37. Who OKs outside sends?**~~ CLOSED 2026-10-11: internal team posts need no OK; anything to clients or outside people waits for you to press Send; Len checks client delivery. [decisions/2026-10-11-approvals.md](decisions/2026-10-11-approvals.md)
+8. ~~**Q3. Repo name.**~~ CLOSED 2026-10-11: `epic-ai-os` is the single source of truth, no second repo. [decisions/2026-10-11-single-repo.md](decisions/2026-10-11-single-repo.md)
 9. **Q4. "Invisible to in demand."** It's your approved promise. Use it on the Epic OS site, or keep it for Epic Author? **Pick: Epic Author only.**
 10. **Q22. Real samples.** The voice files have zero transcribed speech. One Fathom call or one Make It Rain transcript fixes most voice and framework gaps at once. Which one?
 
 ## Identity and family
-- Q1. Phoenix and the kids' book titles. (above)
+- Q1. The kids' book titles. Phoenix is included. (above)
 - Q9. The four industries behind "made millions in 4 industries."
 - Q10. "Lost everything. Twice." What was the second time?
 - Q11. Family content: what can be filmed, named, or shown (school, location, faces)? Who speaks for the kids' books? Swearing on the family channel: never, right?
@@ -29,7 +29,7 @@ Where I have a pick, it's in bold. Say "yes" and it's locked.
 - Q21. "Son of a horseshoer. Lost everything twice." Your line? OK to use?
 
 ## Mission, brands, journey
-- Q2. Mission hierarchy. (above)
+- Q2. Mission hierarchy. CLOSED 2026-10-11. (above)
 - Q15. "Authority. Amplified. Automated." as the three-company shorthand. My build from your three verbs. OK to use? And the v0.2 positioning line ("I help business owners amplify their voice, monetize their expertise, and build the team that will build their dream"): approve, edit, or kill?
 - Q16. The journey is attention → attraction → action. The site adds "accelerate." Keep or drop? Where does your longer A-list (Authority, Attention, Attraction, Action, Ascend, Ask) fit?
 - Q17. Stage mapping (the site uses it): Epic Author = attention (authority), Epic Media = attraction (amplify), Epic OS = action (automate). Right, or does each company touch every stage?
@@ -38,7 +38,7 @@ Where I have a pick, it's in bold. Say "yes" and it's locked.
 - Q41. Make It Rain: dormant, relaunching, or retired?
 
 ## Frameworks
-- Q5. The 4 C's third word: Clarity or Clarify?
+- ~~Q5. The 4 C's third word: Clarity or Clarify?~~ CLOSED 2026-10-11: Clarity. [decisions/2026-10-11-four-cs.md](decisions/2026-10-11-four-cs.md)
 - Q6. Book × Broadcast × Bond: yours, or borrowed from Daniel Priestley? How do you explain it on a call? (3-minute memo)
 - Q23. Finish this sentence (Profit Before Product, Rule 7): "If you can't create desire and demand for you and your ideas and your products and services before they exist,"
 - Q8. AIYOU, AI YOU, or AIU?
@@ -55,7 +55,7 @@ Where I have a pick, it's in bold. Say "yes" and it's locked.
 ## Rules and team
 - Q31. Graveyard and "won't do for money." (above)
 - Q32. Standing authority: what can AI publish, send, or spend without asking each time? Until you say, the answer is nothing.
-- Q37. Len vs your OK. (above)
+- Q37. Len vs your OK. CLOSED 2026-10-11. (above)
 - Q38. Slack channel names (`#_max`, `#_elon`, `#_build-log` are guesses) and which Lead owns each standing duty (7am Scorecard line, weekly 1-3-1, Friday sync).
 - Q39. Name for the ChatGPT / Codex Lead.
 - Q40. Handoffs are event-driven. Which Tango notifications actually fire (created, assigned, review requested, blocked)? I named them from the loop.
