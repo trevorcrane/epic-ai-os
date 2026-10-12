@@ -180,7 +180,7 @@
       "path": "context-load/loader.py",
       "bundle": "review",
       "scope": "record",
-      "sha256": "cc88c83e37fb415f59cd775d937e0e23837001f4f283442281b46871293c5701"
+      "sha256": "ca766354c5e575496b82489512d738ef93d704831e92e536d8f4e3571e6176eb"
     },
     {
       "path": "context-load/releases/accepted.json",
@@ -199,7 +199,7 @@
       "path": "context-load/test_loader.py",
       "bundle": "review",
       "scope": "record",
-      "sha256": "5e7f393381d4aa5a3bbce1848d01532d8e0a8f6d8b13ccd53ba35e0dc3990b18"
+      "sha256": "e58fdef6723704fab9cd3ffba96b78d005df81a890abfd671b66613909d309de"
     },
     {
       "path": "decisions/2026-10-11-approvals.md",
@@ -570,5 +570,5 @@
       "decision_file_in_this_tree": false
     }
   ],
-  "content_revision": "d8d922721bcce071d243deac20efe9470c264a8c5bc4ebde0b053c59b1cb6040"
+  "content_revision": "6bf055f975d18b17f2cedaa320bf75e2814c4fe236cee296c386e58eba9867d8"
 }

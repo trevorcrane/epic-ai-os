@@ -397,11 +397,41 @@ def _withhold_record(path: str) -> dict:
     }
 
 
+def _lower_origin_map(text: str) -> tuple[str, list[int]]:
+    """Map each code point of text.lower() back to an index in text.
+
+    str.lower() can expand one code point into several. U+0130 (İ) becomes
+    "i" plus a combining dot, so a find() index in the lowered string is not
+    an index in text. Callers must not slice text with those indexes.
+    The width of each character's lowercase is context-free, including where
+    the lowered character itself depends on context (final sigma).
+    """
+    origins: list[int] = []
+    for index, char in enumerate(text):
+        origins.extend([index] * len(char.lower()))
+    lowered = text.lower()
+    if len(origins) == len(lowered):
+        return lowered, origins
+    # Per-character widths disagreed with the whole-string lower. Rebuild
+    # from prefix lengths so the map still describes text.lower() itself.
+    origins = []
+    previous = 0
+    for index in range(len(text)):
+        current = len(text[: index + 1].lower())
+        if current < previous or current > len(lowered):
+            break
+        origins.extend([index] * (current - previous))
+        previous = current
+    if len(origins) != len(lowered):
+        raise RuntimeError("lower-origin map does not cover text.lower()")
+    return lowered, origins
+
+
 def _withhold_rejected(path: str, text: str, withheld: list[dict]) -> str:
     """Drop disputed spans. Keep neighboring wording and attribution."""
     if not text:
         return text
-    lower = text.lower()
+    lowered, origins = _lower_origin_map(text)
     occupied = bytearray(len(text))
     removals: list[tuple[int, int]] = []
 
@@ -428,13 +458,18 @@ def _withhold_rejected(path: str, text: str, withheld: list[dict]) -> str:
         return True
 
     for span in (*REJECTED_SPANS, *REJECTED_ATTRIBUTION_MARKERS):
+        if not span:
+            continue
         search = 0
         while True:
-            found = lower.find(span, search)
+            found = lowered.find(span, search)
             if found < 0:
                 break
-            take(found, found + len(span))
-            search = found + max(len(span), 1)
+            span_end = found + len(span)
+            if span_end > len(origins):
+                break
+            take(origins[found], origins[span_end - 1] + 1)
+            search = span_end
     if not removals:
         return text
     pieces: list[str] = []

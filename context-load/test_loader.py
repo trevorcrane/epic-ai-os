@@ -765,6 +765,64 @@ class LoaderTests(unittest.TestCase):
         )
         self.assertEqual(receipt["withheld_rejections"][0]["owner_utterance"], "unresolved")
 
+    def test_unicode_expanding_prefix_keeps_neighbor_quote_and_attribution(self) -> None:
+        """U+0130 (İ) lowercases to two code points. Prefix expansion must not shift later cuts."""
+        rel = "brain/01-identity/05-beliefs-and-faith.md"
+        text = (
+            'İİİİ. "Own what you build." "Tell the truth about the tools." [VERIFIED: fixture]\n'
+            '"Automate everything but the love." [VERIFIED: v1]\n'
+            '"The secret to success is love." [VERIFIED: 07-rules]\n'
+            '"Speed matters more than polish. Fast is the point." '
+            '"Tell the truth about the tools." [BELIEVED 75%: 9_15]\n'
+            "Clients own what we build. Speed over polish. "
+            "Kept neighbor sentence. [VERIFIED: fixture]\n"
+        )
+        _write(self.root, rel, text)
+        release = json.loads((self.root / CANDIDATE_REL).read_text(encoding="utf-8"))
+        sealed = seal_release(release, self.root)
+        _write(self.root, CANDIDATE_REL, json.dumps(sealed, indent=2) + "\n")
+        receipt = load_context(self.root, _request(sealed["content_revision"]))
+        self.assertEqual(receipt["status"], "loaded", receipt.get("fail_reason"))
+        self.assertTrue(receipt["capabilities"]["read"])
+        self.assertFalse(receipt["capabilities"]["write"])
+        self.assertFalse(receipt["capabilities"]["send"])
+        emitted = next(
+            row["text"]
+            for row in receipt["context"]["instructions"]
+            if row["path"] == rel
+        )
+        self.assertEqual(
+            emitted,
+            'İİİİ.  "Tell the truth about the tools." [VERIFIED: fixture]\n'
+            " [VERIFIED: v1]\n"
+            '"The secret to success is love." [VERIFIED: 07-rules]\n'
+            ' "Tell the truth about the tools." [BELIEVED 75%: 9_15]\n'
+            "  Kept neighbor sentence. [VERIFIED: fixture]\n",
+        )
+        self.assertIn('"Tell the truth about the tools."', emitted)
+        self.assertIn("[VERIFIED: fixture]", emitted)
+        self.assertIn("[VERIFIED: v1]", emitted)
+        self.assertIn("[VERIFIED: 07-rules]", emitted)
+        self.assertIn("[BELIEVED 75%: 9_15]", emitted)
+        self.assertIn("The secret to success is love.", emitted)
+        self.assertIn("Kept neighbor sentence.", emitted)
+        for phrase in (
+            "Own what you build",
+            "Own ell",
+            "Automate everything but the love",
+            "Speed matters more than polish",
+            "Fast is the point.",
+            "Clients own what we build",
+            "Speed over polish",
+            "Speeell",
+            "Clieet",
+        ):
+            self.assertNotIn(phrase, emitted, phrase)
+        source = (self.root / rel).read_text(encoding="utf-8")
+        self.assertIn('İİİİ. "Own what you build."', source)
+        self.assertIn('"Tell the truth about the tools."', source)
+        self.assertTrue(receipt["withheld_rejections"])
+
     def _replace_snapshot_root_with_live_alias(self, accepted: dict) -> None:
         snap = self.root / accepted["snapshot_root"]
         shutil.rmtree(snap)
