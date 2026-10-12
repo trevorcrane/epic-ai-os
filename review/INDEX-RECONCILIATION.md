@@ -21,6 +21,10 @@ Before this pass, the Grok list placed Cloudflare Pages after the site ship loop
 
 PR #5 tells the reader to use `DEFINITION-OF-DONE.md` for the five-part handoff. That path is absent on main. The five-part source that is on main is `decisions/2026-10-11-definition-of-done.md`. `AGENTS.md`, `rules/README.md`, and `fleet-os/GROKBOT_OS.md` point there. This branch does not create `DEFINITION-OF-DONE.md`.
 
+## PR #6
+
+PR #6 is draft, open, and unmerged at `17411a97af1001d74b22f600dc0b68f634e956d8` (job `bc-9ff579ef`). It owns the quote-removal review. This branch does not merge it, does not authorize that merge, and does not edit its nine paths. The wake set still reads `brain/01-identity/05-beliefs-and-faith.md`. The loader withholds the rejected lines from current instructions. Detail is in `review/PARALLEL-DEPENDENCY-PR6.md`.
+
 ## Team overlay
 
 `team/` on main stays the Team model from `decisions/2026-10-11-org-chart.md`. No overlay was in the baseline. This branch does not replace `team/`.

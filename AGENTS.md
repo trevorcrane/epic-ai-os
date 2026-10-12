@@ -28,6 +28,8 @@ When a scoped decision names what it replaces, that decision beats the draft or 
 
 Seat cards add their own wake lines (First Mate and Lead). Follow those after this list. A seat card does not outrank a scoped decision that names what it replaces.
 
+PR #6 is draft, open, and unmerged (head `17411a97af1001d74b22f600dc0b68f634e956d8`, job `bc-9ff579ef`). It owns removal of three attributions in Brain files. This file does not merge it and does not authorize that merge. Identity is still read every wake. A context load withholds those rejected lines and does not treat them as accepted Trevor instructions. The decision file is not in this tree. The owner-utterance id is unresolved. Do not invent one. See [review/PARALLEL-DEPENDENCY-PR6.md](review/PARALLEL-DEPENDENCY-PR6.md).
+
 ## Where things live
 
 | Path | What it is |

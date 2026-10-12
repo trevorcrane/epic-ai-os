@@ -41,3 +41,5 @@ What is unresolved for every row: an owner-utterance reference outside this repo
 | 26 | decisions/2026-10-11-laws-path.md | 4d3e82a616b016c0e0bf9185fc64190abba032e6 | 2026-10-11 10:32 PM ET |
 
 Owner-utterance reference, all 26 rows: UNRESOLVED.
+
+PR #6 records a later removal in `decisions/2026-10-11-false-quotes-removed.md`. That file is not in this tree. This map does not add a row for it and does not invent an owner-utterance id. The gap stays open. See `review/PARALLEL-DEPENDENCY-PR6.md`.
