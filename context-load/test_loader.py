@@ -8,6 +8,8 @@ a live fleet load, or an accepted release.
 from __future__ import annotations
 
 import json
+import os
+import shutil
 import sys
 import tempfile
 import unittest
@@ -704,6 +706,174 @@ class LoaderTests(unittest.TestCase):
         self.assertFalse(receipt["capabilities"]["read"])
         self.assertEqual(receipt["context"]["instructions"], [])
 
+    def test_mixed_line_keeps_neighbor_quote_and_attribution(self) -> None:
+        rel = "brain/01-identity/05-beliefs-and-faith.md"
+        text = (
+            '"Love first. Learn. Lead. Live your legacy." [VERIFIED: v0.2]\n'
+            '"Automate everything but the love." [VERIFIED: v1]\n'
+            '"The secret to success is love." [VERIFIED: 07-rules]\n'
+            '"Own what you build. Clients walk away with the whole system." '
+            '"Tell the truth about the tools." [VERIFIED: v1]\n'
+            '"Speed matters more than polish. Fast is the point." '
+            "[BELIEVED 75%: 9_15]\n"
+            'He stands for one line: "No one dies with their message still inside them." '
+            '[07, VERIFIED] Under it sit the rest: "The secret to success is love." '
+            '"Automate everything but the love." '
+            '"Own what you build. Clients walk away with the whole system." '
+            '"Tell the truth about the tools." [07, VERIFIED: v1] And '
+            '"Speed matters more than polish. Fast is the point." '
+            '[07, BELIEVED 75%: 9_15] He stands against "Fluff. Corporate language."\n'
+            "Clients own what we build. Speed over polish.\n"
+        )
+        _write(self.root, rel, text)
+        release = json.loads((self.root / CANDIDATE_REL).read_text(encoding="utf-8"))
+        sealed = seal_release(release, self.root)
+        _write(self.root, CANDIDATE_REL, json.dumps(sealed, indent=2) + "\n")
+        receipt = load_context(self.root, _request(sealed["content_revision"]))
+        self.assertEqual(receipt["status"], "loaded", receipt.get("fail_reason"))
+        emitted = next(
+            row["text"]
+            for row in receipt["context"]["instructions"]
+            if row["path"] == rel
+        )
+        self.assertIn('"Tell the truth about the tools."', emitted)
+        self.assertIn("[VERIFIED: v1]", emitted)
+        self.assertIn("[07, VERIFIED: v1]", emitted)
+        self.assertIn("[BELIEVED 75%: 9_15]", emitted)
+        self.assertIn("[07, BELIEVED 75%: 9_15]", emitted)
+        self.assertIn("The secret to success is love.", emitted)
+        self.assertIn("No one dies with their message still inside them.", emitted)
+        self.assertIn("Love first. Learn. Lead. Live your legacy.", emitted)
+        self.assertIn('He stands against "Fluff. Corporate language."', emitted)
+        for phrase in (
+            "Automate everything but the love.",
+            "Own what you build",
+            "Clients walk away with the whole system.",
+            "Speed matters more than polish",
+            "Fast is the point.",
+            "Speed over polish",
+            "Clients own what we build",
+        ):
+            self.assertNotIn(phrase, emitted, phrase)
+        source = (self.root / rel).read_text(encoding="utf-8")
+        self.assertIn("Own what you build. Clients walk away with the whole system.", source)
+        self.assertIn('"Tell the truth about the tools."', source)
+        self.assertTrue(receipt["withheld_rejections"])
+        self.assertEqual(
+            receipt["withheld_rejections"][0]["pointer"],
+            "decisions/2026-10-11-false-quotes-removed.md",
+        )
+        self.assertEqual(receipt["withheld_rejections"][0]["owner_utterance"], "unresolved")
+
+    def _replace_snapshot_root_with_live_alias(self, accepted: dict) -> None:
+        snap = self.root / accepted["snapshot_root"]
+        shutil.rmtree(snap)
+        snap.symlink_to(Path("../../.."), target_is_directory=True)
+
+    def test_symlinked_snapshot_root_rejected_after_shared_path_edit(self) -> None:
+        accepted = self._plant_accepted()
+        self._replace_snapshot_root_with_live_alias(accepted)
+        snap = self.root / accepted["snapshot_root"]
+        self.assertTrue(snap.is_symlink())
+        self.assertEqual(snap.resolve(), self.root.resolve())
+        _write(self.root, ACCEPTED_REL, json.dumps(accepted, indent=2) + "\n")
+        before = load_context(self.root, _request("0" * 64))
+        self.assertEqual(before["status"], "failed_closed")
+        self.assertEqual(before["fail_reason"], "accepted_snapshot_aliased")
+        self.assertFalse(before["fallback_used"])
+        self.assertEqual(before["context"]["instructions"], [])
+        self.assertFalse(before["capabilities"]["read"])
+        live = self.root / "decisions/task.md"
+        live.write_text(live.read_text(encoding="utf-8") + "LIVE-PATH-MUTATION\n", encoding="utf-8")
+        after = load_context(self.root, _request("0" * 64))
+        self.assertEqual(after["fail_reason"], "accepted_snapshot_aliased")
+        self.assertNotEqual(after["status"], "fallback")
+        self.assertNotIn("LIVE-PATH-MUTATION", _bundle(after))
+        self.assertFalse(after["fallback_used"])
+        self.assertFalse(after["accepted_release"])
+        direct = load_context(
+            self.root,
+            _request(accepted["content_revision"], release_role="accepted"),
+        )
+        self.assertEqual(direct["fail_reason"], "accepted_snapshot_aliased")
+        self.assertEqual(direct["context"]["instructions"], [])
+
+    def test_symlinked_snapshot_file_rejected_after_shared_path_edit(self) -> None:
+        accepted = self._plant_accepted()
+        live = self.root / "decisions/task.md"
+        snap_file = self.root / accepted["snapshot_root"] / "decisions/task.md"
+        snap_file.unlink()
+        snap_file.symlink_to(live)
+        _write(self.root, ACCEPTED_REL, json.dumps(accepted, indent=2) + "\n")
+        before = load_context(self.root, _request("0" * 64))
+        self.assertEqual(before["fail_reason"], "accepted_snapshot_aliased")
+        self.assertNotEqual(before["status"], "fallback")
+        live.write_text(live.read_text(encoding="utf-8") + "LIVE-PATH-MUTATION\n", encoding="utf-8")
+        after = load_context(self.root, _request("0" * 64))
+        self.assertEqual(after["fail_reason"], "accepted_snapshot_aliased")
+        self.assertNotIn("LIVE-PATH-MUTATION", _bundle(after))
+        self.assertFalse(after["capabilities"]["read"])
+        self.assertFalse(after["fallback_used"])
+
+    def test_hardlinked_snapshot_file_rejected_after_shared_path_edit(self) -> None:
+        accepted = self._plant_accepted()
+        live = self.root / "decisions/task.md"
+        snap_file = self.root / accepted["snapshot_root"] / "decisions/task.md"
+        snap_file.unlink()
+        os.link(live, snap_file)
+        self.assertTrue(snap_file.samefile(live))
+        _write(self.root, ACCEPTED_REL, json.dumps(accepted, indent=2) + "\n")
+        before = load_context(self.root, _request("0" * 64))
+        self.assertEqual(before["fail_reason"], "accepted_snapshot_aliased")
+        self.assertNotEqual(before["status"], "fallback")
+        live.write_text(live.read_text(encoding="utf-8") + "LIVE-PATH-MUTATION\n", encoding="utf-8")
+        after = load_context(self.root, _request("0" * 64))
+        self.assertEqual(after["fail_reason"], "accepted_snapshot_aliased")
+        self.assertNotIn("LIVE-PATH-MUTATION", _bundle(after))
+        self.assertFalse(after["fallback_used"])
+        self.assertEqual(after["context"]["instructions"], [])
+
+    def test_candidate_load_unused_malformed_accepted_returns_closed_receipt(self) -> None:
+        _write(self.root, ACCEPTED_REL, "{")
+        receipt = load_context(self.root, _request(self.revision))
+        self.assertEqual(receipt["status"], "failed_closed")
+        self.assertEqual(receipt["fail_reason"], "malformed_release_record")
+        self.assertEqual(receipt["schema"], "epic-os-context-receipt/1")
+        self.assertFalse(receipt["fallback_used"])
+        self.assertFalse(receipt["stale"])
+        self.assertEqual(
+            receipt["capabilities"], {"read": False, "write": False, "send": False}
+        )
+        self.assertEqual(receipt["context"]["instructions"], [])
+        self.assertEqual(receipt["current_instructions"], [])
+        self.assertFalse(receipt["accepted_release"])
+        self.assertNotIn("not the system of record", _bundle(receipt))
+
+    def test_malformed_accepted_on_fallback_and_accepted_role_returns_closed_receipt(
+        self,
+    ) -> None:
+        _write(self.root, ACCEPTED_REL, "{")
+        fallback = load_context(self.root, _request("0" * 64))
+        self.assertEqual(fallback["status"], "failed_closed")
+        self.assertEqual(fallback["fail_reason"], "malformed_release_record")
+        self.assertTrue(fallback["stale"])
+        self.assertFalse(fallback["fallback_used"])
+        self.assertEqual(fallback["context"]["instructions"], [])
+        self.assertIn("not substituted", fallback["fallback_limitations"])
+        self.assertNotIn("not the system of record", _bundle(fallback))
+        accepted_role = load_context(
+            self.root, _request(self.revision, release_role="accepted")
+        )
+        self.assertEqual(accepted_role["status"], "failed_closed")
+        self.assertEqual(accepted_role["fail_reason"], "malformed_release_record")
+        self.assertEqual(accepted_role["context"]["instructions"], [])
+        self.assertFalse(accepted_role["capabilities"]["read"])
+        _write(self.root, CANDIDATE_REL, "{")
+        _write(self.root, ACCEPTED_REL, json.dumps(_accepted_none(), indent=2) + "\n")
+        candidate = load_context(self.root, _request(self.revision))
+        self.assertEqual(candidate["fail_reason"], "malformed_release_record")
+        self.assertEqual(candidate["context"]["instructions"], [])
+
 
 class RepoCandidateTest(unittest.TestCase):
     def test_real_tree_candidate_load(self) -> None:
@@ -765,8 +935,20 @@ class RepoCandidateTest(unittest.TestCase):
             "Speed over polish",
             "Speed matters more than polish",
             "Clients own what we build",
+            "Clients walk away with the whole system.",
+            "Fast is the point.",
         ):
             self.assertNotIn(phrase, blob, phrase)
+        beliefs_out = next(
+            row["text"]
+            for row in receipt["context"]["instructions"]
+            if row["path"] == "brain/01-identity/05-beliefs-and-faith.md"
+        )
+        self.assertIn('"Tell the truth about the tools."', beliefs_out)
+        self.assertIn("[VERIFIED: v1]", beliefs_out)
+        self.assertIn("[BELIEVED 75%: 9_15]", beliefs_out)
+        self.assertIn("The secret to success is love.", beliefs_out)
+        self.assertIn("Love first. Learn. Lead. Live your legacy.", beliefs_out)
         self.assertNotIn("Chief of Staff + Grok Operator (combined for now)", blob)
         self.assertNotIn("Linear wins on conflicts", blob)
         self.assertNotIn("with Alfred added", blob)

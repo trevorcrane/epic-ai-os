@@ -26,7 +26,7 @@ This follow-up does not merge PR #6. It does not authorize that merge. It does n
 
 ## Overlap with this branch
 
-This branch does not modify those nine paths. The wake manifest reads `brain/01-identity/05-beliefs-and-faith.md` because `AGENTS.md` reads identity every wake. That read does not change the file. The loader withholds the rejected lines from the emitted instruction bundle. The other seven Brain paths are not in the wake manifest and are not edited here. `decisions/2026-10-11-false-quotes-removed.md` is not added to this tree. A load that asks for an undeclared Brain path fails closed instead of reading it.
+This branch does not modify those nine paths. The wake manifest reads `brain/01-identity/05-beliefs-and-faith.md` because `AGENTS.md` reads identity every wake. That read does not change the file. The loader withholds the disputed spans from the emitted instruction bundle and keeps neighboring wording and attribution on the same line. The source file is not rewritten. The other seven Brain paths are not in the wake manifest and are not edited here. `decisions/2026-10-11-false-quotes-removed.md` is not added to this tree. A load that asks for an undeclared Brain path fails closed instead of reading it.
 
 ## Rejected attributions
 

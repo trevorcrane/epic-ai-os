@@ -48,6 +48,16 @@ FOUR_CS_PROVENANCE_NEEDLES = (
 # PR #6 owns removal in the Brain files. The decision file
 # decisions/2026-10-11-false-quotes-removed.md is not in this tree.
 # Owner-utterance message id: unresolved. Do not invent one.
+# Longer spans are the disputed quotations. A shorter marker that shares
+# a line with retained wording is not a reason to drop that line.
+REJECTED_SPANS = (
+    "own what you build. clients walk away with the whole system.",
+    "speed matters more than polish. fast is the point.",
+    "automate everything but the love.",
+    "clients own what we build.",
+    "speed over polish.",
+    "own what you build.",
+)
 REJECTED_ATTRIBUTION_MARKERS = (
     "automate everything but the love",
     "own what you build",
@@ -55,6 +65,7 @@ REJECTED_ATTRIBUTION_MARKERS = (
     "speed matters more than polish",
     "clients own what we build",
 )
+_QUOTE_CHARS = "\"'\u201c\u201d\u2018\u2019"
 REJECTED_POINTER = "decisions/2026-10-11-false-quotes-removed.md"
 SNAPSHOT_PREFIX = "context-load/releases/snapshots/"
 
@@ -144,6 +155,57 @@ def _valid_snapshot_root(snap: object) -> bool:
     return _safe_rel(snap)
 
 
+def _rel_contains_symlink(root: Path, rel: str) -> bool:
+    current = root
+    for part in Path(rel).parts:
+        current = current / part
+        if current.is_symlink():
+            return True
+        if not current.exists():
+            return False
+    return False
+
+
+def _same_inode(left: Path, right: Path) -> bool:
+    if left.is_symlink() or right.is_symlink():
+        return False
+    if not left.exists() or not right.exists():
+        return False
+    try:
+        return left.samefile(right)
+    except OSError:
+        return True
+
+
+def _snapshot_alias_reason(root: Path, release: dict) -> str | None:
+    """A symlink or shared inode is not a sealed copy of accepted content."""
+    snap = release.get("snapshot_root")
+    if not isinstance(snap, str) or not _valid_snapshot_root(snap):
+        return None
+    if _rel_contains_symlink(root, snap):
+        return "accepted_snapshot_aliased"
+    snap_dir = root / snap
+    if not snap_dir.is_dir():
+        return None
+    try:
+        resolved_snap = snap_dir.resolve()
+        resolved_snap.relative_to(root.resolve())
+    except ValueError:
+        return "accepted_snapshot_aliased"
+    if resolved_snap == root.resolve():
+        return "accepted_snapshot_aliased"
+    for item in release.get("required") or []:
+        rel = item.get("path")
+        if not isinstance(rel, str) or not _safe_rel(rel):
+            continue
+        combined = snap.rstrip("/") + "/" + rel
+        if not _safe_rel(combined) or _rel_contains_symlink(root, combined):
+            return "accepted_snapshot_aliased"
+        if _same_inode(root / combined, root / rel):
+            return "accepted_snapshot_aliased"
+    return None
+
+
 def _content_path(root: Path, release: dict, rel: str) -> Path | None:
     """Live tree for a candidate. Sealed snapshot for an accepted release."""
     if not _safe_rel(rel):
@@ -153,8 +215,10 @@ def _content_path(root: Path, release: dict, rel: str) -> Path | None:
         return _resolve_under_root(root, rel)
     if not _valid_snapshot_root(snap):
         return None
+    if _rel_contains_symlink(root, snap):
+        return None
     combined = snap.rstrip("/") + "/" + rel
-    if not _safe_rel(combined):
+    if not _safe_rel(combined) or _rel_contains_symlink(root, combined):
         return None
     resolved = _resolve_under_root(root, combined)
     snap_resolved = _resolve_under_root(root, snap)
@@ -163,6 +227,10 @@ def _content_path(root: Path, release: dict, rel: str) -> Path | None:
     try:
         resolved.relative_to(snap_resolved)
     except ValueError:
+        return None
+    if snap_resolved == root.resolve():
+        return None
+    if _same_inode(resolved, root / rel):
         return None
     return resolved
 
@@ -254,10 +322,21 @@ def _blank_receipt(request: dict) -> dict:
     }
 
 
-def _read_json(path: Path) -> dict | None:
+def _read_release_record(path: Path) -> tuple[dict | None, str | None]:
+    """Return (record, fail_reason). A missing file is (None, None)."""
     if not path.is_file():
-        return None
-    return json.loads(path.read_text(encoding="utf-8"))
+        return None, None
+    try:
+        raw = path.read_text(encoding="utf-8")
+    except (OSError, UnicodeError):
+        return None, "malformed_release_record"
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        return None, "malformed_release_record"
+    if not isinstance(data, dict):
+        return None, "malformed_release_record"
+    return data, None
 
 
 def _fail(receipt: dict, reason: str, extra_gaps: list | None = None) -> dict:
@@ -308,23 +387,65 @@ def _split_mixed(text: str) -> tuple[str, str]:
     return "".join(unmarked), "".join(stale)
 
 
+def _withhold_record(path: str) -> dict:
+    return {
+        "path": path,
+        "rejected": True,
+        "pointer": REJECTED_POINTER,
+        "parallel_pr": 6,
+        "owner_utterance": "unresolved",
+    }
+
+
 def _withhold_rejected(path: str, text: str, withheld: list[dict]) -> str:
-    kept: list[str] = []
-    for line in text.splitlines(keepends=True):
-        lowered = line.lower()
-        if any(marker in lowered for marker in REJECTED_ATTRIBUTION_MARKERS):
-            withheld.append(
-                {
-                    "path": path,
-                    "rejected": True,
-                    "pointer": REJECTED_POINTER,
-                    "parallel_pr": 6,
-                    "owner_utterance": "unresolved",
-                }
-            )
+    """Drop disputed spans. Keep neighboring wording and attribution."""
+    if not text:
+        return text
+    lower = text.lower()
+    occupied = bytearray(len(text))
+    removals: list[tuple[int, int]] = []
+
+    def take(start: int, end: int) -> bool:
+        if start < 0 or end > len(text) or start >= end:
+            return False
+        if any(occupied[start:end]):
+            return False
+        left, right = start, end
+        if (
+            left > 0
+            and right < len(text)
+            and text[left - 1] in _QUOTE_CHARS
+            and text[right] in _QUOTE_CHARS
+            and not occupied[left - 1]
+            and not occupied[right]
+        ):
+            left -= 1
+            right += 1
+        for index in range(left, right):
+            occupied[index] = 1
+        removals.append((left, right))
+        withheld.append(_withhold_record(path))
+        return True
+
+    for span in (*REJECTED_SPANS, *REJECTED_ATTRIBUTION_MARKERS):
+        search = 0
+        while True:
+            found = lower.find(span, search)
+            if found < 0:
+                break
+            take(found, found + len(span))
+            search = found + max(len(span), 1)
+    if not removals:
+        return text
+    pieces: list[str] = []
+    cursor = 0
+    for left, right in sorted(removals):
+        if left < cursor:
             continue
-        kept.append(line)
-    return "".join(kept)
+        pieces.append(text[cursor:left])
+        cursor = right
+    pieces.append(text[cursor:])
+    return "".join(pieces)
 
 
 def _emit_text(sections: list[dict]) -> str:
@@ -473,6 +594,10 @@ def _verify_release(
     reason = _check_consumed_references(release)
     if reason:
         return reason
+    if release.get("snapshot_root"):
+        reason = _snapshot_alias_reason(root, release)
+        if reason:
+            return reason
 
     required = release.get("required") or []
     member_paths = _member_paths(release)
@@ -716,8 +841,16 @@ def load_context(root: Path | str, request: dict) -> dict:
     if isinstance(on_demand, str):
         return _fail(receipt, on_demand)
 
-    candidate = _read_json(root / CANDIDATE_REL)
-    accepted = _read_json(root / ACCEPTED_REL)
+    candidate, candidate_error = _read_release_record(root / CANDIDATE_REL)
+    accepted, accepted_error = _read_release_record(root / ACCEPTED_REL)
+    if candidate_error or accepted_error:
+        matched = candidate is not None and expected == candidate.get("content_revision")
+        if not matched:
+            receipt["stale"] = True
+            receipt["fallback_limitations"] = (
+                "A release record was malformed. Candidate was not substituted."
+            )
+        return _fail(receipt, candidate_error or accepted_error)
     role = request.get("release_role") or "candidate"
     if role == "accepted":
         target = accepted

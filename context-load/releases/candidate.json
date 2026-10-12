@@ -147,7 +147,7 @@
       "bundle": "current",
       "scope": "wake",
       "order": 12,
-      "sha256": "26dde27c280b4e180027602836551089449b1fb2807fdba3c23f1931f6cfdd78"
+      "sha256": "ee2989ec45e0c365974a1c6067839ef9edf3855c2aa8b4acc503510411b43ad6"
     },
     {
       "path": "context-load/fixtures/archived-alfred-active.md",
@@ -180,7 +180,7 @@
       "path": "context-load/loader.py",
       "bundle": "review",
       "scope": "record",
-      "sha256": "955f7fc3e50f3ff2d4ea4654a3c94e4536bfe0a3700a1a0a9dbd90b06f0f0c1b"
+      "sha256": "cc88c83e37fb415f59cd775d937e0e23837001f4f283442281b46871293c5701"
     },
     {
       "path": "context-load/releases/accepted.json",
@@ -199,7 +199,7 @@
       "path": "context-load/test_loader.py",
       "bundle": "review",
       "scope": "record",
-      "sha256": "0b07ffd743426683ce35ba070a26cd5b7ea454a55ce3b4d5be7510637dd2d35c"
+      "sha256": "5e7f393381d4aa5a3bbce1848d01532d8e0a8f6d8b13ccd53ba35e0dc3990b18"
     },
     {
       "path": "decisions/2026-10-11-approvals.md",
@@ -396,31 +396,31 @@
       "path": "review/FILE-CHANGE-MAP.md",
       "bundle": "review",
       "scope": "record",
-      "sha256": "54fc5fbf4ba0ee2a3573fdc02ddbc8e1b6062fe26bda32d171f0064f3bc10b7d"
+      "sha256": "a71982905596558888ed01a684f0763655a261df3b9bd9aad526d5a10b816e2d"
     },
     {
       "path": "review/GAPS.md",
       "bundle": "review",
       "scope": "record",
-      "sha256": "37e246d0d171f369e9d496832c4ed842e84d101819fc4ef849120cd783af3d58"
+      "sha256": "a74204b46232325eb19adda890738e58c1527a89f75ac6942b17ee4f52148403"
     },
     {
       "path": "review/INDEX-RECONCILIATION.md",
       "bundle": "review",
       "scope": "record",
-      "sha256": "a6bf26028fd3fc37740303aab9b81cb3f7f97bf64de802dec6bec3313de431f6"
+      "sha256": "b739decbd7b1b05483b2f32e6cd515575597f3c111782194273b25390ddd58d0"
     },
     {
       "path": "review/PARALLEL-DEPENDENCY-PR6.md",
       "bundle": "review",
       "scope": "record",
-      "sha256": "5b703ba88a895339df6d8528bd20bef1c43f664d5fed25edc4b209ff723866c8"
+      "sha256": "86d2c172d9f334d2eb176237a44772d6ab9ec794057e0e953e04e51c706c4980"
     },
     {
       "path": "review/SOURCE-TARGET-MAP.md",
       "bundle": "review",
       "scope": "record",
-      "sha256": "afe034d5828f52a543a8eb43d39378654df36fa67406f939bd284b6f2ea25a9d"
+      "sha256": "4d31151bf49d6675c0e8173640a1fffb5f7c41c4c8085a777c96f6e49ecf116f"
     },
     {
       "path": "review/reviewer-bar-original-and-pivots.md",
@@ -570,5 +570,5 @@
       "decision_file_in_this_tree": false
     }
   ],
-  "content_revision": "8e651b1387a4902557e7b63c1a871133d74ff71ddc56888d3cc3f21403f62639"
+  "content_revision": "d8d922721bcce071d243deac20efe9470c264a8c5bc4ebde0b053c59b1cb6040"
 }

@@ -17,7 +17,7 @@ Baseline: `74d111fa6260c0d9415ff388bdfc76c51f922df7`.
 | skills/skills.json | Added `repo_note` only. Skill rows unchanged. |
 | sources/GITHUB-TANGO-SYNC-PLAN.md | Historical plan kept. Alfred and Linear sentences marked superseded in place. |
 | rules/README.md | Twelve laws unchanged. Note for the absent DoD filename and for PR #4 and PR #5. |
-| context-load/ | Loader, releases, fixtures, tests, and the preserved v5 Clarity sentence. A load emits instruction text. Accepted fallback reads a snapshot. |
+| context-load/ | Loader, releases, fixtures, tests, and the preserved v5 Clarity sentence. A load emits instruction text. Accepted fallback reads a copied snapshot and rejects a symlinked or aliased snapshot. |
 | context-load/sources/v5-4c-clarity-instruction.md | Preserved v5 imperative with PR #2 provenance. |
 | review/PARALLEL-DEPENDENCY-PR6.md | PR #6 head, job, file list, and the unmerged review boundary. |
 | review/ | Change map, source map, bar proposal, index note, gaps, PR #6 note. |

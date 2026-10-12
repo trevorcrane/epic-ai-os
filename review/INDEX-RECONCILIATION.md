@@ -23,7 +23,7 @@ PR #5 tells the reader to use `DEFINITION-OF-DONE.md` for the five-part handoff.
 
 ## PR #6
 
-PR #6 is draft, open, and unmerged at `17411a97af1001d74b22f600dc0b68f634e956d8` (job `bc-9ff579ef`). It owns the quote-removal review. This branch does not merge it, does not authorize that merge, and does not edit its nine paths. The wake set still reads `brain/01-identity/05-beliefs-and-faith.md`. The loader withholds the rejected lines from current instructions. Detail is in `review/PARALLEL-DEPENDENCY-PR6.md`.
+PR #6 is draft, open, and unmerged at `17411a97af1001d74b22f600dc0b68f634e956d8` (job `bc-9ff579ef`). It owns the quote-removal review. This branch does not merge it, does not authorize that merge, and does not edit its nine paths. The wake set still reads `brain/01-identity/05-beliefs-and-faith.md`. The loader withholds the disputed spans from current instructions and keeps neighboring wording on the same line. Detail is in `review/PARALLEL-DEPENDENCY-PR6.md`.
 
 ## Team overlay
 
