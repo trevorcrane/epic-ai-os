@@ -487,7 +487,7 @@
       "bundle": "current",
       "scope": "wake",
       "order": 15,
-      "sha256": "c9cbb1370d6bb0c786071fc958376eff1e4707ae79cc5037017b11b319018277"
+      "sha256": "2490731067d5cf0c342442910bd5ee78d29d9d57724b4ce01df7b17527cf0e93"
     },
     {
       "path": "rules/SITE-SHIP-LOOP.md",
@@ -570,5 +570,5 @@
       "decision_file_in_this_tree": false
     }
   ],
-  "content_revision": "aba525a007325f88f744f51b09e08a6e7c2adbd27fb128c34b770752caf51b70"
+  "content_revision": "cb637e96d8b7510787401c63d67869ae88ca6ef451b6c821f7a35961613d4e91"
 }
