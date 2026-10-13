@@ -23,9 +23,11 @@ sources/                Layout plan, proposed tree, inventory.
 brand/                  Aug 17 voice stubs (Trevor and Robyn).
 clients/                Client material (case studies), not Trevor's.
 archive/                Retired files (Aug 17 org chart).
+context-load/           Review loader. Not an installed runtime.
+review/                 Review notes for the preparation pull request.
 ```
 
-Open disagreements are in [CONFLICTS.md](CONFLICTS.md). Open questions are in [QUESTIONS.md](QUESTIONS.md).
+[CONFLICTS.md](CONFLICTS.md) is a closed list as of 2026-10-11. No item is open. Open questions are in [QUESTIONS.md](QUESTIONS.md). Context loading for review is [context-load/README.md](context-load/README.md). It does not designate an accepted release.
 
 AUG 17 SEED READ ORDER (kept; not the wake path):
 1. EPIC-AI-WORKING-AGREEMENT.md (the constitution)

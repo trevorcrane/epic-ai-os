@@ -12,6 +12,8 @@ Owner: Trevor Crane. Updated 2026-09-28. 20 skills: 9 Live, 6 Draft, 5 Parked.
 
 Status key: Live = installed and in use. Draft = written, not installed. Parked = saved for later or reference only.
 
+That key is the 2026-09-28 index wording, kept. In this repo, Live does not mean the skill body is here. The nine Live folders are index cards. The bodies were not in the compile archive. Do not treat a card, a Live row, or this file as proof of installation. "Epic OS (First Mate)" in the bot column is the 2026-09-28 label. The current First Mate decision is `decisions/2026-10-11-first-mate.md`: whichever AI Trevor is talking to.
+
 ## Strategy & planning
 
 | # | Skill | What it does | Bot(s) | Status | Share with clients? | File |

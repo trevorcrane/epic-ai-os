@@ -1,0 +1,574 @@
+{
+  "schema": "epic-os-context-release/1",
+  "role": "candidate",
+  "status": "candidate",
+  "accepted_release": false,
+  "baseline_commit": "74d111fa6260c0d9415ff388bdfc76c51f922df7",
+  "baseline_note": "PR #3 merge. Candidate baseline only. Not an accepted runtime release.",
+  "definition_of_done": "decisions/2026-10-11-definition-of-done.md",
+  "four_cs_question_required": true,
+  "four_cs_question_source": "context-load/sources/v5-4c-clarity-instruction.md",
+  "four_cs_question_marker": "Ask it as a question, not a conclusion.",
+  "gaps": [
+    "no-accepted-release",
+    "owner-utterance-unresolved",
+    "skill-bodies-absent",
+    "loader-not-installed",
+    "parallel-pr-6-unmerged",
+    "disputed-attributions-withheld"
+  ],
+  "open_questions": [
+    "reviewer-bar-unresolved"
+  ],
+  "required": [
+    {
+      "path": "AGENTS.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 1,
+      "sha256": "edd4e39b1f7a7d418ecd9f2013bc44bf2b60af85ea73ab3dc18cb379c0a9f624"
+    },
+    {
+      "path": "CONFLICTS.md",
+      "bundle": "preserved-superseded",
+      "must_contain": [
+        "No items are open",
+        "Linear wins on conflicts"
+      ],
+      "scope": "record",
+      "sha256": "c8709a42053a3baf461b9488ddd553cd5f5bf1f827524705253a9431b6e910ad"
+    },
+    {
+      "path": "README.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 2,
+      "sha256": "d3c259121506792f56977e7104b8609f104967194e61e1301127cfd6f5a01852"
+    },
+    {
+      "path": "brain/00-README.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 3,
+      "sha256": "8947d1f2e2e0848b2371693bd2db224577ddb36b48bd32ae9a8d3611245cfa93"
+    },
+    {
+      "path": "brain/01-identity/01-who-i-am.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 22,
+      "sha256": "1b1b4cc5fd6ba0ff2a1e487b67b0e646d4b1c9ea83c90641d92b6c344fcde911"
+    },
+    {
+      "path": "brain/01-identity/02-family.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 23,
+      "sha256": "dbeabef2aa4f922af4495970fd6fd5acb7d056664de846363b79000db332774c"
+    },
+    {
+      "path": "brain/01-identity/03-origin-story.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 24,
+      "sha256": "247754beab2fb80389fb87a92dfe0657e77ae659348d8a4b809ff0d6120f53d8"
+    },
+    {
+      "path": "brain/01-identity/04-why.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 25,
+      "sha256": "3c715fe8b2a0067aab92c52b84be68799326739e5715bf6344af492ce206b773"
+    },
+    {
+      "path": "brain/01-identity/05-beliefs-and-faith.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 26,
+      "sha256": "68e378e76af7e20149f2dcb251498b6ed7b1d01123a78c6edcc877b5526ec462"
+    },
+    {
+      "path": "brain/01-identity/06-point-of-view.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 27,
+      "sha256": "e84d22331a6cfb934a7212100ca84caf9f936de6e505c2ce9e1fd8898c3acf4a"
+    },
+    {
+      "path": "brain/05-messaging/06-four-cs.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "d628fe625d772e1c137cd39bad03c1b82a368b4ee57c84ba085d960a34188622"
+    },
+    {
+      "path": "brain/09-rules-of-engagement/01-writing.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 16,
+      "sha256": "42a1e967564c7d3909beb482bfeada9f83e8da06415c4e97cf16f660bea540dd"
+    },
+    {
+      "path": "brain/09-rules-of-engagement/02-public-copy.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 17,
+      "sha256": "b408d380688179707bb4abcc1f137e69322e35a093456c06b44d4bea14e73b9c"
+    },
+    {
+      "path": "brain/09-rules-of-engagement/03-message-format.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 18,
+      "sha256": "e6f4fcd2ba7bd675e99f0b85ef7cc6e96d463891faa6fa20973ade859708d42e"
+    },
+    {
+      "path": "brain/09-rules-of-engagement/04-how-ai-works-for-me.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 19,
+      "sha256": "846f2c9da5b5c86dba1d2e52dd63fb432d41350a3945955a975cf5992fe4e50c"
+    },
+    {
+      "path": "brain/09-rules-of-engagement/05-approvals.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 20,
+      "sha256": "bf48f063cd395395d65dcfb735263bd654b482f406bd3df80aa4f0f6a35f5086"
+    },
+    {
+      "path": "brain/09-rules-of-engagement/06-never.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 21,
+      "sha256": "595bbf7ae272239fca2ac10a65f696345968681a86c8190754b3b49ac4df2220"
+    },
+    {
+      "path": "context-load/README.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 12,
+      "sha256": "ee2989ec45e0c365974a1c6067839ef9edf3855c2aa8b4acc503510411b43ad6"
+    },
+    {
+      "path": "context-load/fixtures/archived-alfred-active.md",
+      "bundle": "preserved-superseded",
+      "must_contain": [
+        "with Alfred added"
+      ],
+      "scope": "record",
+      "sha256": "1a6b135520a579ee14d5ef1a6569e322b5ad88d82c9df352cda2b05b24e267a6"
+    },
+    {
+      "path": "context-load/fixtures/archived-fixed-first-mate.md",
+      "bundle": "preserved-superseded",
+      "must_contain": [
+        "Chief of Staff + Grok Operator (combined for now)"
+      ],
+      "scope": "record",
+      "sha256": "92a05cb2fc8f456dbed845b6030ce4311b69a52517ce0d1ba479df726531adf4"
+    },
+    {
+      "path": "context-load/fixtures/archived-linear-is-sor.md",
+      "bundle": "preserved-superseded",
+      "must_contain": [
+        "Linear wins on conflicts"
+      ],
+      "scope": "record",
+      "sha256": "e09375ed11cb422dd5479191b86cc58535422057f0958e3de5f9dad583160e54"
+    },
+    {
+      "path": "context-load/loader.py",
+      "bundle": "review",
+      "scope": "record",
+      "sha256": "ca766354c5e575496b82489512d738ef93d704831e92e536d8f4e3571e6176eb"
+    },
+    {
+      "path": "context-load/releases/accepted.json",
+      "bundle": "review",
+      "scope": "record",
+      "sha256": "1ae5cec55f2470455d233b64161aae33f69421812ff1b728137565006257dd10"
+    },
+    {
+      "path": "context-load/sources/v5-4c-clarity-instruction.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 13,
+      "sha256": "5c96774783259333f5441938313a228a1f45e7b3ea5ef770989533f178790629"
+    },
+    {
+      "path": "context-load/test_loader.py",
+      "bundle": "review",
+      "scope": "record",
+      "sha256": "56fc5c117468dc03615b64739231521a8462a3ce34ebeb94868ec2c87aa0c842"
+    },
+    {
+      "path": "decisions/2026-10-11-approvals.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 6,
+      "sha256": "7f7280de45fe7a34a41037707b4b6fc3f0c3472097a62f27d50ac10c4b004dd2"
+    },
+    {
+      "path": "decisions/2026-10-11-decisions-home.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "a05fabd3595fd3f3cb5de32b731f95a278798a69c6f89d7f94bdc9ecdfad19de"
+    },
+    {
+      "path": "decisions/2026-10-11-definition-of-done.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 7,
+      "sha256": "065265938e3c27332c3ef22ecb8fa9db5907fdfdec08181ace5f4ffb25ed60d4"
+    },
+    {
+      "path": "decisions/2026-10-11-depleted-brain.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "8d68f7819c72d4a0a1081abb2a3f3144e63256bdb43af5a000b97bf75ac39d31"
+    },
+    {
+      "path": "decisions/2026-10-11-epicleads-name.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "1f6ddf40222d5df034ff1ba40b49a07f4b679ed2c5b304b6f70c75ca6e2e2408"
+    },
+    {
+      "path": "decisions/2026-10-11-family-channel.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "4e2d02987eaba62f6a9e81a250605ef2fbd30e867f97208fec336cc75c64d13e"
+    },
+    {
+      "path": "decisions/2026-10-11-first-mate.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 8,
+      "sha256": "d8a2f2bd89f6b3d285ca69d597ebfdcd26f4ffe8a3c36e7b511e71b21ff7dacb"
+    },
+    {
+      "path": "decisions/2026-10-11-four-cs.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 9,
+      "sha256": "8866bca406430cb2b27fdef1585488f235ad1fab39d4308143a0477e089e373c"
+    },
+    {
+      "path": "decisions/2026-10-11-grokbot-os-rules.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "86517659371203104d18786dfb92d7e6b6aee74314eadbf453fde13377e23528"
+    },
+    {
+      "path": "decisions/2026-10-11-kids-authors.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "962050af55624f4bc911da4d116b100f7f2abeb120d5163233300ad1343473fd"
+    },
+    {
+      "path": "decisions/2026-10-11-launch-skill-names.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "bc6629a1da0175bd3586a0cf5b67228ad5402081795ac0951bda04b751203b27"
+    },
+    {
+      "path": "decisions/2026-10-11-laws-path.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "16e9cfdc97469a37498c95070875b1f98cf30d2d83454731b9b55b69924a9715"
+    },
+    {
+      "path": "decisions/2026-10-11-laws.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "e3a1a3a753be03379e1dc553acd20335baf384a6cb1b59e92787e065715fcf05"
+    },
+    {
+      "path": "decisions/2026-10-11-mentor-packs.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "968f59a361f1051d8dc5764bcf9cc2a96496159b15b101cc8f33aaa589d47a95"
+    },
+    {
+      "path": "decisions/2026-10-11-mission-lines.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "adaf772a55a118af4b448ad915e9a1408c7b06b8436df343af82a9316c9470cb"
+    },
+    {
+      "path": "decisions/2026-10-11-offer-tiers.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "c509714fed0f8e37582ec7d4762f78674bc764e63a720d1675b700cab34539ad"
+    },
+    {
+      "path": "decisions/2026-10-11-org-chart.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "477ea3557d3333db9ded516599c310b6314f290cd2532b78c5a0e5ce2ed33ca5"
+    },
+    {
+      "path": "decisions/2026-10-11-parked-names.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 10,
+      "sha256": "ea032a85eca2cb0c5af073db7778848599d9e447959467a3f609fce803534ba4"
+    },
+    {
+      "path": "decisions/2026-10-11-prices-internal.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "8b4c6c3d52098c0caf7f558eeb97be165198050606b78a8613de1cdf73943e47"
+    },
+    {
+      "path": "decisions/2026-10-11-proof-count.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "733bfe3bc6197385db54897f8a3406ad6169843531c0f9a4cb8d9ed5baa00318"
+    },
+    {
+      "path": "decisions/2026-10-11-shrink-list-dropped.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "48a9744ff1a0d3e59c997615e20ab497e5489c6daeaf485eaa61ce23d3274d60"
+    },
+    {
+      "path": "decisions/2026-10-11-single-repo.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "3d21191d04e7dac65922e23630b336ca66207938e25bf6464003aa14425721c4"
+    },
+    {
+      "path": "decisions/2026-10-11-skills-home.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "4f30a12b86e15f11ea752f249b587170ee81aa38c110ce4c757f889845c5cd5f"
+    },
+    {
+      "path": "decisions/2026-10-11-social-planner.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "37e590268c067c28d42d26cb4a9d617e54f8382a326ec25c2a481b539c4f2bfd"
+    },
+    {
+      "path": "decisions/2026-10-11-tango-handles.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "27b21f7ff87d88e9ec7586f830fd51b386a38d4b702db5cb42adfceac8b786a4"
+    },
+    {
+      "path": "decisions/2026-10-11-task-home.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 11,
+      "sha256": "73d0c368f8d03708cb50cee2fbf5b88c6dfee4044860da93b78c801f49c98313"
+    },
+    {
+      "path": "decisions/PROVENANCE-2026-10-11.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 5,
+      "sha256": "13e9222f543fdc0f9bc7e658c9ffb37e04070cc1ba45a147eb92ca1c33e8d19e"
+    },
+    {
+      "path": "decisions/README.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 4,
+      "sha256": "e18491083c6e5ad595db9bf9c812dc2531e1a4ffa63ba1f59998a4c5d4aea16b"
+    },
+    {
+      "path": "fleet-os/GROKBOT_OS.md",
+      "bundle": "mixed",
+      "excluded_markers": [
+        "Chief of Staff + Grok Operator (combined for now)",
+        "Linear Fleet DoD"
+      ],
+      "current_markers": [
+        "## Fleet Laws (SoT under `rules/` in this repo)",
+        "## Decided 2026-10-11"
+      ],
+      "scope": "wake",
+      "order": 28,
+      "sha256": "c8fe4682b46e168b5aa86709b50606edf3621891988afd081d3e538be4711899"
+    },
+    {
+      "path": "review/FILE-CHANGE-MAP.md",
+      "bundle": "review",
+      "scope": "record",
+      "sha256": "a71982905596558888ed01a684f0763655a261df3b9bd9aad526d5a10b816e2d"
+    },
+    {
+      "path": "review/GAPS.md",
+      "bundle": "review",
+      "scope": "record",
+      "sha256": "a74204b46232325eb19adda890738e58c1527a89f75ac6942b17ee4f52148403"
+    },
+    {
+      "path": "review/INDEX-RECONCILIATION.md",
+      "bundle": "review",
+      "scope": "record",
+      "sha256": "8dcf7db48bdf7a56f675cf32d5164aa8daf6adb3d10edf9413fe6881a9fa2523"
+    },
+    {
+      "path": "review/PARALLEL-DEPENDENCY-PR6.md",
+      "bundle": "review",
+      "scope": "record",
+      "sha256": "3578c46d4e935022723ad237e057210c15dca14b038253083542aaf5ef6ee564"
+    },
+    {
+      "path": "review/SOURCE-TARGET-MAP.md",
+      "bundle": "review",
+      "scope": "record",
+      "sha256": "4d31151bf49d6675c0e8173640a1fffb5f7c41c4c8085a777c96f6e49ecf116f"
+    },
+    {
+      "path": "review/reviewer-bar-original-and-pivots.md",
+      "bundle": "proposal",
+      "scope": "record",
+      "sha256": "fd55fd70169a83165de72ed9bd0f24b0b36e491be07d8280a389f906a67982ef"
+    },
+    {
+      "path": "rules/CLOUDFLARE-PAGES-STANDARD.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "02d7aeaa62f6dad33d9f679cc365a57a4913ae60edd4e65daa1bfbe0afb56d2d"
+    },
+    {
+      "path": "rules/CTA-NEW-TAB.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "dba1d130232f8ce084ea2c3374471c7fc8865350e00d4c403055828b9d311ba6"
+    },
+    {
+      "path": "rules/CURSOR-BOB-DISPATCH.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "fd9c2255d3702140ccb49f3bbde8a1ff3fae74fcedef8bbe214cf40e7f9a9257"
+    },
+    {
+      "path": "rules/EDITABLE-GOOGLE-DOCS.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "3961cb05b52c63b5383263b7cbe5e1f15c8fbe9c6947f24e7cf0ef8230873167"
+    },
+    {
+      "path": "rules/EPIC-FUNNEL-SOP.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "da674f5a253cc04f8817acc0b57f42d888d04e03fbd6bdfb74f60d2d52aa1d63"
+    },
+    {
+      "path": "rules/FOLLOW-PUBLISHED-DOCS.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "801507115e03c3b2219dc69828c814f9ae44dd52316e70dc29dd4584cc5fe85c"
+    },
+    {
+      "path": "rules/LAUNCH-QC-CHECKLIST.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "0b1fb70ec946b09512e82944021997d3b52c96bf8d8fa176b843c966a9e5833a"
+    },
+    {
+      "path": "rules/LOOK-BEFORE-YOU-ASK.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "91d746f6865e28cbfcf6d564d5cf31664b1cc58406057656f4de13026c8ce37a"
+    },
+    {
+      "path": "rules/PLAN-BUILD-USE.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "f2e5898d214318e417ea39ec5b079429b5a23467374ba4942d3093f53c7940cb"
+    },
+    {
+      "path": "rules/README.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 15,
+      "sha256": "c9cbb1370d6bb0c786071fc958376eff1e4707ae79cc5037017b11b319018277"
+    },
+    {
+      "path": "rules/SITE-SHIP-LOOP.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "08ba64e83072280cc6be76321bd9b8e5739947a9a56c62611d4397aac8569ae1"
+    },
+    {
+      "path": "rules/TANGO-HANDOFF-NO-DROP.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "2d9257fcc0913d37aedfa47517fe30f1609958d93a32f4d0d231ab71df7e7e99"
+    },
+    {
+      "path": "rules/VERIFY-BEFORE-YOU-CLAIM.md",
+      "bundle": "current",
+      "scope": "on_demand",
+      "sha256": "3c3b78e1db491e4b08c91f5e1f469a7d7ddce5a8888e58a9e8fd7ca6de5e7e7f"
+    },
+    {
+      "path": "skills/first-mate-os/SKILL.md",
+      "bundle": "preserved-superseded",
+      "must_contain": [
+        "Linear card",
+        "Epic OS (First Mate)"
+      ],
+      "scope": "record",
+      "sha256": "b6bfa62041d9c7f7387476758024dbc0fbd82bb2594d4b6e1d1677d2dbb7f1db"
+    },
+    {
+      "path": "sources/GITHUB-TANGO-SYNC-PLAN.md",
+      "bundle": "preserved-superseded",
+      "must_contain": [
+        "Linear wins on conflicts",
+        "with Alfred added"
+      ],
+      "scope": "record",
+      "sha256": "6086624787d0f7eec67240b4fad4304b579396948acf52aa219af666749d294b"
+    },
+    {
+      "path": "team/01-laws.md",
+      "bundle": "current",
+      "scope": "wake",
+      "order": 14,
+      "sha256": "11df16d59111d96f5d63c1cafce4bcadee9d4d8fa8411bd769de64a7e526a803"
+    }
+  ],
+  "precedence_checks": [
+    {
+      "id": "alfred",
+      "decision": "decisions/2026-10-11-parked-names.md",
+      "fixture": "context-load/fixtures/archived-alfred-active.md",
+      "decision_marker": "no Alfred card",
+      "fixture_marker": "with Alfred added"
+    },
+    {
+      "id": "first-mate",
+      "decision": "decisions/2026-10-11-first-mate.md",
+      "fixture": "context-load/fixtures/archived-fixed-first-mate.md",
+      "decision_marker": "whichever AI Trevor is talking to",
+      "fixture_marker": "Chief of Staff + Grok Operator (combined for now)"
+    },
+    {
+      "id": "task-home",
+      "decision": "decisions/2026-10-11-task-home.md",
+      "fixture": "context-load/fixtures/archived-linear-is-sor.md",
+      "decision_marker": "not the system of record",
+      "fixture_marker": "Linear wins on conflicts"
+    }
+  ],
+  "four_cs_provenance": "Verbatim instruction from PR #2 file operating-system/v5-4Cs-Source-Reference-2026-09-24.md at commit 3dee9cb52e1d5cf291f192fd91d5bf06a15752ae. Source member v5-4Cs-CoreFramework-2026-09-24.md, section 3. Clarity. No owner-utterance message id is recorded in this repo. Do not invent one.",
+  "parallel_dependencies": [
+    {
+      "pr": 6,
+      "head": "17411a97af1001d74b22f600dc0b68f634e956d8",
+      "job": "bc-9ff579ef",
+      "state": "draft-open-unmerged",
+      "merge_authorized": false,
+      "decision_file": "decisions/2026-10-11-false-quotes-removed.md",
+      "decision_file_in_this_tree": false
+    }
+  ],
+  "content_revision": "aba525a007325f88f744f51b09e08a6e7c2adbd27fb128c34b770752caf51b70"
+}
