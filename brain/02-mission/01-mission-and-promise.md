@@ -34,7 +34,6 @@ Other lines he actually says [VERIFIED: 03-messaging]:
 - "The book can be your most powerful marketing tool." / "The book is the business card."
 - "Make it rain."
 - "Ideas in, awesomeness out."
-- "Automate everything but the love."
 - "The secret to success is love."
 
 ## The commercial translation
