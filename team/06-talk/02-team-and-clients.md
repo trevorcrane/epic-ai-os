@@ -7,4 +7,4 @@ Sources: repo/team/TALK.md
 Connect (specific, true context so they feel seen) · Care (their intent, without inventing emotion) · Clarity (the purpose, plain; one question if unsure) · Call to action (one next step).
 Natural language, not four labeled paragraphs. One CTA per message. Client copy uses that client's `brain/04-voice/`. Never an "email Trevor" line or a mailto on a client page. Fewer words. Less is more.
 
-Third C (Clarity vs Clarify): Q5.
+Third C is Clarity (`decisions/2026-10-11-four-cs.md`).

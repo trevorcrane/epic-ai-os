@@ -16,4 +16,4 @@ Sources: repo/brain/03-messaging.md (rebuilt 2026-09-27 from his Sept 15 MESSAGI
 Source key for quote tags: [BB PDF] Epic Brand Brain PDF · [4Cs] 4Cs framework PDF · [ECR] Epic Content Revolution rant 7/21/25 · [PBYP] Profit Before You Publish Micro Workshop · [LI About] LinkedIn About, Trevor-edited · [2026 msg] 2026 New Epic Media Messaging docx · [Rainmaker] Rainmaker intro script 10/7/25 · [Mule] The Mule and the Magician · [BigMoney] Big Money With Your Book · [WriteRIGHT] How to Write the Right Book Fast · [Skool] Skool draft 9/26/26 · [Pro memory] AI Brand Brain Memory, March 2026 · [TLDR] Epic Toolkit PDF · [Scoreboard] v2/v3 scoreboard specs.
 
 ## Gap
-Third word: Clarity (PDF) or Clarify (2026 messaging docx, Pro memory). Trevor picks one. (Q5)
+Third word: Clarity. Trevor picked it on 2026-10-11 over Clarify (2026 messaging docx, Pro memory). Q5 closed. (`../../decisions/2026-10-11-four-cs.md`)

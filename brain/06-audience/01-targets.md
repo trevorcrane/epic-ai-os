@@ -34,7 +34,7 @@ One ladder: A buys the book and content, B buys the OS. Both stay on the test li
 ## Other audiences
 
 Robyn's: financial advisors and financial professionals. Keep her voice and offers distinct from Trevor's. [VERIFIED: v0.2]
-Crazy Crane channel: family adventures, kids, books. Viewers, not clients. [VERIFIED: v0.2]
+The Crazy Cranes channel: family adventures, kids, books. Viewers, not clients. [VERIFIED: v0.2]
 
 ## Gaps
 - A and B: one ladder or two brands. One sentence. (Q24)

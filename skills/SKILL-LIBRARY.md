@@ -85,7 +85,7 @@ Status key: Live = installed and in use. Draft = written, not installed. Parked 
 | 19 | **Depleted Brain Ghostwriting Playbook** | The playbook for drafting Dr. Leigh's book The Depleted Brain: table of contents patterns, launch deadlines, and rules against made-up facts. | Cat (Book: Dr. Leigh), Writing Bot | Live | No | `/workspace/leigh-book/research/COPY-SKILLS.md` |
 | 20 | **Dr. Leigh Richardson Voice** | Makes anything written in Dr. Leigh's name (book chapters, emails, posts, bios) sound warm, plain, and hopeful like her, with every science fact sourced. | Cat (Book: Dr. Leigh), Writing Bot, Content Engine | Live | No | `/home/box/agent-data/workflows/dr-leigh-richardson-voice/SKILL.md` |
 
-19. Depleted Brain Ghostwriting Playbook: A reference file the Book agent reads, not an installed skill. How to start it: Book drafting sessions.
+19. Depleted Brain Ghostwriting Playbook: A reference file the Book agent reads, not an installed skill. How to start it: Book drafting sessions. Moved 2026-10-11 to `clients/dr-leigh/depleted-brain/`: Dr. Leigh's material, not Trevor's (decisions/2026-10-11-depleted-brain.md).
 20. Dr. Leigh Richardson Voice: Short installed version. Full version: /workspace/leigh-book/LEIGH-VOICE-SKILL.md (Word copy in /workspace/leigh-docx/). Still partial: blogs and LinkedIn not added yet. How to start it: Any writing in Dr. Leigh's voice.
 
 ## On the list, not written yet
@@ -106,11 +106,11 @@ From the Epic OS plan. Skills get written after a job repeats three times.
 
 ## Things to know
 
-1. Two naming schemes for the same launch skills: the Epic OS plan (team/SKILLS.md) calls them pain-research, offer-test, launch-copy, one-page-site, gtm-plan, while the drafts are idea-validation, demand-test-design, launch-copy, landing-page-build, growth-plan. Pick one set before installing.
+1. Two naming schemes for the same launch skills: the Epic OS plan (team/SKILLS.md) calls them pain-research, offer-test, launch-copy, one-page-site, gtm-plan, while the drafts are idea-validation, demand-test-design, launch-copy, landing-page-build, growth-plan. Trevor picked the draft names on 2026-10-11 (decisions/2026-10-11-launch-skill-names.md).
 2. Mentor skills live in two places (installed copy and a copy in mentor-machine/skills). Hormozi copies match; Kallaway and Ed Lawrence copies differ slightly.
 3. Dr. Leigh voice exists as a short installed skill, a long Markdown version, and a Word copy.
 4. No owner bot: MrBeast Perspective (outside download), the 30 outside Hormozi skills, and Tango Work Loop (only a pilot).
-5. Mentor skills are installed but held: none has passed Reviewer yet (scores 50% to 57%).
+5. Mentor skills are installed but held: none has passed Reviewer yet (scores 50% to 57%). Held until a Reviewer score of 80+ (decisions/2026-10-11-mentor-packs.md).
 6. All 5 launch drafts are Tom-derived and marked personal use only, so they are No for clients until rewritten or Tom agrees.
 
 ## Appendix

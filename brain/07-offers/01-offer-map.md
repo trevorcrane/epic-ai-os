@@ -27,6 +27,6 @@ New direction: Interview → Decision / Sales Asset → Paid Application / Bluep
 Rule that stays: "If a real prospect is in conversation and the process becomes the obstacle, bypass the process and help the human."
 
 ## Open
-- Which AI products are real now vs concepts. (Q7)
+- Which AI products are real now vs concepts. (Filed under Q7; Trevor's 2026-10-11 answer closed Q7 on the tiers only.)
 - How Epic OS Install and Authority Accelerator relate in public: one path, or two doors? (Q26)
 - Who takes strategy calls. (Q27)

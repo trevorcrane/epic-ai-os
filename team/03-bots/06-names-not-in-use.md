@@ -8,6 +8,6 @@ Alfred, Agent One, Number One, Director, Fizz, Riley, Karen Johnson, Scout, Stat
 Old layers not in use: RAIN (Researcher, Advisor, Implementer, Navigator) and Plan / Build / Review. If an old file says Advisor, read First Mate. Implementer, read Builder. Navigator, read Reviewer plus Scorekeeper.
 
 Robyn's team uses its own names (Cat: Robyn and others). Those are not new names on Trevor's team.
-needs decide (Trevor): the Grok Bot agent "Epic OS" profile still calls Alfred "Codex First Mate" (CONFLICTS item 8). Keep parked, or bring back.
+Decided 2026-10-11: Alfred, Fizz, Director, and the RAIN names stay parked. No Alfred card (`decisions/2026-10-11-parked-names.md`). The Grok Bot agent "Epic OS" profile still calls Alfred "Codex First Mate".
 
 Law: no new agent names. A name comes back with one line on its card, from the Captain.

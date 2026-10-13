@@ -17,7 +17,7 @@ Greatness Quest. Big Money Book (Big Money With Your Book). The Mule (The Mule a
 "20x bestselling author." Titles, lists, and dates for all 20: not provided. (Q29)
 
 ## Family books
-Maverick and Sage are published authors (and "all kids"). {T} Titles: Q1.
+Maverick and Sage are published authors (and "all kids", Phoenix included, 2026-10-11). {T} Titles: Q1.
 Goal: one to two business books a year, plus kids' books and at least six Epic Fables. [VERIFIED: v0.2]
 
 ## Robyn

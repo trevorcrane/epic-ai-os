@@ -20,7 +20,7 @@ This is Trevor Crane's Brain, split into small files. One idea per file. Load wh
 
 ## Source priority when files conflict
 1. What Trevor says now (chat, voice memo, Slack).
-2. `memory/DECISIONS.md` (newest wins).
+2. `../decisions/`, one file per decision (newest wins when it names what it replaces). [VERIFIED: Trevor, 2026-10-11]
 3. These Brain files.
 4. The handoff repo `repo/brain/` (2026-09-26/27 merge).
 5. Older drafts: v0.2 (Sep 21), v1, 9_15 master, placeholders. Historical only.
@@ -29,11 +29,11 @@ Never quote a price, promise, or number from an old file when a newer approved s
 ## Status
 Everything here is DRAFT until Trevor approves it. Nobody says "final." Trevor owns that word.
 
-## Decisions to add to memory/DECISIONS.md (from Trevor, 2026-09-28)
+## Decisions from Trevor, 2026-09-28 (each has a file in `../decisions/`)
 - 2026-09-28 · Brands: Epic Author builds authority. Epic Media amplifies. Epic OS automates. [VERIFIED: Trevor via chat, 2026-09-28]
-- 2026-09-28 · Mission line: "Build the team that builds your dream." [VERIFIED: Trevor via chat, 2026-09-28] (How it sits next to "No one dies with their message inside them": Q2.)
+- 2026-09-28 · Mission line: "Build the team that builds your dream." [VERIFIED: Trevor via chat, 2026-09-28] (Q2 closed 2026-10-11: EPIC OS mission. See `../decisions/2026-10-11-mission-lines.md`.)
 - 2026-09-28 · Brand = Book × Broadcast × Bond. Journey: attention → attraction → action. [VERIFIED: Trevor via chat, 2026-09-28]
 - 2026-09-28 · The brand is "how I make other brands awesome." [VERIFIED: Trevor via chat, 2026-09-28]
 - 2026-09-28 · Rules: no em dashes. Public copy never mentions HighLevel or prices. Messages in short numbered bites. Handoffs are event-driven. Nothing goes outside without Trevor's OK. [VERIFIED: Trevor via chat, 2026-09-28]
-- 2026-09-28 · Family: wife Robyn. Kids Maverick and Sage. All kids are published authors. [VERIFIED: Trevor via chat, 2026-09-28] (Phoenix: Q1.)
-- 2026-09-28 · The Brain is many small files, not one big one. GitHub repo `epic-ai-os` is the single source of truth. [VERIFIED: Trevor via chat, 2026-09-28] (Name vs `epic-os-trevor`: Q3.)
+- 2026-09-28 · Family: wife Robyn. Kids Maverick and Sage. All kids are published authors. [VERIFIED: Trevor via chat, 2026-09-28] (Phoenix is included, 2026-10-11. Titles: Q1.)
+- 2026-09-28 · The Brain is many small files, not one big one. GitHub repo `epic-ai-os` is the single source of truth. [VERIFIED: Trevor via chat, 2026-09-28] (Q3 closed 2026-10-11: no second repo.)

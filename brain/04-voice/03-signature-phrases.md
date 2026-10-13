@@ -22,4 +22,4 @@ Sources: repo/brain/02-voice.md (Trevor Crane Voice Operating Guide, Strong V3, 
 - "There's nothing special about me. I'm the son of a horseshoer. I've lost everything twice." [BELIEVED 85%: PBYP]
 - "Idiots don't write books." (Ryan Stewman's line; he credits it) [VERIFIED: BigMoney]
 
-Note: "Nobody should go to their grave with their story still inside them" is a variant of the mission line. The canonical wording is "No one dies with their message inside them." [VERIFIED: bios]
+Note: "Nobody should go to their grave with their story still inside them" is a variant of the mission line. The canonical wording is "No one dies with their message still inside them." [VERIFIED: Trevor, 2026-10-11]

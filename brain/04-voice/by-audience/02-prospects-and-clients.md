@@ -7,7 +7,7 @@ Who: people in a conversation with EPIC, and paying clients.
 Structure: the 4 C's, in natural language, not four labeled paragraphs. [VERIFIED: TALK.md]
 - Connect: specific, true context so they feel seen.
 - Care: their intent, without inventing emotion.
-- Clarity: the purpose, plain. One question if unsure. (Clarity vs Clarify: Q5)
+- Clarity: the purpose, plain. One question if unsure. (Clarity, `../../../decisions/2026-10-11-four-cs.md`)
 - Call to action: one next step. One CTA per message.
 Also:
 - DM mode rules: `../02-voice-modes.md`, section 6.

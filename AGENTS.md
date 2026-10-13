@@ -16,7 +16,7 @@ When two sources disagree, keep both. The open list is [CONFLICTS.md](CONFLICTS.
 6. [CONFLICTS.md](CONFLICTS.md) before you treat overlapping sources as one fact.
 7. The folder the job is about. Do not load the whole Brain for a narrow job.
 8. [brain/04-voice/](brain/04-voice/) before any writing in Trevor's name.
-9. The Aug 17 seed docs, listed below, when the job is about that org chart, SMAI, the mission board, or access status. They are not the wake path for Brain or Team work.
+9. The Aug 17 seed docs, listed below, when the job is about SMAI, the mission board, or access status. The Aug 17 org chart is archived. They are not the wake path for Brain or Team work.
 
 Seat cards add their own wake lines (First Mate and Lead). Follow those after this list.
 
@@ -33,11 +33,13 @@ Seat cards add their own wake lines (First Mate and Lead). Follow those after th
 | [decisions/](decisions/) | One file per recorded decision. Six lines. Newest file wins only when it names what it replaces. |
 | [skills/](skills/) | Skill index (all 20) plus a folder for each of the 9 Live skills. Draft and Parked skills are index lines only. |
 | [workflows/](workflows/) | One file per workflow. The publishing workflow was not in the compile archive. See that folder's readme. |
-| [fleet-os/GROKBOT_OS.md](fleet-os/GROKBOT_OS.md) | Grok Bot OS summary from 2026-09-30. It lists five fleet laws and says a full refresh is still owed. |
+| [fleet-os/GROKBOT_OS.md](fleet-os/GROKBOT_OS.md) | Grok Bot OS summary from 2026-09-30. Its fleet law list points at all twelve files in `rules/` (2026-10-11). It says a full refresh is still owed. |
 | [QUESTIONS.md](QUESTIONS.md) | Open questions for Trevor. Q numbers in the Brain point here. |
-| [CONFLICTS.md](CONFLICTS.md) | Places sources disagree. No winner chosen. |
+| [CONFLICTS.md](CONFLICTS.md) | Places sources disagree. Closed items link to their decision file. |
 | [sources/](sources/) | The layout plan, the proposed tree, and the source inventory. Reference. Not wake instructions. |
 | [brand/](brand/) | Aug 17 voice folders for Trevor and Robyn. Stubs. The drafted voice is [brain/04-voice/](brain/04-voice/). |
+| [clients/](clients/) | Client material, not Trevor's. [clients/dr-leigh/](clients/dr-leigh/) is a case study and funnels to model. |
+| [archive/](archive/) | Retired files. [archive/2026-08-17-seed-org/](archive/2026-08-17-seed-org/) holds the Aug 17 org chart. |
 
 Prices stay in [brain/07-offers/](brain/07-offers/). That folder is internal. Public copy never shows a price and never names HighLevel, GoHighLevel, or SMAI. See [brain/09-rules-of-engagement/02-public-copy.md](brain/09-rules-of-engagement/02-public-copy.md).
 
@@ -58,19 +60,17 @@ Source of truth: the file in [rules/](rules/). Twelve fleet laws.
 11. [rules/SITE-SHIP-LOOP.md](rules/SITE-SHIP-LOOP.md). Builder ships. Reviewer scores the live page. Reviewer is the only bot that says a site is done. Trevor or Robyn accepts. Builder does not call it done.
 12. [rules/CURSOR-BOB-DISPATCH.md](rules/CURSOR-BOB-DISPATCH.md). Code and repo changes go straight to Bob, a Cursor cloud agent, not through Tango. Bob opens a pull request only and never merges. A human decides the merge.
 
-[team/01-laws.md](team/01-laws.md) says it is the only file that holds the laws. The files above are also laws. Both sets stay. See CONFLICTS.md.
+[team/01-laws.md](team/01-laws.md) holds the core 10 Epic Laws. The files above are the specific fleet rules, each its own source of truth. Both sets stay ([decisions/2026-10-11-laws.md](decisions/2026-10-11-laws.md)).
 
 ## Aug 17 seed (kept)
 
-These root files are the Aug 17-18 Epic AI org seed. This compile does not edit them and does not delete them. They describe Buzz, Fizz, Honey, Bumble, Hermes, Len, SMAI, and the mission board. Where they disagree with Brain, Team, or fleet rules, both stand until a decision file says otherwise.
+These root files are the Aug 17-18 Epic AI org seed. They describe Buzz, Hermes, Len, SMAI, and the mission board. The Aug 17 org chart (Fizz, Honey, Bumble) is retired and archived ([decisions/2026-10-11-org-chart.md](decisions/2026-10-11-org-chart.md)). Where these files disagree with Brain, Team, or fleet rules, both stand until a decision file says otherwise. The 2026-10-11 files in [decisions/](decisions/) say otherwise on several points.
 
 | File | Scope |
 |---|---|
 | [README.md](README.md) | What the repo is, plus the Aug 17 read order. Wake order for AI is this file, not that list. |
 | [EPIC-AI-WORKING-AGREEMENT.md](EPIC-AI-WORKING-AGREEMENT.md) | Aug 17 doctrine: four-state status, proof gate, Len as the one human review, 1-3-1, SNAPP-RAD. |
-| [EPIC-ORG.md](EPIC-ORG.md) | Aug 17 humans and AI core: Fizz, Honey, Bumble, Hermes, and the bench. |
 | [EPIC-CONTEXT.md](EPIC-CONTEXT.md) | Aug 17 picture of Epic Media and Robyn Crane, including internal prices and the tool stack. |
-| [ROLE-CARDS.md](ROLE-CARDS.md) | Aug 17 seat cards for Fizz, Honey, Bumble, and Hermes. |
 | [SMAI.md](SMAI.md) | Aug 17 GoHighLevel domain pack. Internal. Not public copy. |
 | [MISSIONS.md](MISSIONS.md) | Aug 17 mission board and LEARNED log. |
 | [PLAYBOOK_SOURCE.md](PLAYBOOK_SOURCE.md) | Pointer to the Aug 17 launch playbook import. |
@@ -81,7 +81,7 @@ These root files are the Aug 17-18 Epic AI org seed. This compile does not edit 
 
 The job loop tells the First Mate to write a memory line before reporting ([team/05-handoffs/01-how-a-job-moves.md](team/05-handoffs/01-how-a-job-moves.md)). The handoff repo's `memory/` files were not in the compile archive.
 
-A new decision goes in [decisions/](decisions/), one file, six lines, format in [decisions/README.md](decisions/README.md). [brain/00-README.md](brain/00-README.md) still names `memory/DECISIONS.md`. That path was not created here. Both homes are recorded in CONFLICTS.md.
+A new decision goes in [decisions/](decisions/), one file, six lines, format in [decisions/README.md](decisions/README.md). [brain/00-README.md](brain/00-README.md) points there too ([decisions/2026-10-11-decisions-home.md](decisions/2026-10-11-decisions-home.md)).
 
 ## Compile note
 

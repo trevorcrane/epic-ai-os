@@ -4,6 +4,7 @@ Trevor Epic Team v0.2 draft, 2026-10-06. Updated by Elon from the v0.1 draft (20
 Status: WORKING · private. Not approved by Trevor.
 Sources: repo/team/LOOP.md step 2
 
+Definition of done covers Trevor's five parts: Problem, Result, Who (owner and QC), What, By when, plus proof ([decisions/2026-10-11-definition-of-done.md](../../decisions/2026-10-11-definition-of-done.md)).
 Tango's own fields where they exist. Authority, Evidence required, and Staffing go in Tango's `constraints` field as three labeled lines. [BELIEVED 80%: check create_task before relying on a flag.]
 ```
 Client: <the Brain this is for>          Project: <an open project; list_projects first. Start with one. Split at ten tasks.>

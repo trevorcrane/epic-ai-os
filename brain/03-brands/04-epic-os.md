@@ -7,7 +7,7 @@ Sources: Trevor chat 2026-09-28, repo/brain/05-offers.md, 03-messaging.md, repo/
 The AI team that runs the business. Three things, in order: your Brain (who you are, what you sell, how you sound), your AI Team (AI that finishes work), your Revenue Machine (point that work at leads, follow-up, sales). The Dream is the payoff. [VERIFIED: v0.2]
 "Automate everything but the love." [VERIFIED: v1]
 Client zero is Trevor and Epic Media. Client one is Robyn. [VERIFIED: 06-goals proof order: Trevor/EPIC, Robyn, Crazy Cranes, clients]
-Where it lives: GitHub repo `epic-ai-os` as the single source of truth. [VERIFIED: Trevor via chat, 2026-09-28] (Q3)
+Where it lives: GitHub repo `epic-ai-os` as the single source of truth. [VERIFIED: Trevor via chat, 2026-09-28] No second repo. [VERIFIED: Trevor, 2026-10-11]
 The paid install: `07-offers/03-epic-os-install.md` (internal).
 
 ## Public copy rules for Epic OS

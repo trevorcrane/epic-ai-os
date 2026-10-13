@@ -26,6 +26,6 @@ The engine is conversations. One hundred of them in ninety days, and every one i
 
 Then we install the system that runs it, so you talk and it gets done.
 
-I have twenty bestsellers and I have helped over a thousand authors. And this all started because a client of mine died before he got his message out. So the mission is simple. No one dies with their message inside them.
+I have twenty bestsellers and I have helped over a thousand authors. And this all started because a client of mine died before he got his message out. So the mission is simple. No one dies with their message still inside them.
 
 Note: the Steven line is told whole elsewhere. In the one-minute version, it stays one line and true: "a client of mine died before he got his message out." Never a cause, never "I could have saved him." (`../01-identity/04-why.md`)

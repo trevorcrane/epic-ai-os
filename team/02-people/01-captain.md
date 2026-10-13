@@ -10,6 +10,6 @@ Trevor Crane. The human. Decides, approves, sells. Does not execute. In a client
 - Inbox channel: `#_red-flag-trevor`. [rules/VERIFY-BEFORE-YOU-CLAIM.md; repo/machine/SYSTEMS.md]
 - Tango: `@trevor_crane`. [Tango whoami 2026-09-26, recorded in repo/machine/SYSTEMS.md]
 - Talk: Grok Bot chat and voice calls with Elon (`team/06-talk/channels/06-voice.md`). How AI talks to him: `team/06-talk/01-captain-mode.md`.
-- Approvers: Len (client-facing delivery), Trevor (money, brand, naming, strategy). Full list: `team/02-people/02-humans.md`.
+- Approvers: Len (client-facing delivery), Trevor (money, brand, naming, strategy). Full list: `team/02-people/02-humans.md`. Anything to clients or outside people waits for Trevor to press Send; Len checks client delivery (`decisions/2026-10-11-approvals.md`).
 - **Says GO.** A job moves from Planning to Building when Trevor clearly says build or approves the plan. No code words. When Trevor says build, build right away and never re-confirm. [rules/PLAN-BUILD-USE.md; brain/09-rules-of-engagement/05-approvals.md ("Do not re-ask every cycle")]
 - Scorecard hour rate: not in team files. Where it lives is open (needs decide, `team/00-README.md`).

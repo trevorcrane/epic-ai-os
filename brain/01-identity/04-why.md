@@ -3,7 +3,7 @@ Sources: repo/brain/01-identity.md, bios (LI Newest), 9_15 master
 
 # Why: Steven
 
-The line under everything: "No one dies with their message inside them." It came from Steven. [VERIFIED: bios]
+The line under everything: "No one dies with their message still inside them." It came from Steven. [VERIFIED: bios]
 
 ## The story (tell it fully, tell it true)
 "A few years back I lost a friend and client named Steven to suicide. He had a message he wanted to share with the world. Something he wanted to share with his wife, his daughter and his father. It died inside him. It haunts me." [VERIFIED: bios, LI Newest]

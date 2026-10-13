@@ -27,7 +27,7 @@ The installed skill files were not in the compile archive. Each folder below rec
 5. [kallaway-advisor/SKILL.md](kallaway-advisor/SKILL.md)
 6. [first-mate-os/SKILL.md](first-mate-os/SKILL.md)
 7. [score/SKILL.md](score/SKILL.md)
-8. [depleted-brain-ghostwriting/SKILL.md](depleted-brain-ghostwriting/SKILL.md)
+8. Depleted Brain Ghostwriting Playbook: moved to [clients/dr-leigh/depleted-brain/SKILL.md](../clients/dr-leigh/depleted-brain/SKILL.md). Client material, not Trevor's ([decisions/2026-10-11-depleted-brain.md](../decisions/2026-10-11-depleted-brain.md)).
 9. [dr-leigh-voice/SKILL.md](dr-leigh-voice/SKILL.md)
 
-[sources/PROPOSED-STRUCTURE.md](../sources/PROPOSED-STRUCTURE.md) puts skills under `team/07-skills/`. [sources/GITHUB-TANGO-SYNC-PLAN.md](../sources/GITHUB-TANGO-SYNC-PLAN.md) puts them here. This compile follows the sync plan. The other home is recorded in CONFLICTS.md. Nothing was deleted from Team to make that choice: the Team draft has no `07-skills/` folder.
+Skills live here, in `skills/` at the repo root ([decisions/2026-10-11-skills-home.md](../decisions/2026-10-11-skills-home.md)). `team/07-skills/` from [sources/PROPOSED-STRUCTURE.md](../sources/PROPOSED-STRUCTURE.md) is not used.

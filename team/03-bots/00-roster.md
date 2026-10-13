@@ -34,4 +34,4 @@ A name is a card, not a seat. Any bot can sit in any seat in `team/04-seats/`, b
 
 Mentor, research, and personal bots (mentor packs, Sherlock, trip and home bots, and others) are not seats on the team. They are listed in the Grok Bot app, not here.
 
-needs decide (Trevor): the profile for the Grok Bot agent "Epic OS" calls Alfred "Codex First Mate". Alfred is a parked name (`team/03-bots/06-names-not-in-use.md`, CONFLICTS item 8). Keep parked, or bring back.
+Decided 2026-10-11: Alfred stays parked, no Alfred card (`decisions/2026-10-11-parked-names.md`). The profile for the Grok Bot agent "Epic OS" still calls Alfred "Codex First Mate".

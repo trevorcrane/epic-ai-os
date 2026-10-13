@@ -30,4 +30,4 @@ Skool about text (Trevor's draft copy, 9/26/26, verbatim except his two em dashe
 Source key for quote tags: [BB PDF] Epic Brand Brain PDF · [4Cs] 4Cs framework PDF · [ECR] Epic Content Revolution rant 7/21/25 · [PBYP] Profit Before You Publish Micro Workshop · [LI About] LinkedIn About, Trevor-edited · [2026 msg] 2026 New Epic Media Messaging docx · [Rainmaker] Rainmaker intro script 10/7/25 · [Mule] The Mule and the Magician · [BigMoney] Big Money With Your Book · [WriteRIGHT] How to Write the Right Book Fast · [Skool] Skool draft 9/26/26 · [Pro memory] AI Brand Brain Memory, March 2026 · [TLDR] Epic Toolkit PDF · [Scoreboard] v2/v3 scoreboard specs.
 
 ## Gap
-What Smart / Pro / Epic mean (Brain depth vs offer tiers). (Q7)
+Smart / Pro / Epic are the offer tiers, closed 2026-10-11. See `../07-offers/04-free-front-door.md`.
