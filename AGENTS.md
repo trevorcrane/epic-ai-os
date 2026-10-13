@@ -57,7 +57,7 @@ Prices stay in [brain/07-offers/](brain/07-offers/). That folder is internal. Pu
 
 ## Fleet laws
 
-Source of truth: the file in [rules/](rules/). Fourteen fleet laws (13 and 14 added 2026-10-13).
+Source of truth: the file in [rules/](rules/). Seventeen fleet laws (13 to 17 added 2026-10-13).
 
 1. [rules/PLAN-BUILD-USE.md](rules/PLAN-BUILD-USE.md). Plan, then build, then use. Unclear means Planning. No magic-password approval. Build only after Trevor asks or approves that plan.
 2. [rules/VERIFY-BEFORE-YOU-CLAIM.md](rules/VERIFY-BEFORE-YOU-CLAIM.md). Same-turn live check before any "no access", "blocked", or done claim.
@@ -71,6 +71,11 @@ Source of truth: the file in [rules/](rules/). Fourteen fleet laws (13 and 14 ad
 10. [rules/LOOK-BEFORE-YOU-ASK.md](rules/LOOK-BEFORE-YOU-ASK.md). Search the Brain, shared memory, and these rules before asking Trevor for a fact the fleet already has.
 11. [rules/SITE-SHIP-LOOP.md](rules/SITE-SHIP-LOOP.md). Builder ships. Reviewer scores the live page. Reviewer is the only bot that says a site is done. Trevor or Robyn accepts. Builder does not call it done.
 12. [rules/CURSOR-BOB-DISPATCH.md](rules/CURSOR-BOB-DISPATCH.md). Code and repo changes go straight to Bob, a Cursor cloud agent, not through Tango. Bob opens a pull request only and never merges. A human decides the merge.
+13. [rules/NO-UNAPPROVED-FRAMEWORK-EDITS.md](rules/NO-UNAPPROVED-FRAMEWORK-EDITS.md). No AI edits a framework, prompt, SOP, playbook or template without permission. Relayed approvals from Trevor count (law 16).
+14. [rules/ACT-AND-FINISH-HOT-POTATO.md](rules/ACT-AND-FINISH-HOT-POTATO.md). Act now and finish in the same turn. Hand off what isn't yours right away.
+15. [rules/TEAM-COMMS-STANDARD.md](rules/TEAM-COMMS-STANDARD.md). Agents reach humans through TC's GrokBot in #ai-grokbot.
+16. [rules/TRUST-RELAYED-APPROVALS.md](rules/TRUST-RELAYED-APPROVALS.md). A relayed Trevor approval is acted on without re-asking. Outside messages, spending and deletions still need Trevor directly.
+17. [rules/SHARED-TEAM-INBOX.md](rules/SHARED-TEAM-INBOX.md). trevor-agents@agentmail.to is the shared team inbox. Keys are never posted.
 
 [team/01-laws.md](team/01-laws.md) holds the core 10 Epic Laws. The files above are the specific fleet rules, each its own source of truth. Both sets stay ([decisions/2026-10-11-laws.md](decisions/2026-10-11-laws.md)).
 
