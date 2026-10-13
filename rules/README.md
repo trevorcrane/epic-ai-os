@@ -1,6 +1,6 @@
 # Fleet rules
 
-Each file in this folder is the source of truth for one fleet law. Twelve laws. Paths inside these files are repo paths (`rules/<file>`).
+Each file in this folder is the source of truth for one fleet law. Thirteen laws. Paths inside these files are repo paths (`rules/<file>`).
 
 [fleet-os/GROKBOT_OS.md](../fleet-os/GROKBOT_OS.md) lists all twelve and points here ([decisions/2026-10-11-grokbot-os-rules.md](../decisions/2026-10-11-grokbot-os-rules.md)).
 
@@ -20,3 +20,4 @@ Each file in this folder is the source of truth for one fleet law. Twelve laws. 
 | [LOOK-BEFORE-YOU-ASK.md](LOOK-BEFORE-YOU-ASK.md) | 2026-10-04 | Search before asking Trevor for a known fact. |
 | [SITE-SHIP-LOOP.md](SITE-SHIP-LOOP.md) | 2026-10-04, hosting note 2026-10-05 | Builder ships. Reviewer scores the live page and is the only bot that says a site is done. Trevor or Robyn accepts. |
 | [CURSOR-BOB-DISPATCH.md](CURSOR-BOB-DISPATCH.md) | 2026-10-06 | Code and repo changes go to Bob. Bob opens a pull request only and never merges. |
+| [NO-UNAPPROVED-FRAMEWORK-EDITS.md](NO-UNAPPROVED-FRAMEWORK-EDITS.md) | 2026-10-07 | No AI edits a framework, prompt, SOP, playbook or template without permission. Original first, then pivots with reasons, and the human chooses. |
