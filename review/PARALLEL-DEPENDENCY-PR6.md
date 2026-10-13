@@ -1,5 +1,7 @@
 # Parallel dependency: PR #6
 
+**Update 2026-10-13:** PR #6 was merged to main with Trevor's approval ("Yes to all", Elon chat, 3:28 PM ET). The rejected lines below are no longer in the Brain files. This note is kept as history.
+
 This follow-up does not merge PR #6. It does not authorize that merge. It does not edit PR #6's branch and it does not copy PR #6's files onto this branch.
 
 | | |

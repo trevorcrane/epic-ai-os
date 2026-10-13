@@ -982,11 +982,11 @@ class RepoCandidateTest(unittest.TestCase):
         for rel in FLEET_LAWS:
             self.assertNotIn(rel, paths, rel)
         self.assertNotIn("unicorn dinosaur", blob)
-        # Rejected attributions. Not instructions. The source file still has them.
+        # Rejected attributions. Not instructions. PR #6 (merged 2026-10-13) removed them from the source file.
         beliefs = (ROOT / "brain/01-identity/05-beliefs-and-faith.md").read_text(encoding="utf-8")
-        self.assertIn(REJECTED_LINE, beliefs)
-        self.assertIn("Own what you build", beliefs)
-        self.assertIn("Speed matters more than polish", beliefs)
+        self.assertNotIn(REJECTED_LINE, beliefs)
+        self.assertNotIn("Own what you build", beliefs)
+        self.assertNotIn("Speed matters more than polish", beliefs)
         for phrase in (
             REJECTED_LINE,
             "Own what you build",
@@ -1004,7 +1004,6 @@ class RepoCandidateTest(unittest.TestCase):
         )
         self.assertIn('"Tell the truth about the tools."', beliefs_out)
         self.assertIn("[VERIFIED: v1]", beliefs_out)
-        self.assertIn("[BELIEVED 75%: 9_15]", beliefs_out)
         self.assertIn("The secret to success is love.", beliefs_out)
         self.assertIn("Love first. Learn. Lead. Live your legacy.", beliefs_out)
         self.assertNotIn("Chief of Staff + Grok Operator (combined for now)", blob)
@@ -1025,7 +1024,8 @@ class RepoCandidateTest(unittest.TestCase):
         self.assertFalse(receipt["tests_are_adoption_proof"])
         self.assertIn("owner-utterance-unresolved", receipt["gaps"])
         self.assertIn("parallel-pr-6-unmerged", receipt["gaps"])
-        self.assertTrue(receipt["withheld_rejections"])
+        # PR #6 merged 2026-10-13: the source no longer carries the rejected spans, so nothing is withheld.
+        self.assertEqual(receipt["withheld_rejections"], [])
         self.assertEqual(receipt["parallel_dependencies"][0]["pr"], 6)
         self.assertEqual(
             receipt["parallel_dependencies"][0]["head"],

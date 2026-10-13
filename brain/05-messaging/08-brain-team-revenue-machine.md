@@ -11,7 +11,7 @@ Sources: repo/brain/03-messaging.md (rebuilt 2026-09-27 from his Sept 15 MESSAGI
 
 **What it is NOT.** Not a tool. "You have tools. You have prompts." What you do not have is a team. [Offer draft, BELIEVED 75%] Not agent count: "Optimize for results, leverage, simplicity, my real voice. Never for agent count or tool count." [07, VERIFIED: v1] Not volume for its own sake: "Do not create AI sludge just to hit a volume number." [06, BELIEVED 85%] Not proven yet at scale. Zero AI-era proof. Say it. [03 gaps]
 
-**Signature lines.** "Ideas in, awesomeness out." [03, VERIFIED] "Build the team that builds your dream." [Skool, VERIFIED] "Automate everything but the love." [07, VERIFIED] "You talk. It gets done." [Offer draft, BELIEVED 75%]
+**Signature lines.** "Ideas in, awesomeness out." [03, VERIFIED] "Build the team that builds your dream." [Skool, VERIFIED] "You talk. It gets done." [Offer draft, BELIEVED 75%]
 
 ## The 2026 front door
 

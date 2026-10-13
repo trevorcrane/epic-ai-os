@@ -21,14 +21,12 @@ I want:
 I want to help **1 million+ people make their dreams come true**.
 
 **Core philosophy:**  
-> Automate everything but the love.
+[DRAFT LINE] Automate and accelerate only the things that matter and don't need a live human part. (Not a quote. See `../../decisions/2026-10-11-false-quotes-removed.md`.)
 
 ## What I stand for
 "No one dies with their message still inside them." Tell the Steven story fully, never as a slogan.
 "The secret to success is love."
-"Automate everything but the love." [VERIFIED: v1]
-"Speed matters more than polish. Fast is the point." [BELIEVED 75%: 9_15]
-"Own what you build. Clients walk away with the whole system." "Tell the truth about the tools."
+"Tell the truth about the tools."
 Values: love, truth, authenticity, abundance, learning, leadership, contribution, courage, play, family, freedom, legacy. [VERIFIED: v0.2]
 
 ## The life I want

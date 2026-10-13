@@ -8,10 +8,9 @@ Sources: repo/brain/01-identity.md, 07-rules.md, v0.2, v1
 
 ## Principles
 "Love first. Learn. Lead. Live your legacy." [VERIFIED: v0.2]
-"Automate everything but the love." [VERIFIED: v1]
+[DRAFT LINE] Automate and accelerate only the things that matter and don't need a live human part. (Not a quote. See `../../decisions/2026-10-11-false-quotes-removed.md`.)
 "The secret to success is love." [VERIFIED: 07-rules]
-"Own what you build. Clients walk away with the whole system." "Tell the truth about the tools." [VERIFIED: v1]
-"Speed matters more than polish. Fast is the point." [BELIEVED 75%: 9_15]
+"Tell the truth about the tools." [VERIFIED: v1]
 
 ## Values
 Love, truth, authenticity, abundance, learning, leadership, contribution, courage, play, family, freedom, legacy. [VERIFIED: v0.2]

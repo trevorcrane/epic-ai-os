@@ -28,7 +28,7 @@ When a scoped decision names what it replaces, that decision beats the draft or 
 
 Seat cards add their own wake lines (First Mate and Lead). Follow those after this list. A seat card does not outrank a scoped decision that names what it replaces.
 
-PR #6 is draft, open, and unmerged (head `17411a97af1001d74b22f600dc0b68f634e956d8`, job `bc-9ff579ef`). It owns removal of three attributions in Brain files. This file does not merge it and does not authorize that merge. Identity is still read every wake. A context load withholds those rejected lines and does not treat them as accepted Trevor instructions. The decision file is not in this tree. The owner-utterance id is unresolved. Do not invent one. See [review/PARALLEL-DEPENDENCY-PR6.md](review/PARALLEL-DEPENDENCY-PR6.md).
+PR #6 (job `bc-9ff579ef`) was merged on 2026-10-13 with Trevor's approval. It removed three attributions from Brain files; see [decisions/2026-10-11-false-quotes-removed.md](decisions/2026-10-11-false-quotes-removed.md). Identity is still read every wake. A context load withholds those rejected lines and does not treat them as accepted Trevor instructions. The owner-utterance id is unresolved. Do not invent one. See [review/PARALLEL-DEPENDENCY-PR6.md](review/PARALLEL-DEPENDENCY-PR6.md).
 
 ## Where things live
 
@@ -57,7 +57,7 @@ Prices stay in [brain/07-offers/](brain/07-offers/). That folder is internal. Pu
 
 ## Fleet laws
 
-Source of truth: the file in [rules/](rules/). Twelve fleet laws.
+Source of truth: the file in [rules/](rules/). Fourteen fleet laws (13 and 14 added 2026-10-13).
 
 1. [rules/PLAN-BUILD-USE.md](rules/PLAN-BUILD-USE.md). Plan, then build, then use. Unclear means Planning. No magic-password approval. Build only after Trevor asks or approves that plan.
 2. [rules/VERIFY-BEFORE-YOU-CLAIM.md](rules/VERIFY-BEFORE-YOU-CLAIM.md). Same-turn live check before any "no access", "blocked", or done claim.
@@ -76,7 +76,7 @@ Source of truth: the file in [rules/](rules/). Twelve fleet laws.
 
 Done, when a task needs that word, uses the five-part source that is already on main: [decisions/2026-10-11-definition-of-done.md](decisions/2026-10-11-definition-of-done.md). There is no `DEFINITION-OF-DONE.md` in this tree. This file does not add one.
 
-Two fleet-law pull requests are not in this tree and are not copied here. PR #4 (`rules/NO-UNAPPROVED-FRAMEWORK-EDITS.md`) and PR #5 (`rules/ACT-AND-FINISH-HOT-POTATO.md`) stay on their own branches. PR #5 cites `DEFINITION-OF-DONE.md`. On main, the five-part source is the decision file named above. The index in this file stays at the twelve laws on main. See [review/INDEX-RECONCILIATION.md](review/INDEX-RECONCILIATION.md).
+PR #4 (`rules/NO-UNAPPROVED-FRAMEWORK-EDITS.md`) and PR #5 (`rules/ACT-AND-FINISH-HOT-POTATO.md`) were merged on 2026-10-13 with Trevor's approval. PR #5 cites `DEFINITION-OF-DONE.md`. On main, the five-part source is the decision file named above. The loader's on-demand fleet-law set is still the first twelve. See [review/INDEX-RECONCILIATION.md](review/INDEX-RECONCILIATION.md).
 
 ## Aug 17 seed (kept)
 

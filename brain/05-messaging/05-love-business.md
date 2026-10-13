@@ -11,7 +11,7 @@ Sources: repo/brain/03-messaging.md (rebuilt 2026-09-27 from his Sept 15 MESSAGI
 
 **What it is NOT.** Not soft. "Love is not soft, it's a strategic filter for every decision." [BB PDF, BELIEVED 85%] Not flattery. He stands against "Encouragement in place of an answer." [07, VERIFIED] Loving someone means telling them the truth, and holding them to their stated dream, which is what he did with Steven. [01, BELIEVED 85%] Not a reason to work with everyone. Cool, coachable, committed. [03, current]
 
-**Signature lines.** "The secret to success is love." "Automate everything but the love." [07, VERIFIED] "Love first. Learn. Lead. Live your legacy." [01, VERIFIED] "Fear or love. Choose love." [Love First book, VERIFIED, working line] "Stop selling. Start serving. The right people will ask to buy." [BB PDF, BELIEVED 80%]
+**Signature lines.** "The secret to success is love." [07, VERIFIED] "Love first. Learn. Lead. Live your legacy." [01, VERIFIED] "Fear or love. Choose love." [Love First book, VERIFIED, working line] "Stop selling. Start serving. The right people will ask to buy." [BB PDF, BELIEVED 80%]
 
 Source key for quote tags: [BB PDF] Epic Brand Brain PDF · [4Cs] 4Cs framework PDF · [ECR] Epic Content Revolution rant 7/21/25 · [PBYP] Profit Before You Publish Micro Workshop · [LI About] LinkedIn About, Trevor-edited · [2026 msg] 2026 New Epic Media Messaging docx · [Rainmaker] Rainmaker intro script 10/7/25 · [Mule] The Mule and the Magician · [BigMoney] Big Money With Your Book · [WriteRIGHT] How to Write the Right Book Fast · [Skool] Skool draft 9/26/26 · [Pro memory] AI Brand Brain Memory, March 2026 · [TLDR] Epic Toolkit PDF · [Scoreboard] v2/v3 scoreboard specs.
 

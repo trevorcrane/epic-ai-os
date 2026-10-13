@@ -26,7 +26,7 @@
       "bundle": "current",
       "scope": "wake",
       "order": 1,
-      "sha256": "341cff4fa21c73a8042d9f10692c2de622dfd0a47d44a9837f3945982275e5af"
+      "sha256": "edd4e39b1f7a7d418ecd9f2013bc44bf2b60af85ea73ab3dc18cb379c0a9f624"
     },
     {
       "path": "CONFLICTS.md",
@@ -85,7 +85,7 @@
       "bundle": "current",
       "scope": "wake",
       "order": 26,
-      "sha256": "5c59212aeb11f6b3f4a6992f355c1869d73fb111abbea0c1b86d225f008892df"
+      "sha256": "68e378e76af7e20149f2dcb251498b6ed7b1d01123a78c6edcc877b5526ec462"
     },
     {
       "path": "brain/01-identity/06-point-of-view.md",
@@ -199,7 +199,7 @@
       "path": "context-load/test_loader.py",
       "bundle": "review",
       "scope": "record",
-      "sha256": "e58fdef6723704fab9cd3ffba96b78d005df81a890abfd671b66613909d309de"
+      "sha256": "56fc5c117468dc03615b64739231521a8462a3ce34ebeb94868ec2c87aa0c842"
     },
     {
       "path": "decisions/2026-10-11-approvals.md",
@@ -408,13 +408,13 @@
       "path": "review/INDEX-RECONCILIATION.md",
       "bundle": "review",
       "scope": "record",
-      "sha256": "b739decbd7b1b05483b2f32e6cd515575597f3c111782194273b25390ddd58d0"
+      "sha256": "8dcf7db48bdf7a56f675cf32d5164aa8daf6adb3d10edf9413fe6881a9fa2523"
     },
     {
       "path": "review/PARALLEL-DEPENDENCY-PR6.md",
       "bundle": "review",
       "scope": "record",
-      "sha256": "86d2c172d9f334d2eb176237a44772d6ab9ec794057e0e953e04e51c706c4980"
+      "sha256": "3578c46d4e935022723ad237e057210c15dca14b038253083542aaf5ef6ee564"
     },
     {
       "path": "review/SOURCE-TARGET-MAP.md",
@@ -487,7 +487,7 @@
       "bundle": "current",
       "scope": "wake",
       "order": 15,
-      "sha256": "42629f6d1da316717665499ac6d334b33b993117e684ac83fd16372d97640d1a"
+      "sha256": "c9cbb1370d6bb0c786071fc958376eff1e4707ae79cc5037017b11b319018277"
     },
     {
       "path": "rules/SITE-SHIP-LOOP.md",
@@ -570,5 +570,5 @@
       "decision_file_in_this_tree": false
     }
   ],
-  "content_revision": "6bf055f975d18b17f2cedaa320bf75e2814c4fe236cee296c386e58eba9867d8"
+  "content_revision": "aba525a007325f88f744f51b09e08a6e7c2adbd27fb128c34b770752caf51b70"
 }

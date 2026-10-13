@@ -1,14 +1,14 @@
 # Fleet rules
 
-Each file in this folder is the source of truth for one fleet law. Twelve laws. Paths inside these files are repo paths (`rules/<file>`).
+Each file in this folder is the source of truth for one fleet law. Fourteen laws. Paths inside these files are repo paths (`rules/<file>`).
 
-[fleet-os/GROKBOT_OS.md](../fleet-os/GROKBOT_OS.md) lists all twelve and points here ([decisions/2026-10-11-grokbot-os-rules.md](../decisions/2026-10-11-grokbot-os-rules.md)).
+[fleet-os/GROKBOT_OS.md](../fleet-os/GROKBOT_OS.md) lists the first twelve and points here ([decisions/2026-10-11-grokbot-os-rules.md](../decisions/2026-10-11-grokbot-os-rules.md)).
 
 [team/01-laws.md](../team/01-laws.md) holds the core 10 Epic Laws. It is not a copy of these files. Both sets stay ([decisions/2026-10-11-laws.md](../decisions/2026-10-11-laws.md)).
 
 The five-part Definition of Done on main is [decisions/2026-10-11-definition-of-done.md](../decisions/2026-10-11-definition-of-done.md). This folder does not contain `DEFINITION-OF-DONE.md` and does not add a second copy.
 
-PR #4 (`NO-UNAPPROVED-FRAMEWORK-EDITS`) and PR #5 (`ACT-AND-FINISH-HOT-POTATO`) are not files in this folder. They stay on their own pull requests. This index stays at the twelve laws on main. The reconciliation note is [review/INDEX-RECONCILIATION.md](../review/INDEX-RECONCILIATION.md).
+Laws 13 (`NO-UNAPPROVED-FRAMEWORK-EDITS`, PR #4) and 14 (`ACT-AND-FINISH-HOT-POTATO`, PR #5) were merged on 2026-10-13 with Trevor's approval. The reconciliation note is [review/INDEX-RECONCILIATION.md](../review/INDEX-RECONCILIATION.md).
 
 | File | Locked | What it covers |
 |---|---|---|
@@ -24,3 +24,5 @@ PR #4 (`NO-UNAPPROVED-FRAMEWORK-EDITS`) and PR #5 (`ACT-AND-FINISH-HOT-POTATO`) 
 | [LOOK-BEFORE-YOU-ASK.md](LOOK-BEFORE-YOU-ASK.md) | 2026-10-04 | Search before asking Trevor for a known fact. |
 | [SITE-SHIP-LOOP.md](SITE-SHIP-LOOP.md) | 2026-10-04, hosting note 2026-10-05 | Builder ships. Reviewer scores the live page and is the only bot that says a site is done. Trevor or Robyn accepts. |
 | [CURSOR-BOB-DISPATCH.md](CURSOR-BOB-DISPATCH.md) | 2026-10-06 | Code and repo changes go to Bob. Bob opens a pull request only and never merges. |
+| [NO-UNAPPROVED-FRAMEWORK-EDITS.md](NO-UNAPPROVED-FRAMEWORK-EDITS.md) | 2026-10-07 | No AI edits a framework, prompt, SOP, playbook or template without permission. Original first, then pivots with reasons, and the human chooses. |
+| [ACT-AND-FINISH-HOT-POTATO.md](ACT-AND-FINISH-HOT-POTATO.md) | 2026-10-08 | Act now and finish in the same turn. Hand off what isn't yours right away, with a Definition of Done. A deadline is only a backstop. |
