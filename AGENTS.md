@@ -40,6 +40,7 @@ PR #6 (job `bc-9ff579ef`) was merged on 2026-10-13 with Trevor's approval. It re
 | [team/](team/) | Trevor Team v0.2. Laws, people, bot cards, seats, handoffs, talk rules. Reviewer A/95 on 2026-10-06. Not approved by Trevor. |
 | [robyn/](robyn/) | Reserved for Robyn Crane. `robyn/brain/` will mirror `brain/`. `robyn/team/` will mirror `team/`. Not filled in the Trevor compile. |
 | [rules/](rules/) | Fleet laws. One file is the source of truth for one rule. Text copied unchanged. |
+| [tools/REGISTRY.md](tools/REGISTRY.md) | Fleet tool registry. Current tools, exact run commands, owners, and status as of 2026-10-15. |
 | [decisions/](decisions/) | One file per recorded decision. Six lines. Newest file wins only when it names what it replaces. The 2026-10-11 files are scoped answers, not an overall release. |
 | [decisions/PROVENANCE-2026-10-11.md](decisions/PROVENANCE-2026-10-11.md) | Blob references for those recorded answers. Owner-utterance links that were not found stay unresolved. |
 | [context-load/](context-load/) | Reviewable context loader. Candidate and accepted records, manifest, receipt, isolated tests. Not installed on a live agent. |

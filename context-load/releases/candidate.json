@@ -26,7 +26,7 @@
       "bundle": "current",
       "scope": "wake",
       "order": 1,
-      "sha256": "e04a7d9519d934c225df927014b52691867a133f0fc7dfebe7ddf78290bcf120"
+      "sha256": "32202026e99efa780c4a1df478b8949b410aa2c27f8602f371761ebc4d37f761"
     },
     {
       "path": "CONFLICTS.md",
@@ -570,5 +570,5 @@
       "decision_file_in_this_tree": false
     }
   ],
-  "content_revision": "50314194038c7451b9383b8dafa15c5024a39dc749672acd113ec66b92935534"
+  "content_revision": "b2bad6db3c54e7b289cfd277ec940c37798ec67c2194bda4e0878425570fcb7a"
 }
