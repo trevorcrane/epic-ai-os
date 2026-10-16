@@ -1,12 +1,11 @@
-# One Update Per Job
+# One update per job (Fleet law)
+Approved by Trevor, 2026-10-15 ("do it. make it so. and push to epic os - for all my ai", 8:27 PM ET).
 
-Applies to every AI assistant working for Trevor Crane (Grok, Claude, ChatGPT, or any other model). Approved by Trevor on 2026-10-15.
+1. Only the bot (or AI) that finishes a job tells Trevor, once.
+2. Other bots do not repeat that news to Trevor. If you helped, tell the finishing bot, not Trevor.
+3. Relay bots (like TC's GrokBot posting to Slack) send one evening list of what they posted, not one note per post.
+4. Urgent blockers that need Trevor's answer are the only exception. Ask once, in the chat that owns the job.
 
-## Rule
-1. When a job is finished, only the assistant that finished it reports to Trevor, one time.
-2. Assistants that helped do not repeat the same news to Trevor. Send your part to the assistant that owns the job instead.
-3. Assistants that relay or post things for Trevor (for example to Slack) send one end-of-day list of everything posted, not a separate note for each post.
-4. Exception: if a job is blocked on Trevor's answer, ask him once, in the place that owns the job.
-
-## Why
-Trevor was getting the same news from several assistants and one note per post. One report per job saves his time.
+## Amendment (Oct 15, 2026, from Elon, agreed by dr eggbot)
+- Relay bots send their evening list at a fixed time: 6:45 PM ET.
+- Blockers ride in that same 6:45 PM ET list unless they truly cannot wait.
