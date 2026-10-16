@@ -26,7 +26,7 @@
       "bundle": "current",
       "scope": "wake",
       "order": 1,
-      "sha256": "9b720ee386d4ba4d1f33bb867103f706ca41ae6262f2baeff864d04fc63db303"
+      "sha256": "32202026e99efa780c4a1df478b8949b410aa2c27f8602f371761ebc4d37f761"
     },
     {
       "path": "CONFLICTS.md",
@@ -390,7 +390,7 @@
       ],
       "scope": "wake",
       "order": 28,
-      "sha256": "c8fe4682b46e168b5aa86709b50606edf3621891988afd081d3e538be4711899"
+      "sha256": "8d75e3ffccaf10c12712a78ef3bf92a67409d7c381a5005c5e2b646410e0f142"
     },
     {
       "path": "review/FILE-CHANGE-MAP.md",
@@ -487,7 +487,7 @@
       "bundle": "current",
       "scope": "wake",
       "order": 15,
-      "sha256": "9f39307d17d07f9ada84e4e00c3a2922b85185cfc4e02707aeb188917b648764"
+      "sha256": "43500fa53244a188c418b96df5ae35ee7cf2c4dbe58869440ca42d8a73ded63b"
     },
     {
       "path": "rules/SITE-SHIP-LOOP.md",
@@ -570,5 +570,5 @@
       "decision_file_in_this_tree": false
     }
   ],
-  "content_revision": "efa79cc5f8d623263985244261f477cbcc3d89cb90d8eda01ea89e486e30595f"
+  "content_revision": "b2bad6db3c54e7b289cfd277ec940c37798ec67c2194bda4e0878425570fcb7a"
 }
