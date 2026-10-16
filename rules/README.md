@@ -1,14 +1,14 @@
 # Fleet rules
 
-Each file in this folder is the source of truth for one fleet law. Seventeen laws. Paths inside these files are repo paths (`rules/<file>`).
+Each file in this folder is the source of truth for one fleet law. Twenty-three laws. Paths inside these files are repo paths (`rules/<file>`).
 
-[fleet-os/GROKBOT_OS.md](../fleet-os/GROKBOT_OS.md) lists the first twelve and points here ([decisions/2026-10-11-grokbot-os-rules.md](../decisions/2026-10-11-grokbot-os-rules.md)).
+[fleet-os/GROKBOT_OS.md](../fleet-os/GROKBOT_OS.md) lists every law in this folder and points here ([decisions/2026-10-11-grokbot-os-rules.md](../decisions/2026-10-11-grokbot-os-rules.md)).
 
 [team/01-laws.md](../team/01-laws.md) holds the core 10 Epic Laws. It is not a copy of these files. Both sets stay ([decisions/2026-10-11-laws.md](../decisions/2026-10-11-laws.md)).
 
 The five-part Definition of Done on main is [decisions/2026-10-11-definition-of-done.md](../decisions/2026-10-11-definition-of-done.md). This folder does not contain `DEFINITION-OF-DONE.md` and does not add a second copy.
 
-Laws 13 (`NO-UNAPPROVED-FRAMEWORK-EDITS`, PR #4) and 14 (`ACT-AND-FINISH-HOT-POTATO`, PR #5) were merged on 2026-10-13 with Trevor's approval. Laws 16 (`TRUST-RELAYED-APPROVALS`) and 17 (`SHARED-TEAM-INBOX`) were added on 2026-10-13 with Trevor's approval. The reconciliation note is [review/INDEX-RECONCILIATION.md](../review/INDEX-RECONCILIATION.md).
+Laws 13 (`NO-UNAPPROVED-FRAMEWORK-EDITS`, PR #4) and 14 (`ACT-AND-FINISH-HOT-POTATO`, PR #5) were merged on 2026-10-13 with Trevor's approval. Laws 16 (`TRUST-RELAYED-APPROVALS`) and 17 (`SHARED-TEAM-INBOX`) were added on 2026-10-13 with Trevor's approval. Laws 18 to 23 (`TEAM-COMMS-NO-PERMISSION`, `BUILD-APPROVED-VIA-ANY-BOT`, `CONFLICTING-ANSWERS-ASK-FIRST`, `ONE-UPDATE-PER-JOB`, `KEY-HANDOFF`, `TOOL-ROLLOUT`) were approved by Trevor between 2026-10-10 and 2026-10-15 and synced from the team's local rules folder on 2026-10-16. The reconciliation note is [review/INDEX-RECONCILIATION.md](../review/INDEX-RECONCILIATION.md).
 
 | File | Locked | What it covers |
 |---|---|---|
@@ -29,3 +29,9 @@ Laws 13 (`NO-UNAPPROVED-FRAMEWORK-EDITS`, PR #4) and 14 (`ACT-AND-FINISH-HOT-POT
 | [TEAM-COMMS-STANDARD.md](TEAM-COMMS-STANDARD.md) | 2026-10-13 | Agents reach humans through TC's GrokBot in #ai-grokbot. Re-ping after 4 work hours (1 if urgent), escalate to Elon after 2 pings. DM Len if the bridge is down 30+ minutes. |
 | [TRUST-RELAYED-APPROVALS.md](TRUST-RELAYED-APPROVALS.md) | 2026-10-13 | When an agent relays Trevor's approval from its chat, the receiving agent acts without re-asking, including playbook and SOP edits. Outside messages, spending and deletions still need Trevor directly. |
 | [SHARED-TEAM-INBOX.md](SHARED-TEAM-INBOX.md) | 2026-10-13 | trevor-agents@agentmail.to is the shared team inbox. epic-elon@ is Elon's, epic-dot@ is Dot's. Not for private client mail. Keys never posted. |
+| [TEAM-COMMS-NO-PERMISSION.md](TEAM-COMMS-NO-PERMISSION.md) | 2026-10-10 | Agents post to Len and Trevor's internal team without asking Trevor first. Attribution line kept, no keys, outside messages still wait for Trevor. Handed-off work Trevor already asked for is done without re-asking; concerns go to Elon. |
+| [BUILD-APPROVED-VIA-ANY-BOT.md](BUILD-APPROVED-VIA-ANY-BOT.md) | 2026-10-13 | A build Trevor approves through any of his bots starts Bob right away, with no second OK. Builds open as PRs and nothing merges or goes live without Trevor's go. |
+| [CONFLICTING-ANSWERS-ASK-FIRST.md](CONFLICTING-ANSWERS-ASK-FIRST.md) | 2026-10-13 | When Trevor's answers in two chats conflict, ask him one short question before posting a reversal to the team or Len. |
+| [ONE-UPDATE-PER-JOB.md](ONE-UPDATE-PER-JOB.md) | 2026-10-15, amended 2026-10-15 | Only the bot that finishes a job tells Trevor, once. Relay bots send one evening list at 6:45 PM ET. Urgent blockers are the only exception. |
+| [KEY-HANDOFF.md](KEY-HANDOFF.md) | 2026-10-15 | One asker, one paste into a masked secret box, one-line confirm. Keys never in files, notes, Slack, email, docs or chat. Plain-text key means rotate it. |
+| [TOOL-ROLLOUT.md](TOOL-ROLLOUT.md) | 2026-10-15 | Check the tool registry before building or buying a tool. A new tool ships with a registry row, a short how-to and one team note in the same turn. |

@@ -45,7 +45,7 @@ PR #6 (job `bc-9ff579ef`) was merged on 2026-10-13 with Trevor's approval. It re
 | [context-load/](context-load/) | Reviewable context loader. Candidate and accepted records, manifest, receipt, isolated tests. Not installed on a live agent. |
 | [skills/](skills/) | Skill index (all 20) plus a folder for each of the 9 Live skills. Those folders are index cards. The skill bodies were not in the archive and are not installed by this repo. Draft and Parked skills are index lines only. |
 | [workflows/](workflows/) | One file per workflow. The publishing workflow was not in the compile archive. See that folder's readme. |
-| [fleet-os/GROKBOT_OS.md](fleet-os/GROKBOT_OS.md) | Grok Bot OS summary from 2026-09-30. The fleet law list points at all twelve files in `rules/` (2026-10-11). The saved stack is marked and is not a current instruction. A full refresh is still owed. |
+| [fleet-os/GROKBOT_OS.md](fleet-os/GROKBOT_OS.md) | Grok Bot OS summary from 2026-09-30. The fleet law list points at every law file in `rules/` (2026-10-11 decision, list updated 2026-10-16). The saved stack is marked and is not a current instruction. A full refresh is still owed. |
 | [QUESTIONS.md](QUESTIONS.md) | Open questions for Trevor. Q numbers in the Brain point here. |
 | [CONFLICTS.md](CONFLICTS.md) | Closed record of places sources disagreed. No item is open. Each item links to its decision file. The 2026-10-06 paragraphs stay in the file and are not current instructions. |
 | [sources/](sources/) | The layout plan, the proposed tree, and the source inventory. Reference. Not wake instructions. |
@@ -57,7 +57,7 @@ Prices stay in [brain/07-offers/](brain/07-offers/). That folder is internal. Pu
 
 ## Fleet laws
 
-Source of truth: the file in [rules/](rules/). Seventeen fleet laws (13 to 17 added 2026-10-13).
+Source of truth: the file in [rules/](rules/). Twenty-three fleet laws (13 to 17 added 2026-10-13, 18 to 23 added 2026-10-16).
 
 1. [rules/PLAN-BUILD-USE.md](rules/PLAN-BUILD-USE.md). Plan, then build, then use. Unclear means Planning. No magic-password approval. Build only after Trevor asks or approves that plan.
 2. [rules/VERIFY-BEFORE-YOU-CLAIM.md](rules/VERIFY-BEFORE-YOU-CLAIM.md). Same-turn live check before any "no access", "blocked", or done claim.
@@ -76,6 +76,12 @@ Source of truth: the file in [rules/](rules/). Seventeen fleet laws (13 to 17 ad
 15. [rules/TEAM-COMMS-STANDARD.md](rules/TEAM-COMMS-STANDARD.md). Agents reach humans through TC's GrokBot in #ai-grokbot.
 16. [rules/TRUST-RELAYED-APPROVALS.md](rules/TRUST-RELAYED-APPROVALS.md). A relayed Trevor approval is acted on without re-asking. Outside messages, spending and deletions still need Trevor directly.
 17. [rules/SHARED-TEAM-INBOX.md](rules/SHARED-TEAM-INBOX.md). trevor-agents@agentmail.to is the shared team inbox. Keys are never posted.
+18. [rules/TEAM-COMMS-NO-PERMISSION.md](rules/TEAM-COMMS-NO-PERMISSION.md). Post to Len and the internal team without asking Trevor first. Outside messages still wait for Trevor.
+19. [rules/BUILD-APPROVED-VIA-ANY-BOT.md](rules/BUILD-APPROVED-VIA-ANY-BOT.md). A build Trevor approves through any bot starts Bob right away. PRs only, nothing merges or goes live without his go.
+20. [rules/CONFLICTING-ANSWERS-ASK-FIRST.md](rules/CONFLICTING-ANSWERS-ASK-FIRST.md). Conflicting Trevor answers across chats get one short question to him before any reversal is posted.
+21. [rules/ONE-UPDATE-PER-JOB.md](rules/ONE-UPDATE-PER-JOB.md). Only the finishing bot tells Trevor, once. Relay bots send one evening list at 6:45 PM ET.
+22. [rules/KEY-HANDOFF.md](rules/KEY-HANDOFF.md). One asker, one paste into a masked secret box, one-line confirm. Keys never in files or chat.
+23. [rules/TOOL-ROLLOUT.md](rules/TOOL-ROLLOUT.md). Check the tool registry first. A new tool ships with a registry row, a how-to and one team note.
 
 [team/01-laws.md](team/01-laws.md) holds the core 10 Epic Laws. The files above are the specific fleet rules, each its own source of truth. Both sets stay ([decisions/2026-10-11-laws.md](decisions/2026-10-11-laws.md)).
 

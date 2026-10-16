@@ -37,7 +37,7 @@ Marked superseded, text kept above:
 5 jobs; revise if >1 fake-done or silent stall.
 
 ## Fleet Laws (SoT under `rules/` in this repo)
-Updated: 2026-10-11 (all locked rules; `decisions/2026-10-11-grokbot-os-rules.md`)
+Updated: 2026-10-16 (all locked rules; `decisions/2026-10-11-grokbot-os-rules.md`)
 Each file in `rules/` is the source of truth for its rule. This list is the index.
 - Plan → Build → Use: `rules/PLAN-BUILD-USE.md` (ask before build; no magic passwords)
 - Verify before you claim: `rules/VERIFY-BEFORE-YOU-CLAIM.md`
@@ -51,8 +51,19 @@ Each file in `rules/` is the source of truth for its rule. This list is the inde
 - Look before you ask: `rules/LOOK-BEFORE-YOU-ASK.md` (locked 2026-10-04)
 - Site ship loop: `rules/SITE-SHIP-LOOP.md` (locked 2026-10-04)
 - Cursor Bob dispatch: `rules/CURSOR-BOB-DISPATCH.md` (locked 2026-10-06)
+- No unapproved framework edits: `rules/NO-UNAPPROVED-FRAMEWORK-EDITS.md` (locked 2026-10-07)
+- Act and finish, hot potato: `rules/ACT-AND-FINISH-HOT-POTATO.md` (locked 2026-10-08)
+- Team comms standard: `rules/TEAM-COMMS-STANDARD.md` (locked 2026-10-13)
+- Trust relayed approvals: `rules/TRUST-RELAYED-APPROVALS.md` (locked 2026-10-13)
+- Shared team inbox: `rules/SHARED-TEAM-INBOX.md` (locked 2026-10-13)
+- Team comms never wait on Trevor's permission: `rules/TEAM-COMMS-NO-PERMISSION.md` (locked 2026-10-10)
+- Build approved via any bot: `rules/BUILD-APPROVED-VIA-ANY-BOT.md` (locked 2026-10-13)
+- Conflicting answers, ask first: `rules/CONFLICTING-ANSWERS-ASK-FIRST.md` (locked 2026-10-13)
+- One update per job: `rules/ONE-UPDATE-PER-JOB.md` (locked 2026-10-15)
+- Key handoff: `rules/KEY-HANDOFF.md` (locked 2026-10-15)
+- Tool rollout: `rules/TOOL-ROLLOUT.md` (locked 2026-10-15)
 
-Order matches `rules/README.md` and `AGENTS.md`. Twelve laws on main. PR #4 and PR #5 are not copied into this list.
+Order matches `rules/README.md` and `AGENTS.md`. Twenty-three laws on main.
 
 ## Decided 2026-10-11
 - First Mate is whichever AI Trevor is talking to (`decisions/2026-10-11-first-mate.md`).
